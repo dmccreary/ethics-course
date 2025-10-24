@@ -9,8 +9,21 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Glossary: glossary.md
-  - How We Built This Site: how-we-built-this-site.md
-  - References: references.md
+  - outline.md
+  - Chapters:
+    - chapters/01-introduction/index.md
+    - chapters/02-measuring-harm/index.md
+    - chapters/02-measuring-harm/ranking.md
+    - chapters/02-measuring-harm/scorecard.md
+    - chapters/03-data-gathering/index.md
+    - chapters/04-impact-analysis/index.md
+    - chapters/05-systems-thinking/index.md
+    - chapters/06-looking-for-leverage/index.md
+    - chapters/07-advocating-for-change/index.md
+  - Micro Simulations:
+    - sims/ranking/index.md
+  - sims/ranking/index.md  - References: references.md
+  - license.md
   - Contact: contact.md
  
 # CoderDojo Microsite Standards from here down

@@ -1,10 +1,14 @@
 # Welcome
 
-Welcome to our book on ethics.  In this book we use critical thinking and data science to understand some
-of the ethical challenges we have in our world, their overall impact to our planet and the people that live here.  We then apply both data science and critical thinking skills to find the root causes of these challenges and look
-for cost-effective solutions.  We use the lens of systems thinking to look for leverage points to promote positive change.
+Ethics is not just about right and wrong — it's about understanding the invisible systems that shape our choices. By combining critical thinking, systems thinking, and data science, we can make sense of complex global challenges and discover where small changes can make the biggest difference.
 
-This book is not a book on the moral philosophy of ethics.  It is a practical guide to understanding how unethical behavior arises in our world and how unethical industries have a negative impact on our planet and the people that live there.
+This book is designed to help you think critically about ethical challenges in our world, their overall impact to our planet and the people that live here. We apply both data science and critical thinking skills to find the root causes of these challenges and look for cost-effective solutions. We use the lens of systems thinking to look for leverage points to promote positive change.
+
+In this course, you will progress through three stages:
+
+1. **Understanding** — learn how to recognize unethical systems and measure their impacts.
+2. **Analyzing** — apply data science and systems thinking to trace causes and interconnections.
+3. **Acting** — identify leverage points and advocate for sustainable, ethical change.
 
 This book places a strong focus on the use of graphs and charts to understand ethical behavior in our world as well as the use of graphical storytelling to explain the complexities of the systems that cause harm.
 
@@ -19,7 +23,7 @@ What are leverage points?
 
 ## Chapter 2: Measuring Harm
 
-How to we measure the negative impact of an industry to our plant and the people that live there?
+How do we measure the negative impact of an industry to our planet and the people that live there?
 
 How does human behavior impact our natural environment?
 
