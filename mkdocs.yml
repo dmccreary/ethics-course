@@ -52,7 +52,8 @@ theme:
     - content.action.edit
 plugins:
   - search
-#  - social
+  - social
+  - social_override
 markdown_extensions:
   - admonition
   - md_in_html
