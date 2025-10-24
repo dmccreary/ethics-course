@@ -359,7 +359,7 @@ When choosing where to intervene, consider:
 
 ### Leverage Assessment Matrix
 
-| Leverage Point | Impact Score (1-5) | Feasibility Score (1-5) | Priority Score (Impact × Feasibility) |
+| Leverage Point | Impact Score (1-5) | Feasibility Score (1-5) | Priority Score (Impact x Feasibility) |
 |----------------|-------------------|-------------------------|----------------------------------------|
 | 12. Numbers   | 2                 | 5                       | 10                                     |
 | 11. Capacity  | 2                 | 4                       | 8                                      |

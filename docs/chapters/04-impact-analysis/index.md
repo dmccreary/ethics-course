@@ -16,9 +16,9 @@ Causal loop diagrams help visualize the circular cause-and-effect relationships 
 
 **Example: Fast Fashion Industry**
 ```
-Consumer Demand (+) í Production Volume (+) í Environmental Impact (+) 
-                ë                                                    ì
-         Low Prices (-)  ê  Labor Exploitation (+)  ê  Cost Pressure (+)
+Consumer Demand (+) ‚Üí Production Volume (+) ‚Üí Environmental Impact (+) 
+                ‚Üë                                                    ‚Üì
+         Low Prices (-)  ‚Üê  Labor Exploitation (+)  ‚Üê  Cost Pressure (+)
 ```
 
 ### Graph-Based Correlation Networks
@@ -54,13 +54,13 @@ Let's apply these methods to understand the comprehensive impact of the tobacco 
 **Primary Loops**:
 
 1. **Addiction Reinforcement Loop** (R)
-   - Nicotine addiction í Continued use í Revenue í Marketing í New users í Nicotine addiction
+   - Nicotine addiction ÔøΩ Continued use ÔøΩ Revenue ÔøΩ Marketing ÔøΩ New users ÔøΩ Nicotine addiction
 
 2. **Health Cost Externalization Loop** (R)
-   - Tobacco use í Health problems í Healthcare costs í Government burden í Weak regulation í Continued tobacco use
+   - Tobacco use ÔøΩ Health problems ÔøΩ Healthcare costs ÔøΩ Government burden ÔøΩ Weak regulation ÔøΩ Continued tobacco use
 
 3. **Economic Dependency Loop** (R)
-   - Rural tobacco farming í Economic dependence í Political influence í Regulatory capture í Industry protection í Rural tobacco farming
+   - Rural tobacco farming ÔøΩ Economic dependence ÔøΩ Political influence ÔøΩ Regulatory capture ÔøΩ Industry protection ÔøΩ Rural tobacco farming
 
 ### Network Analysis
 **Key Nodes**:
@@ -69,9 +69,9 @@ Let's apply these methods to understand the comprehensive impact of the tobacco 
 - **Peripheral nodes**: Individual consumers, farmers, retail outlets
 
 **Critical Connections**:
-- Industry funding í Research institutions í Favorable studies
-- Lobbying expenditure í Political influence í Regulatory delays
-- Marketing spend í Youth exposure í Addiction initiation
+- Industry funding ÔøΩ Research institutions ÔøΩ Favorable studies
+- Lobbying expenditure ÔøΩ Political influence ÔøΩ Regulatory delays
+- Marketing spend ÔøΩ Youth exposure ÔøΩ Addiction initiation
 
 ### Multivariate Impact Model
 **Outcome Variable**: Total social cost per year

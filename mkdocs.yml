@@ -9,21 +9,22 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - Glossary: glossary.md
-  - outline.md
+  - Outline: outline.md
   - Chapters:
-    - chapters/01-introduction/index.md
-    - chapters/02-measuring-harm/index.md
-    - chapters/02-measuring-harm/ranking.md
-    - chapters/02-measuring-harm/scorecard.md
-    - chapters/03-data-gathering/index.md
-    - chapters/04-impact-analysis/index.md
-    - chapters/05-systems-thinking/index.md
-    - chapters/06-looking-for-leverage/index.md
-    - chapters/07-advocating-for-change/index.md
+    - "1. Introduction": chapters/01-introduction/index.md
+    - "2. Measuring Harm": chapters/02-measuring-harm/index.md
+    - "2.1 Rankings": chapters/02-measuring-harm/ranking.md
+    - "2.2 Scorecard": chapters/02-measuring-harm/scorecard.md
+    - "3. Data Gathering": chapters/03-data-gathering/index.md
+    - "4. Impact Analysis": chapters/04-impact-analysis/index.md
+    - "5. Systems Thinking": chapters/05-systems-thinking/index.md
+    - "6. Looking for Leverage": chapters/06-looking-for-leverage/index.md
+    - "7. Advocating for Change": chapters/07-advocating-for-change/index.md
+    - "8. Capstone Project": chapters/08-capstone-project/index.md
   - Micro Simulations:
-    - sims/ranking/index.md
-  - sims/ranking/index.md  - References: references.md
-  - license.md
+    - "Ranking Simulation": sims/ranking/index.md
+  - References: references.md
+  - License: license.md
   - Contact: contact.md
  
 # CoderDojo Microsite Standards from here down
