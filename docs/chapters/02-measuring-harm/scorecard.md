@@ -1,13 +1,13 @@
 # Scorecard
 
-Here’s a **comparative scorecard** of the **Top 15 Most Harmful Industries** in the world today.
+Here's a **comparative scorecard** of the **Top 16 Most Harmful Industries** in the world today.
 Each industry is scored qualitatively across key harm dimensions: **Health (mortality/DALYs)**, 
 **Economic cost**, **Human rights / social harm**, **Environmental harm**, 
 and **Overall harm index** (1 = worst).
 All figures are approximate or normalized from global literature.
 
 
-### 🌍 Comparative Harm Scorecard (Top 15 Most Harmful Industries)
+### 🌍 Comparative Harm Scorecard (Top 16 Most Harmful Industries)
 
 | Rank | Industry                                   | Est. Global Deaths / Year            | Est. Global Cost (USD)     | Health Impact | Economic Impact | Human Rights / Social Harm | Environmental Harm | **Overall Harm Index** |
 | ---- | ------------------------------------------ | ------------------------------------ | -------------------------- | ------------- | --------------- | -------------------------- | ------------------ | ---------------------- |
@@ -19,13 +19,14 @@ All figures are approximate or normalized from global literature.
 | 6    | **Sex Trafficking / Modern Slavery**       | (Non-fatal abuse) 6 M victims        | $236 B profits             | 🔴🔴          | 🔴🔴            | 🔴🔴🔴🔴🔴                 | 🟠                 | **4.4**                |
 | 7    | **Arms Trade / Conflict Economy**          | >120 k battle deaths / yr            | $2.7 T spend + war losses  | 🔴🔴🔴        | 🔴🔴🔴🔴        | 🔴🔴🔴🔴                   | 🔴🔴               | **4.3**                |
 | 8    | **Hackers & Ransomware / Cybercrime**      | (Indirect) infrastructure fatalities | $10.5 T by 2025 (est.)     | 🟠            | 🔴🔴🔴🔴        | 🔴🔴                       | 🟡                 | **4.0**                |
-| 9    | **Human Smuggling**                        | ~9 k deaths (2024)                   | $5–7 B                     | 🟠            | 🔴              | 🔴🔴🔴                     | 🟠                 | **3.9**                |
-| 10   | **Gambling**                               | (Indirect suicides)                  | $100s B social costs       | 🟠            | 🔴🔴            | 🔴🔴                       | ⚪                  | **3.8**                |
-| 11   | **Industrial Livestock / Factory Farming** | (Indirect) foodborne + AMR deaths    | $1–2 T env. costs          | 🟡            | 🔴🔴            | 🟠                         | 🔴🔴🔴             | **3.8**                |
-| 12   | **Deforestation / Illegal Logging**        | (Indirect climate)                   | $1–2 T ecosystem loss      | 🟡            | 🔴🔴            | 🔴                         | 🔴🔴🔴🔴           | **3.7**                |
-| 13   | **Fast Fashion / Textiles**                | (Occup. + pollution deaths) ~10 k+   | $1–2 T supply-chain        | 🟠            | 🔴🔴            | 🔴                         | 🔴🔴🔴             | **3.6**                |
-| 14   | **Crypto Industry**                        | (Indirect energy + fraud losses)     | $40–100 B illicit flows    | ⚪             | 🔴🔴            | 🟠                         | 🔴                 | **3.2**                |
-| 15   | **Pornography (Legal)**                    | (Indirect mental health issues)      | $100s B market             | 🟠            | 🟠              | 🟠                         | ⚪                  | **2.5**                |
+| 9    | **Healthcare Fraud**                       | (Indirect) delayed/denied care deaths | $68–230 B (US only)        | 🔴🔴          | 🔴🔴🔴          | 🔴🔴                       | ⚪                  | **3.9**                |
+| 10   | **Human Smuggling**                        | ~9 k deaths (2024)                   | $5–7 B                     | 🟠            | 🔴              | 🔴🔴🔴                     | 🟠                 | **3.9**                |
+| 11   | **Gambling**                               | (Indirect suicides)                  | $100s B social costs       | 🟠            | 🔴🔴            | 🔴🔴                       | ⚪                  | **3.8**                |
+| 12   | **Industrial Livestock / Factory Farming** | (Indirect) foodborne + AMR deaths    | $1–2 T env. costs          | 🟡            | 🔴🔴            | 🟠                         | 🔴🔴🔴             | **3.8**                |
+| 13   | **Deforestation / Illegal Logging**        | (Indirect climate)                   | $1–2 T ecosystem loss      | 🟡            | 🔴🔴            | 🔴                         | 🔴🔴🔴🔴           | **3.7**                |
+| 14   | **Fast Fashion / Textiles**                | (Occup. + pollution deaths) ~10 k+   | $1–2 T supply-chain        | 🟠            | 🔴🔴            | 🔴                         | 🔴🔴🔴             | **3.6**                |
+| 15   | **Crypto Industry**                        | (Indirect energy + fraud losses)     | $40–100 B illicit flows    | ⚪             | 🔴🔴            | 🟠                         | 🔴                 | **3.2**                |
+| 16   | **Pornography (Legal)**                    | (Indirect mental health issues)      | $100s B market             | 🟠            | 🟠              | 🟠                         | ⚪                  | **2.5**                |
 
 ---
 
