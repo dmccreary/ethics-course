@@ -23,6 +23,7 @@ nav:
     - "8. Capstone Project": chapters/08-capstone-project/index.md
   - Micro Simulations:
     - "Ranking Simulation": sims/ranking/index.md
+    - "Harm Bubble Chart": sims/harm-bubble-chart/index.md
   - Generative AI Prompts:
     - Intro: prompts/index.md
     - Learning Graph:
