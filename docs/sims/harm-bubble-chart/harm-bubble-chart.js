@@ -2,7 +2,7 @@
 // A 2D visualization comparing harm to people vs harm to planet
 
 // Canvas dimensions
-let canvasWidth = 800;
+let canvasWidth = 800; // will be updated responsively
 let drawHeight = 550;
 let controlHeight = 50;
 let canvasHeight = drawHeight + controlHeight;
@@ -27,7 +27,7 @@ let industries = [
     summary: "2.6M deaths/year from injuries, cancers, liver disease"
   },
   {
-    name: "Fossil Fuels",
+    name: "Fossil\nFuels",
     harmToPeople: 97, // 8.1M deaths from air pollution
     harmToPlanet: 98, // Massive climate impact
     economicImpact: 100, // Largest industry
@@ -43,7 +43,7 @@ let industries = [
     summary: "11M deaths/year from diet-related NCDs"
   },
   {
-    name: "Illicit Drugs",
+    name: "Illicit\nDrugs",
     harmToPeople: 60, // 0.6M deaths
     harmToPlanet: 10,
     economicImpact: 70,
@@ -51,7 +51,7 @@ let industries = [
     summary: "0.6M deaths/year from overdoses and violence"
   },
   {
-    name: "Sex Trafficking",
+    name: "Sex\nTrafficking",
     harmToPeople: 85, // Extreme human rights abuse
     harmToPlanet: 5,
     economicImpact: 65, // $236B illegal profits
@@ -59,7 +59,7 @@ let industries = [
     summary: "50M in modern slavery; $236B/year illegal profits"
   },
   {
-    name: "Arms Trade",
+    name: "Arms\nTrade",
     harmToPeople: 80, // 122K battle deaths
     harmToPlanet: 40, // Manufacturing/testing impacts
     economicImpact: 90, // $2.44T spending
@@ -75,7 +75,7 @@ let industries = [
     summary: "$10.5T/year global cost; critical infrastructure disruption"
   },
   {
-    name: "Healthcare Fraud",
+    name: "Healthcare\nFraud",
     harmToPeople: 55, // Delayed/denied care
     harmToPlanet: 5,
     economicImpact: 75, // $68-230B in US alone
@@ -83,7 +83,7 @@ let industries = [
     summary: "$68-230B/year in US; diverted medical resources"
   },
   {
-    name: "Human Smuggling",
+    name: "Human\nSmuggling",
     harmToPeople: 65, // 8,938 deaths
     harmToPlanet: 10,
     economicImpact: 40, // $5.5-7B
@@ -99,7 +99,7 @@ let industries = [
     summary: "1.2% of adults have gambling disorder; multi-billion social costs"
   },
   {
-    name: "Industrial Livestock",
+    name: "Industrial\nLivestock",
     harmToPeople: 50, // AMR risks, diet impacts
     harmToPlanet: 92, // 14.5% of GHG
     economicImpact: 85,
@@ -115,7 +115,7 @@ let industries = [
     summary: "10M hectares/year lost; biodiversity crisis"
   },
   {
-    name: "Fast Fashion",
+    name: "Fast\nFashion",
     harmToPeople: 35, // Labor abuses
     harmToPlanet: 75, // 2-8% CO2, 20% wastewater
     economicImpact: 70,
@@ -123,7 +123,7 @@ let industries = [
     summary: "2-8% of global CO2; 20% of industrial wastewater"
   },
   {
-    name: "Crypto/Bitcoin",
+    name: "Crypto\nBitcoin",
     harmToPeople: 25, // Fraud/scams
     harmToPlanet: 70, // Energy consumption
     economicImpact: 55,
@@ -145,6 +145,7 @@ let bubbles = [];
 let hoveredBubble = null;
 
 function setup() {
+  updateCanvasSize();
   const canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.parent(document.querySelector('main'));
 
@@ -168,8 +169,9 @@ function setup() {
 }
 
 function draw() {
+  updateCanvasSize();
   // Drawing area
-  background(240, 248, 255); // aliceblue
+  background('aliceblue');
 
   // Draw axes
   drawAxes();
@@ -342,7 +344,7 @@ function windowResized() {
 function updateCanvasSize() {
   const container = document.querySelector('main');
   if (container) {
-    canvasWidth = min(container.offsetWidth - 40, 800);
+    canvasWidth = container.offsetWidth;
     resizeCanvas(canvasWidth, canvasHeight);
 
     // Recalculate bubble positions
