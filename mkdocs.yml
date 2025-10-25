@@ -25,9 +25,11 @@ nav:
     - "Ranking Simulation": sims/ranking/index.md
   - Generative AI Prompts:
     - Intro: prompts/index.md
-    - prompts/learning-graph/01-course-description.md
-    - prompts/learning-graph/02-concept-enumeration.md
-    - prompts/learning-graph/03-concept-dependencies.md
+    - Learning Graph:
+      - Intro: prompts/learning-graph/index.md
+      - prompts/learning-graph/01-course-description.md
+      - prompts/learning-graph/02-concept-enumeration.md
+      - prompts/learning-graph/03-concept-dependencies.md
   - Glossary: glossary.md
   - References: references.md
   - License: license.md
