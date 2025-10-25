@@ -1,45 +1,30 @@
 ---
 title: Harmful Industries Bubble Chart
-creator: Claude Code
-subject: Ethics, Data Visualization
 description: Interactive 2D bubble chart comparing industries by harm to people (Y-axis) versus harm to planet (X-axis), with bubble size representing economic impact.
-date: 2025-10-25
-type: InteractiveResource
-format: text/html
-language: en
-rights: Apache 2.0
-gradeLevel: 9-12, Higher Education
-subjectArea: Ethics, Social Studies, Environmental Science
-topic: Industry Impact Analysis, Ethical Harm Measurement, Systems Thinking
-learningObjectives:
-  - Compare relative harm of different industries across multiple dimensions
-  - Understand trade-offs between human health impacts and environmental impacts
-  - Analyze the relationship between industry size and harm metrics
-  - Identify industries with disproportionate harm relative to economic scale
-framework: p5.js
-canvasDimensions: { width: 800, height: 650 }
-dependencies:
-  - p5.js v1.9.0
-controls:
-  - type: button
-    id: resetView
-    label: Reset View
-    description: Reset zoom and pan to default view
-simulation:
-  model: Static bubble chart with hover tooltips
-  variables:
-    - harmToPeople: Quantified harm to human health and wellbeing (deaths, DALYs)
-    - harmToPlanet: Environmental externalities and ecosystem damage
-    - economicImpact: Relative size of industry economic footprint
+image: /img/cover-preview.png
+og:image: /img/cover-preview.png
+twitter:image: /img/cover-preview.png
+social:
+   cards: false
+hide:
+  - toc
 ---
 
 # Harmful Industries Bubble Chart
 
-<div id="sketch-container" style="position: relative;">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-  <script src="./harm-bubble-chart.js"></script>
-</div>
+<iframe src="./main.html" height="480px" scrolling="no"
+  style="overflow: hidden;"></iframe>
 
+You can include this MicroSim in your course by pasting the following HTML directly into your web page.
+
+```html
+<iframe src="https://dmccreary.github.io/ethics-course/sims/harm-bubble-chart/main.html" height="480px" scrolling="no"
+  style="overflow: hidden;"></iframe>
+```
+
+[Run the MicroSim](./main.html){ .md-button .md-button--primary }
+
+[Edit the MicroSim]()
 ## About This Visualization
 
 This interactive bubble chart visualizes the comparative harm of 16 major industries across two critical dimensions:
