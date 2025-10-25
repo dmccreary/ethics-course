@@ -12,19 +12,19 @@ hide:
 
 # Harmful Industries Bubble Chart
 
-<iframe src="./main.html" height="480px" scrolling="no"
+<iframe src="./main.html" height="500px" scrolling="no"
   style="overflow: hidden;"></iframe>
 
 You can include this MicroSim in your course by pasting the following HTML directly into your web page.
 
 ```html
-<iframe src="https://dmccreary.github.io/ethics-course/sims/harm-bubble-chart/main.html" height="480px" scrolling="no"
+<iframe src="https://dmccreary.github.io/ethics-course/sims/harm-bubble-chart/main.html" height="500px" scrolling="no"
   style="overflow: hidden;"></iframe>
 ```
 
-[Run the MicroSim](./main.html){ .md-button .md-button--primary }
+[Run the Harmful Industries Bubble Chart MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-[Edit the MicroSim]()
+[Edit the Harmful Industries Bubble Chart MicroSim on the p5.js editor](https://editor.p5js.org/dmccreary/sketches/jTICnWooR)
 ## About This Visualization
 
 This interactive bubble chart visualizes the comparative harm of 16 major industries across two critical dimensions:
