@@ -30,6 +30,7 @@ nav:
       - prompts/learning-graph/01-course-description.md
       - prompts/learning-graph/02-concept-enumeration.md
       - prompts/learning-graph/03-concept-dependencies.md
+    - Glossary Prompt: prompts/glossary.md
   - Glossary: glossary.md
   - References: references.md
   - License: license.md
