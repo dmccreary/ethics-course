@@ -8,7 +8,7 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
-  - Glossary: glossary.md
+  - course-description.md
   - Outline: outline.md
   - Chapters:
     - "1. Introduction": chapters/01-introduction/index.md
@@ -23,6 +23,12 @@ nav:
     - "8. Capstone Project": chapters/08-capstone-project/index.md
   - Micro Simulations:
     - "Ranking Simulation": sims/ranking/index.md
+  - Generative AI Prompts:
+    - Intro: prompts/index.md
+    - prompts/learning-graph/01-course-description.md
+    - prompts/learning-graph/02-concept-enumeration.md
+    - prompts/learning-graph/03-concept-dependencies.md
+  - Glossary: glossary.md
   - References: references.md
   - License: license.md
   - Contact: contact.md
