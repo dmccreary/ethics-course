@@ -329,7 +329,7 @@ function drawTooltip(bubble) {
   // Industry name
   textSize(14);
   textStyle(BOLD);
-  text(bubble.data.name, tooltipX + 10, tooltipY + 10);
+  text(bubble.data.name.replace(/\n/g, ' '), tooltipX + 10, tooltipY + 10);
 
   // Summary
   textSize(11);
