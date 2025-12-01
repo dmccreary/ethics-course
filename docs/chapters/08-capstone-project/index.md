@@ -1,405 +1,909 @@
-# Capstone Project: Data-Driven Ethical Reform Initiative
+---
+title: Reform, Corporate Responsibility, and Capstone
+description: Putting it all together - your data-driven ethical reform initiative that synthesizes everything you've learned
+generated_by: claude skill chapter-content-generator
+date: 2025-11-30
+version: 0.03
+---
 
-This capstone project synthesizes your learning from all previous chapters by having you select an industry, gather and analyze data, build systems models, identify leverage points, and present an evidence-based proposal for systemic reform.
+# Reform, Corporate Responsibility, and Capstone
 
-## Project Overview
+*You've made it. After seven chapters of learning to see systems, measure harm, gather data, find root causes, identify leverage points, and design interventions—you're ready to put it all together. This capstone project is where theory becomes practice, where all those frameworks and tools you've been collecting finally get to do real work.*
 
-### Learning Integration
+*Here's the exciting part: by the end of this project, you'll have created something that doesn't exist yet—a comprehensive analysis of a harmful industry with a concrete, evidence-based plan for making it better. That's not a homework assignment. That's a contribution to the world.*
 
-This project integrates concepts from all previous chapters:
+*This chapter is your guide to that journey. We'll cover corporate responsibility concepts you'll need, walk through the project phases, and give you all the tools and templates to succeed. But mostly, this chapter is about you taking everything you've learned and using it to do something that matters.*
 
-1. **Chapter 1**: Apply data-driven ethics framework to real-world problem
-2. **Chapter 2**: Use harm measurement frameworks to quantify industry impact
-3. **Chapter 3**: Gather reliable, unbiased data using ethical collection methods
-4. **Chapter 4**: Create visual analysis and impact models
-5. **Chapter 5**: Apply systems thinking and identify root causes
-6. **Chapter 6**: Find high-leverage intervention points
-7. **Chapter 7**: Design advocacy and implementation strategies
+*Let's build something great.*
 
-### Project Outcomes
+## The Capstone Vision: From Analysis to Action
 
-By completing this project, you will demonstrate ability to:
+Your capstone project synthesizes learning from all previous chapters into a single integrated initiative:
+
+| Chapter | What You Learned | How You'll Apply It |
+|---------|-----------------|---------------------|
+| 1 | Data-driven ethics framework | Frame your industry analysis |
+| 2 | Harm measurement (DALYs, externalities) | Quantify your industry's impact |
+| 3 | Ethical data collection | Gather reliable, unbiased evidence |
+| 4 | Systems thinking, CLDs | Map your industry's feedback loops |
+| 5 | Archetypes, root cause analysis | Diagnose why harm persists |
+| 6 | Leverage points, market dynamics | Find where change is possible |
+| 7 | Behavioral economics, advocacy | Design interventions that work |
+
+**By completing this project, you will demonstrate ability to:**
+
 - Conduct comprehensive ethical analysis of an industry or system
 - Apply multiple analytical frameworks to complex problems
 - Create compelling visualizations and data stories
 - Design evidence-based reform proposals
 - Present findings to diverse stakeholder audiences
 
-## Project Phases
+!!! tip "This Is Real Work"
+    Many capstone projects have gone on to inform actual advocacy campaigns, policy proposals, and research papers. Your analysis could be the foundation for real-world change. Approach this as if your recommendations might actually be implemented—because they might.
 
-### Phase 1: Industry Selection and Initial Research (Weeks 1-2)
+## Understanding Corporate Responsibility
 
-**Deliverable**: Industry Profile Report (2-3 pages)
+Before diving into your project, let's explore the corporate responsibility landscape you'll be analyzing and attempting to change.
 
-**Requirements**:
-- Choose an industry with significant ethical concerns
-- Justify selection based on harm potential and reform opportunity
-- Conduct initial research on industry structure and impacts
-- Identify key stakeholders and power dynamics
-- Define specific focus area within the industry
+### The Evolution of Corporate Purpose
+
+The debate over what corporations are *for* has profound implications for ethical reform. Three major frameworks compete:
+
+**Shareholder Primacy** (Traditional View)
+
+- Corporations exist to maximize shareholder returns
+- Social good is a byproduct of profit-seeking
+- Milton Friedman: "The social responsibility of business is to increase its profits"
+- Limitation: Creates pressure to externalize costs onto society
+
+**Stakeholder Capitalism** (Emerging View)
+
+- Corporations should balance interests of all stakeholders
+- Employees, customers, communities, environment matter alongside shareholders
+- Business Roundtable 2019: 181 CEOs committed to stakeholder value
+- Challenge: How to measure and balance competing interests?
+
+**Regenerative Business** (Frontier View)
+
+- Beyond "do less harm" to "actively heal and restore"
+- Business as a force for positive systemic change
+- Biomimicry and circular economy principles
+- Challenge: Requires fundamental business model transformation
+
+| Framework | Primary Obligation | Time Horizon | Externalities |
+|-----------|-------------------|--------------|---------------|
+| Shareholder Primacy | Shareholders | Short-term | Acceptable cost |
+| Stakeholder Capitalism | All stakeholders | Medium-term | Should be minimized |
+| Regenerative Business | Living systems | Long-term | Must be eliminated/reversed |
+
+### ESG: Measuring What Matters
+
+**Environmental, Social, and Governance (ESG)** metrics attempt to quantify corporate responsibility:
+
+**Environmental Factors:**
+
+- Carbon emissions and climate commitments
+- Resource use and waste generation
+- Biodiversity impact
+- Pollution and toxicity
+
+**Social Factors:**
+
+- Labor practices and worker safety
+- Diversity, equity, and inclusion
+- Community relations
+- Product safety and consumer protection
+- Human rights in supply chains
+
+**Governance Factors:**
+
+- Board composition and independence
+- Executive compensation alignment
+- Transparency and disclosure
+- Anti-corruption policies
+- Shareholder rights
+
+!!! warning "ESG Limitations"
+    ESG ratings are imperfect. Different rating agencies use different methodologies and often disagree significantly. Some companies "game" ESG scores without substantive change. Use ESG data as one input among many, not as a definitive assessment.
+
+### The Triple Bottom Line
+
+John Elkington's "Triple Bottom Line" framework expands corporate accounting beyond financial profit:
+
+- **Profit:** Traditional financial performance
+- **People:** Social impact on employees, communities, and society
+- **Planet:** Environmental stewardship and ecological health
+
+**True Cost Accounting** attempts to include all three in financial terms:
+
+$\text{True Profit} = \text{Revenue} - \text{Costs} - \text{Social Costs} - \text{Environmental Costs}$
+
+When all costs are counted, many profitable industries become net destroyers of value. Your capstone project will help reveal these hidden costs.
+
+### B Corporations and Social Enterprise
+
+**B Corporations** represent a structural alternative to traditional corporate form:
+
+**Certification Requirements:**
+
+- Verified social and environmental performance (B Impact Assessment)
+- Legal accountability (modified corporate charter)
+- Transparency (public disclosure of impact scores)
+
+**Legal Protection:**
+
+- Directors can consider stakeholder interests without violating fiduciary duty
+- Protects against shareholder lawsuits for "leaving money on the table"
+- Annual benefit report requirements
+
+**Social Enterprises** blend nonprofit mission with business methods:
+
+| Type | Primary Goal | Revenue Source | Profit Distribution |
+|------|-------------|----------------|---------------------|
+| Traditional Nonprofit | Social mission | Donations, grants | Reinvested in mission |
+| Social Enterprise | Social mission | Earned revenue | Reinvested in mission |
+| B Corporation | Balanced impact | Market revenue | Shareholders + stakeholders |
+| Traditional Corporation | Shareholder returns | Market revenue | Shareholders |
+
+### Impact Investing and Responsible Investment
+
+The investment world is increasingly recognizing that financial and social returns aren't necessarily opposed:
+
+**Impact Investing Spectrum:**
+
+1. **Traditional:** Maximize financial returns, ignore externalities
+2. **Responsible:** Avoid worst harm (negative screens—no tobacco, weapons)
+3. **Sustainable:** Integrate ESG factors into investment decisions
+4. **Impact First:** Prioritize measurable social/environmental outcomes
+5. **Philanthropy:** Accept below-market returns for mission
+
+**Key Players:**
+
+- Pension funds with beneficiaries demanding responsible investment
+- University endowments facing divestment pressure
+- Family offices seeking values alignment
+- Development finance institutions targeting impact
+
+#### Diagram: Impact Investment Decision Tree
+
+<details markdown="1">
+    <summary>Interactive Investment Decision Framework</summary>
+    Type: infographic
+
+    Purpose: Help students understand how different investors make ESG/impact decisions
+
+    Bloom Level: Apply (L3) - Students use the framework to analyze investor behavior
+
+    Learning Objective: Students will identify investor types and their decision criteria for responsible investment
+
+    Layout: Decision tree flowing from left to right
+
+    Starting node: "Investment Opportunity"
+
+    Decision branches:
+
+    1. "Does it violate ethical exclusions?"
+       - Yes → "Screen Out" (no investment)
+       - No → Continue
+
+    2. "What are ESG risks?"
+       - High unmitigated → "Avoid or Engage"
+       - Low or well-managed → Continue
+
+    3. "What's the impact potential?"
+       - Significant positive → "Impact investment"
+       - Neutral → "Sustainable investment"
+       - Potentially negative → "Engage or avoid"
+
+    4. "What return is acceptable?"
+       - Market rate required → "Sustainable/ESG integration"
+       - Below-market acceptable → "Impact first"
+       - Concessionary → "Philanthropic capital"
+
+    End nodes with examples:
+    - "Screen Out": Tobacco, weapons, private prisons
+    - "ESG Integration": Invest in companies with strong environmental practices
+    - "Impact First": Affordable housing, clean energy access
+    - "Engage": Use shareholder power to change company behavior
+
+    Interactive elements:
+    - Hover over each node for examples and explanation
+    - Click to see real investment examples
+    - Toggle between investor types (pension fund, endowment, family office)
+
+    Implementation: HTML/CSS/JavaScript with SVG tree
+</details>
+
+### Corporate Governance and Accountability
+
+Understanding how corporations are governed helps identify leverage points for change:
+
+**Board of Directors:**
+
+- Elected by shareholders to oversee management
+- Sets strategy, hires/fires CEO, approves major decisions
+- Composition matters: diverse boards make different decisions
+- Average S&P 500 board: 11 members, 30% women (up from 16% in 2010)
+
+**Executive Compensation:**
+
+- CEO-to-worker pay ratio in US: ~400:1 (up from 20:1 in 1965)
+- Incentive structures drive behavior
+- Growing movement to tie pay to ESG metrics
+
+**Shareholder Rights:**
+
+- Proxy voting on board, compensation, and policy
+- Shareholder proposals can force change
+- Institutional investors increasingly coordinating on ESG issues
+
+**Whistleblower Protection:**
+
+- Internal reporting channels
+- Legal protections against retaliation
+- SEC bounties for reporting securities fraud
+- Critical for exposing hidden harm
+
+!!! example "Governance Success Story"
+    When Engine No. 1, a tiny activist fund, won three board seats at ExxonMobil in 2021 by rallying major institutional investors around climate concerns, it demonstrated that even the most entrenched companies are vulnerable to governance pressure. The company had resisted climate action for decades; new board members began pushing for strategic change.
+
+## Your Capstone Project: The Journey Ahead
+
+Now let's walk through exactly what you'll create and how to succeed.
+
+### Project Overview
+
+Your capstone project is a comprehensive analysis of a harmful industry with an evidence-based reform proposal. You'll produce:
+
+1. **Industry Profile Report** - Background, stakeholders, and specific focus area
+2. **Harm Scorecard and Data Report** - Quantified impacts with visualizations
+3. **Systems Map and Root Cause Analysis** - CLDs, archetypes, and iceberg analysis
+4. **Leverage Point Strategy Report** - Intervention design with theory of change
+5. **Campaign Strategy Document** - Advocacy plan with implementation timeline
+6. **Executive Summary and Presentation** - Synthesis for stakeholder audiences
+
+### Choosing Your Industry
+
+Your first decision: which industry to analyze. Choose something that:
+
+- **Matters to you** - You'll spend significant time on this; passion helps
+- **Has significant harm** - Enough impact to justify deep analysis
+- **Has reform potential** - Some path to change exists
+- **Has available data** - You can actually find information
 
 **Industry Options** (or choose your own):
-- Social media and tech platforms
-- Fast fashion and textile manufacturing
-- Industrial agriculture and meat production
-- Pharmaceutical industry and drug pricing
-- Fossil fuel extraction and energy production
-- Financial services and predatory lending
-- Private prison and detention systems
-- Surveillance technology and data brokers
-- Gig economy and labor platforms
-- Processed food and beverage industry
 
-**Evaluation Criteria**:
-- Clear rationale for industry selection
-- Evidence of initial research and understanding
-- Identification of specific ethical concerns
-- Stakeholder mapping completeness
-- Writing clarity and organization
+| Industry | Key Harms | Data Availability | Reform Movements |
+|----------|-----------|-------------------|------------------|
+| Social media platforms | Mental health, misinformation | High | Growing |
+| Fast fashion | Labor exploitation, environmental waste | Medium-High | Active |
+| Industrial agriculture | Climate, animal welfare, health | High | Long-standing |
+| Pharmaceutical pricing | Access, affordability | High | Active |
+| Fossil fuels | Climate, air pollution | High | Very active |
+| Predatory lending | Financial exploitation | High | Active |
+| Private prisons | Human rights, perverse incentives | Medium | Active |
+| Surveillance technology | Privacy, civil liberties | Medium | Growing |
+| Gig economy | Labor rights, precarity | Medium-High | Growing |
+| Ultra-processed foods | Health, addiction | High | Growing |
 
-### Phase 2: Data Collection and Harm Assessment (Weeks 3-4)
+!!! tip "Narrow Your Focus"
+    "Fast fashion" is huge. "Labor conditions in Bangladesh garment factories supplying major US brands" is specific enough to analyze deeply. The narrower your focus, the more substantive your analysis can be.
 
-**Deliverable**: Harm Scorecard and Data Report (4-5 pages + visualizations)
+### Data Sources: Where to Find What You Need
 
-**Requirements**:
-- Apply harm measurement frameworks from Chapter 2
-- Gather data using ethical collection methods from Chapter 3
-- Create normalized comparisons with other industries
-- Identify data limitations and potential biases
-- Develop industry-specific harm scorecard
+**Government Data:**
 
-**Data Sources to Consider**:
-- Government databases and regulatory filings
-- Academic research and peer-reviewed studies
-- NGO reports and investigative journalism
-- Industry self-reporting and sustainability reports
-- Financial data and market analysis
-- Consumer surveys and stakeholder interviews
+- EPA environmental databases (Toxics Release Inventory, emissions data)
+- Bureau of Labor Statistics (workplace safety, wages)
+- Federal Trade Commission (consumer protection actions)
+- SEC corporate filings (10-K, proxy statements, sustainability reports)
+- Congressional hearing transcripts (stakeholder testimony)
 
-**Harm Assessment Categories**:
-- Environmental impact (carbon footprint, pollution, resource depletion)
-- Human health effects (physical, mental, occupational safety)
-- Social justice issues (inequality, exploitation, discrimination)
-- Economic externalities (costs imposed on society)
-- Democratic and governance impacts (regulatory capture, corruption)
+**Academic Sources:**
 
-**Evaluation Criteria**:
-- Use of multiple harm measurement frameworks
-- Data quality and source credibility assessment
-- Clear visualization of findings
-- Acknowledgment of limitations and uncertainties
-- Comparative analysis with other industries
+- Google Scholar and university library databases
+- Research center reports (e.g., MIT Sloan, Berkeley Haas)
+- Peer-reviewed journal articles
+- Systematic reviews and meta-analyses
 
-### Phase 3: Systems Analysis and Root Cause Investigation (Weeks 5-6)
+**NGO and Advocacy Sources:**
 
-**Deliverable**: Systems Map and Root Cause Analysis (3-4 pages + diagrams)
+- Environmental organizations (Sierra Club, EDF, Greenpeace)
+- Human rights groups (Human Rights Watch, Amnesty)
+- Consumer advocates (Consumer Reports, Public Citizen)
+- Investigative journalism (ProPublica, The Guardian)
+- Industry watchdogs (Open Secrets, Corporate Accountability)
 
-**Requirements**:
-- Create causal loop diagrams showing system feedback
-- Identify systems archetypes present in the industry
-- Apply the iceberg model to find deeper causes
-- Map stock-and-flow dynamics of key system elements
-- Conduct 5 Whys analysis for major problems
+**Industry Sources:**
 
-**Systems Analysis Components**:
+- Corporate sustainability reports (with critical reading)
+- Industry association publications
+- Trade press and market research
+- Financial analyst reports (ESG ratings, risk assessments)
 
-**Causal Loop Diagram**:
-- Map key variables affecting industry behavior
-- Identify reinforcing and balancing feedback loops
-- Show time delays and their effects
-- Highlight leverage points where loops can be broken
+#### Diagram: Data Credibility Pyramid for Capstone Research
 
-**Systems Archetypes**:
-- Identify which archetypes are present (Tragedy of Commons, Shifting the Burden, etc.)
-- Explain how the archetype manifests in your industry
-- Predict likely future behavior based on the archetype
-- Suggest archetype-breaking interventions
+<details markdown="1">
+    <summary>Interactive Source Evaluation Guide</summary>
+    Type: infographic
 
-**Root Cause Analysis**:
-- Apply iceberg model (events → patterns → structures → mental models)
-- Use 5 Whys technique for major problems
-- Identify structural causes vs. symptomatic problems
-- Map relationships between different root causes
+    Purpose: Help students evaluate source credibility for their capstone research
 
-**Evaluation Criteria**:
-- Accurate application of systems thinking concepts
-- Quality and clarity of visual systems maps
-- Depth of root cause analysis
-- Connection between systems structure and observed problems
-- Identification of intervention opportunities
+    Bloom Level: Evaluate (L5) - Students assess source reliability
 
-### Phase 4: Leverage Point Analysis and Intervention Design (Weeks 7-8)
+    Learning Objective: Students will systematically evaluate data sources for their capstone projects
 
-**Deliverable**: Leverage Point Strategy Report (4-5 pages + strategy matrix)
+    Layout: Pyramid with most credible sources at top
 
-**Requirements**:
-- Apply Meadows' 12 leverage points framework
-- Assess impact and feasibility of different intervention points
-- Design multi-level transformation strategy
-- Address potential unintended consequences
-- Create theory of change for proposed interventions
+    Pyramid levels (top to bottom):
 
-**Leverage Point Assessment**:
+    1. Top tier (Gold): "Highest Credibility"
+       - Peer-reviewed academic research
+       - Government regulatory data
+       - Court documents and sworn testimony
+       - Examples with hover details
 
-**For Each Relevant Leverage Point**:
-- Describe current state (how does this level currently function?)
-- Identify intervention opportunities
-- Assess impact potential (1-5 scale)
-- Assess feasibility (1-5 scale)
-- Estimate timeline for change
-- Identify required resources and stakeholders
+    2. Second tier (Silver): "High Credibility"
+       - Investigative journalism (reputable outlets)
+       - NGO research reports
+       - Industry whistleblowers
+       - Financial regulatory filings
 
-**Strategy Design Requirements**:
-- **Short-term actions** (levels 10-12): Immediate harm reduction
-- **Medium-term strategies** (levels 7-9): System transformation
-- **Long-term vision** (levels 4-6): Paradigm and power shifts
+    3. Third tier (Bronze): "Moderate Credibility - Use with Verification"
+       - Industry trade publications
+       - Think tank reports (consider funding)
+       - Market research
+       - Expert interviews
 
-**Theory of Change Components**:
-- Inputs (resources needed)
-- Activities (specific actions)
-- Outputs (direct results)
-- Outcomes (behavioral/systemic changes)
-- Impact (ultimate transformation)
+    4. Fourth tier (Gray): "Lower Credibility - Use Cautiously"
+       - Corporate sustainability reports (self-reported)
+       - Industry association claims
+       - Press releases
+       - Social media
 
-**Evaluation Criteria**:
-- Comprehensive application of leverage points framework
-- Realistic assessment of impact and feasibility
-- Integration of multiple intervention levels
-- Anticipation of obstacles and unintended consequences
-- Clear theory of change logic
+    5. Bottom tier (Red): "Treat as Advocacy, Not Evidence"
+       - Corporate marketing materials
+       - Industry-funded research without disclosure
+       - Anonymous claims
+       - Unverified online content
 
-### Phase 5: Advocacy Strategy and Implementation Plan (Weeks 9-10)
+    Interactive elements:
+    - Click each level for evaluation checklist
+    - "Source Finder" tool: enter industry, get recommended sources
+    - Bias indicators for common sources
 
-**Deliverable**: Campaign Strategy Document (5-6 pages + implementation timeline)
+    Annotations:
+    - "Triangulate: never rely on single source"
+    - "Follow the money: who funded this?"
+    - "Look for primary sources behind claims"
 
-**Requirements**:
-- Design advocacy campaign using Chapter 7 frameworks
-- Apply behavioral economics insights to strategy
-- Create stakeholder engagement plan
-- Develop messaging and communication strategy
-- Design measurement and evaluation plan
+    Implementation: HTML/CSS/JavaScript with clickable pyramid
+</details>
 
-**Campaign Strategy Components**:
+### Analysis Frameworks Checklist
 
-**Stakeholder Analysis**:
-- Power/interest mapping of key players
-- Coalition building opportunities
-- Opposition analysis and response strategies
+Use this checklist to ensure you're applying all relevant frameworks:
+
+**Harm Measurement (Chapter 2):**
+
+- [ ] Identified all major harm categories (environmental, health, social, economic)
+- [ ] Applied appropriate metrics (DALYs, externality costs, social cost accounting)
+- [ ] Created normalized comparisons with other industries
+- [ ] Acknowledged data limitations and uncertainties
+
+**Systems Analysis (Chapters 4-5):**
+
+- [ ] Created at least one Causal Loop Diagram showing key dynamics
+- [ ] Identified reinforcing and balancing loops
+- [ ] Named relevant systems archetypes
+- [ ] Applied Iceberg Model (events → patterns → structures → mental models)
+- [ ] Conducted 5 Whys analysis for major problems
+
+**Leverage Points (Chapters 6-7):**
+
+- [ ] Assessed multiple leverage levels using Meadows framework
+- [ ] Evaluated impact vs. feasibility tradeoffs
+- [ ] Designed multi-level intervention strategy
+- [ ] Anticipated unintended consequences
+- [ ] Created theory of change
+
+**Advocacy Strategy (Chapter 7):**
+
+- [ ] Mapped stakeholder power and interest
+- [ ] Identified coalition-building opportunities
+- [ ] Developed messaging using story-based strategy
+- [ ] Applied behavioral economics insights
+- [ ] Created realistic implementation timeline
+
+### Communication Excellence: Telling Your Story
+
+Your analysis is only as good as your ability to communicate it. Let's cover the key communication concepts you'll need.
+
+#### Data Storytelling
+
+Data alone doesn't persuade—stories do. Effective data storytelling combines:
+
+**The What:** Clear, accurate presentation of findings
+**The So What:** Why this matters to your audience
+**The Now What:** Specific actions your audience should take
+
+**Narrative Arc for Your Presentation:**
+
+1. **Hook:** Start with a compelling human story or striking statistic
+2. **Context:** Set the stage—industry background, scope of problem
+3. **Evidence:** Present your data findings (but don't overwhelm)
+4. **Insight:** What patterns and root causes did you discover?
+5. **Solution:** Your intervention strategy and theory of change
+6. **Call to Action:** What specifically should happen next?
+
+#### Visual Communication Best Practices
+
+**Chart Selection:**
+
+| Data Type | Best Chart | Avoid |
+|-----------|-----------|-------|
+| Comparison | Bar chart | Pie chart with many slices |
+| Trend over time | Line chart | Stacked area (hard to read) |
+| Part of whole | Pie (few items), treemap (many) | 3D effects |
+| Correlation | Scatter plot | Connected scatter |
+| Distribution | Histogram, box plot | Too many categories |
+| Geographic | Map | Tables of coordinates |
+
+**Design Principles:**
+
+- **Simplify:** Remove chartjunk, reduce to essentials
+- **Highlight:** Use color to draw attention to key findings
+- **Label clearly:** Axis labels, titles, and annotations
+- **Tell one story:** Each visual should make one point
+- **Accessible:** Ensure colorblind-friendly palettes
+
+#### Audience Adaptation
+
+Different audiences need different messages:
+
+| Audience | Primary Concern | Messaging Focus | Best Format |
+|----------|----------------|-----------------|-------------|
+| Policymakers | Political feasibility | Policy recommendations, precedents | Brief, bullets, one-pagers |
+| Investors | Financial risk/opportunity | ESG risks, market trends | Data-heavy, projections |
+| Activists | Mobilization potential | Injustice, urgency, action steps | Stories, visuals, calls to action |
+| Academics | Methodological rigor | Literature, methods, limitations | Detailed, cited, caveated |
+| General public | Personal relevance | Human stories, relatable impacts | Accessible, emotional, visual |
+
+!!! tip "The Curse of Knowledge"
+    After weeks of deep research, you'll know far more than your audience about your industry. Fight the curse of knowledge by testing your explanations on people unfamiliar with your topic. If they can't follow, simplify.
+
+#### MicroSim: Presentation Feedback Simulator
+
+<details markdown="1">
+    <summary>Interactive Presentation Practice Tool</summary>
+    Type: microsim
+
+    Learning Objective: Students will practice adapting presentations to different audience types and receive feedback (Bloom Level: Apply/Create - L3/L6)
+
+    Canvas layout:
+    - Left panel (200x600): Audience selector and profile
+    - Center area (500x600): Presentation content workspace
+    - Right panel (200x600): Real-time feedback meter
+
+    Audience options:
+    1. Congressional staffers (policymakers)
+    2. Institutional investors (ESG-focused)
+    3. Environmental activists (mobilization-focused)
+    4. Academic conference (research-focused)
+    5. Journalist (general public proxy)
+    6. Industry executives (skeptical)
+
+    Presentation elements (draggable):
+    - Hook options (3 variants: data-focused, story-focused, urgency-focused)
+    - Evidence slides (detailed data, simplified visuals, infographics)
+    - Insight framing (technical, accessible, emotional)
+    - Solution proposals (policy-oriented, market-oriented, movement-oriented)
+    - Call to action (specific asks tailored to audience)
+
+    Feedback system:
+    - Real-time "audience engagement" meter
+    - Warning indicators when content mismatches audience
+    - Specific feedback: "Too technical for this audience" or "Not enough data for investors"
+    - Score at end: engagement, clarity, persuasiveness
+
+    Pre-loaded content:
+    - Sample presentation on fast fashion
+    - Different versions optimized for each audience
+    - "Show optimal" button to compare with student's choices
+
+    Interactive controls:
+    - Drag elements to build presentation
+    - Reorder with drag-and-drop
+    - "Present to Audience" button runs simulation
+    - "Reset" to try different approach
+
+    Implementation: p5.js with drag-and-drop and scoring logic
+</details>
+
+## The Final Four Weeks: Your Capstone Schedule
+
+The capstone project spans the last four weeks of the course. Here's your week-by-week guide:
+
+### Week 9: Synthesis and Strategy Development
+
+**Focus:** Pulling together your analysis and designing your intervention strategy
+
+**Deliverables Due:**
+
+- Refined Harm Scorecard (incorporating feedback from earlier phases)
+- Complete Systems Map with CLDs and archetype analysis
+- Leverage Point Strategy Report (4-5 pages + strategy matrix)
+
+**Key Activities:**
+
+| Day | Activity | Output |
+|-----|----------|--------|
+| Mon | Review all prior analysis; identify gaps | Gap list |
+| Tue | Complete leverage point assessment matrix | Filled matrix |
+| Wed | Design multi-level intervention strategy | Strategy draft |
+| Thu | Develop theory of change | ToC diagram |
+| Fri | Write leverage point strategy report | Report draft |
+| Weekend | Peer review and revision | Final report |
+
+**Leverage Point Strategy Requirements:**
+
+For each relevant leverage level, document:
+
+- Current state (how does this level currently function?)
+- Intervention opportunities (what could be changed?)
+- Impact potential (1-5 scale with justification)
+- Feasibility (1-5 scale with justification)
+- Timeline estimate (short/medium/long-term)
+- Required resources and stakeholders
+
+**Theory of Change Components:**
+
+Your theory of change should clearly articulate:
+
+- **Inputs:** Resources needed (money, people, time, expertise)
+- **Activities:** Specific actions you'll take
+- **Outputs:** Direct results of activities
+- **Outcomes:** Changes in behavior, attitudes, or conditions
+- **Impact:** Ultimate systemic transformation
+
+### Week 10: Campaign Strategy and Implementation Planning
+
+**Focus:** Translating your analysis into an actionable advocacy campaign
+
+**Deliverables Due:**
+
+- Campaign Strategy Document (5-6 pages + implementation timeline)
+- Stakeholder Map with engagement strategies
+- Messaging Framework with audience-specific adaptations
+
+**Key Activities:**
+
+| Day | Activity | Output |
+|-----|----------|--------|
+| Mon | Complete stakeholder power/interest mapping | Stakeholder map |
+| Tue | Design coalition-building strategy | Coalition plan |
+| Wed | Develop core messaging and frames | Message framework |
+| Thu | Create implementation timeline | Gantt chart or timeline |
+| Fri | Write campaign strategy document | Document draft |
+| Weekend | Peer review and revision | Final document |
+
+**Campaign Strategy Components:**
+
+**Stakeholder Analysis:**
+
+- Power/interest grid for all key players
+- Coalition opportunities (who shares your goals?)
+- Opposition analysis (who will resist and how?)
 - Target audience segmentation
 
-**Messaging Framework**:
-- Core message development
-- Audience-specific message adaptation
-- Frame testing and refinement
-- Story-based strategy elements
+**Messaging Framework:**
 
-**Tactics and Timeline**:
-- Sequence of campaign activities
+- Core message (the single sentence that captures your case)
+- Story of Self, Us, and Now
+- Audience-specific message variations
+- Frames for different contexts
+
+**Tactics and Timeline:**
+
+- Sequenced campaign activities
 - Online and offline integration
 - Media and communications plan
-- Policy advocacy approach
-- Grassroots mobilization strategy
+- Policy advocacy moments
+- Resource requirements
 
-**Resource Requirements**:
-- Budget estimates for different campaign elements
-- Staffing and volunteer needs
-- Technology and infrastructure requirements
-- Partnership and coalition needs
+### Week 11: Communication Development
 
-**Evaluation Plan**:
-- Output metrics (activities completed)
-- Outcome metrics (behavior/attitude changes)
-- Impact metrics (systemic changes)
-- Data collection methods and timeline
+**Focus:** Creating your executive summary and presentation materials
 
-**Evaluation Criteria**:
-- Strategic alignment between analysis and advocacy approach
-- Use of behavioral economics insights
-- Realistic resource requirements and timeline
-- Comprehensive stakeholder engagement strategy
-- Robust evaluation framework
+**Deliverables Due:**
 
-### Phase 6: Final Presentation and Peer Review (Weeks 11-12)
-
-**Deliverables**: 
 - Executive Summary (2 pages)
-- Presentation (20 minutes + 10 minutes Q&A)
-- Peer Review Feedback (for 2 other projects)
+- Presentation slides (for 20-minute presentation)
+- Key visualizations polished and finalized
 
-**Executive Summary Requirements**:
-- Problem definition and significance
-- Key findings from data analysis
-- Systems insights and root causes
-- Recommended intervention strategy
-- Implementation roadmap and success metrics
+**Key Activities:**
 
-**Presentation Requirements**:
-- **Problem Overview** (3 minutes): Industry harm and significance
-- **Data Insights** (5 minutes): Key findings and visualizations
-- **Systems Analysis** (4 minutes): Root causes and leverage points
-- **Solution Strategy** (5 minutes): Intervention design and implementation
-- **Call to Action** (3 minutes): Next steps and audience engagement
+| Day | Activity | Output |
+|-----|----------|--------|
+| Mon | Write executive summary draft | Summary draft |
+| Tue | Create presentation outline and storyboard | Storyboard |
+| Wed | Design and create slides | Slide deck draft |
+| Thu | Create/polish key visualizations | Final visuals |
+| Fri | Practice presentation; gather feedback | Revised deck |
+| Weekend | Final refinements | Presentation ready |
 
-**Presentation Evaluation Criteria**:
-- Clarity and persuasiveness of problem framing
-- Quality and effectiveness of data visualizations
-- Depth of systems thinking application
-- Feasibility and impact potential of proposed solutions
-- Presentation delivery and audience engagement
+**Executive Summary Requirements:**
 
-## Project Support Resources
+Your two-page executive summary should include:
 
-### Data Sources Directory
+1. **Problem Definition** (1/4 page)
+   - What industry and what specific harm?
+   - Why does this matter?
 
-**Government Data**:
-- EPA Environmental databases
-- Bureau of Labor Statistics
-- Federal Trade Commission reports
-- SEC corporate filings
-- Congressional hearing transcripts
+2. **Key Findings** (1/2 page)
+   - Most important data insights
+   - Root causes identified
+   - One key visualization
 
-**Academic Sources**:
-- Google Scholar and academic databases
-- University research centers
-- Think tank reports and policy briefs
-- Peer-reviewed journal articles
+3. **Recommended Strategy** (1/2 page)
+   - Highest-priority interventions
+   - Why these will work
+   - Key leverage points
 
-**NGO and Advocacy Sources**:
-- Environmental and social justice organizations
-- Consumer advocacy groups
-- Investigative journalism outlets
-- Whistleblower platforms and leaked documents
+4. **Implementation Roadmap** (1/4 page)
+   - Short-term actions
+   - Medium-term milestones
+   - Success metrics
 
-**Industry Sources**:
-- Corporate sustainability reports
-- Industry association publications
-- Trade publications and market research
-- Financial analyst reports
+5. **Call to Action** (1/4 page)
+   - What you're asking from your audience
+   - Why now
 
-### Analysis Tools and Templates
+**Presentation Structure:**
 
-**Harm Assessment Templates**:
-- Industry scorecard framework
-- Comparative analysis spreadsheet
-- Data quality assessment checklist
-- Bias identification worksheet
+| Section | Time | Content |
+|---------|------|---------|
+| Hook | 1 min | Compelling story or statistic |
+| Problem Overview | 3 min | Industry harm and significance |
+| Data Insights | 5 min | Key findings with visualizations |
+| Systems Analysis | 4 min | Root causes and leverage points |
+| Solution Strategy | 5 min | Intervention design and implementation |
+| Call to Action | 2 min | Next steps and audience engagement |
 
-**Systems Mapping Tools**:
-- Causal loop diagram software recommendations
-- Stock-and-flow modeling templates
-- Systems archetype identification guide
-- Root cause analysis worksheets
+### Week 12: Presentation and Peer Review
 
-**Strategy Development Templates**:
-- Leverage point assessment matrix
-- Stakeholder power/interest grid
-- Theory of change template
-- Campaign planning worksheet
+**Focus:** Presenting your work and learning from peers
 
-### Writing and Presentation Guidelines
+**Deliverables Due:**
 
-**Report Writing Standards**:
-- APA citation format
-- Clear executive summaries
-- Data visualization best practices
-- Professional formatting requirements
+- Final presentation delivered
+- Peer review feedback for 2 other projects
+- Optional: Reflection essay
 
-**Presentation Guidelines**:
-- Slide design principles
-- Data storytelling techniques
-- Audience engagement strategies
-- Q&A preparation methods
+**Key Activities:**
 
-## Assessment Rubric
+| Day | Activity | Output |
+|-----|----------|--------|
+| Mon | Final presentation practice | Ready to present |
+| Tue | Class presentations (Group A) | Feedback received |
+| Wed | Class presentations (Group B) | Feedback received |
+| Thu | Peer review discussions | Cross-pollination insights |
+| Fri | Reflection and next steps planning | Commitment statement |
 
-### Overall Project Grading (100 points total)
+**Presentation Day Tips:**
 
-**Phase 1 - Industry Selection** (10 points):
-- Industry significance and ethical concerns (5 points)
-- Research quality and stakeholder identification (5 points)
+- Arrive early; test technology
+- Have backup plan if tech fails
+- Time yourself during practice
+- Prepare for likely questions
+- End strong—your last words linger
 
-**Phase 2 - Data Analysis** (20 points):
-- Harm measurement framework application (8 points)
-- Data quality and source evaluation (7 points)
-- Visualization effectiveness (5 points)
+**Peer Review Guidelines:**
 
-**Phase 3 - Systems Analysis** (20 points):
-- Systems thinking concept application (8 points)
-- Root cause analysis depth (7 points)
-- Visual systems mapping quality (5 points)
+When reviewing others' projects, provide feedback on:
 
-**Phase 4 - Leverage Strategy** (20 points):
-- Leverage point framework application (8 points)
-- Strategy feasibility and impact assessment (7 points)
-- Theory of change development (5 points)
+- **Strengths:** What worked well? What was compelling?
+- **Analysis:** Was the systems thinking rigorous? Any gaps?
+- **Strategy:** Are interventions realistic? Well-designed?
+- **Communication:** Was it clear? Persuasive? Well-organized?
+- **Suggestions:** Specific improvements you'd recommend
 
-**Phase 5 - Advocacy Plan** (15 points):
-- Campaign strategy design (7 points)
-- Stakeholder engagement planning (4 points)
-- Implementation feasibility (4 points)
+!!! tip "Be Generously Critical"
+    The best peer review is both supportive and honest. "This was great!" isn't helpful. Neither is "This was bad." Aim for: "Your systems analysis was strong, especially the CLD. I'd strengthen the feasibility assessment by addressing [specific concern]."
 
-**Phase 6 - Communication** (15 points):
-- Executive summary clarity (5 points)
-- Presentation effectiveness (7 points)
-- Peer review quality (3 points)
+## Assessment: How You'll Be Evaluated
+
+### Overall Project Grading (100 points)
+
+| Component | Points | Key Criteria |
+|-----------|--------|--------------|
+| Industry Selection & Research | 10 | Significance, research quality, stakeholder ID |
+| Harm Assessment & Data | 20 | Framework application, data quality, visualization |
+| Systems Analysis | 20 | CLD quality, archetype ID, root cause depth |
+| Leverage Strategy | 20 | Framework application, feasibility, theory of change |
+| Advocacy Plan | 15 | Strategy design, stakeholder engagement, realism |
+| Communication | 15 | Executive summary, presentation, peer review |
 
 ### Excellence Criteria
 
 **Exceptional Projects** demonstrate:
+
 - Original insights that go beyond course materials
 - Creative and innovative solution approaches
 - High-quality data visualization and storytelling
 - Deep integration of multiple analytical frameworks
 - Realistic and actionable implementation strategies
+- Clear passion and commitment to the cause
 
-## Reflection and Learning Integration
+**What Sets Great Projects Apart:**
 
-### Final Reflection Essay (Optional Bonus)
+| Good Project | Great Project |
+|--------------|---------------|
+| Applies frameworks correctly | Applies frameworks creatively to reveal new insights |
+| Presents data clearly | Tells a compelling story with data |
+| Identifies obvious leverage points | Discovers non-obvious intervention opportunities |
+| Proposes reasonable interventions | Designs integrated, multi-level strategies |
+| Acknowledges limitations | Turns limitations into research questions |
 
-**Prompt**: Reflect on your learning journey through this course and capstone project:
+## Beyond the Capstone: Your Next Steps
 
-1. How has your understanding of ethics and systems thinking evolved?
-2. What was most challenging about applying data science to ethical problems?
-3. Which analytical framework or concept will be most useful in your future work?
-4. How might you continue developing your skills in data-driven ethical analysis?
-5. What role do you see yourself playing in creating positive systemic change?
+This project doesn't have to end when the course does.
 
-**Requirements**: 2-3 pages, personal reflection, connections to course concepts
+### Real-World Application Opportunities
 
-### Peer Learning Network
+**Publication and Presentation:**
 
-**Project Showcase**: Present your project to the class and receive feedback
-**Cross-Pollination**: Identify insights from other projects applicable to your industry
-**Resource Sharing**: Contribute to shared database of tools, sources, and lessons learned
-**Follow-Up Planning**: Commit to specific next steps for continued work on your issue
+- Student research conferences
+- Policy briefings to relevant organizations
+- Op-eds in local or trade publications
+- Blog posts and social media threads
+- Contribute to course materials for future students
 
-## Real-World Application Opportunities
+**Career Connections:**
 
-### Internship and Job Connections
 - Social impact organizations working on your industry
 - Government agencies with regulatory oversight
 - Research institutions studying systemic change
-- Consulting firms specializing in sustainability and ethics
+- Consulting firms specializing in sustainability
+- Journalism and investigative reporting
 
-### Publication and Presentation Opportunities
-- Student research conferences
-- Industry and academic journals
-- Policy briefings and stakeholder meetings
-- Media interviews and op-ed placement
+**Continued Advocacy:**
 
-### Continued Advocacy Engagement
 - Join existing advocacy organizations
-- Start local chapter or working group
-- Engage in policy processes and public comment periods
-- Participate in shareholder advocacy campaigns
+- Start local chapters or working groups
+- Engage in policy comment periods
+- Participate in shareholder advocacy
+- Run for office or support candidates
 
-## Conclusion
+### Building Your Network
 
-This capstone project represents the culmination of your learning in data-driven ethics. By completing it, you join a community of practitioners working to understand and address the root causes of systemic harm. Your analysis and recommendations contribute to the broader effort to create more ethical and sustainable systems.
+**Connect With:**
 
-Remember that this project is not just an academic exercise—it's preparation for real-world engagement with complex ethical challenges. The skills you develop here—systems thinking, data analysis, strategic planning, and advocacy design—are increasingly important in every sector of society.
+- Classmates who share your interests (your peer review partners!)
+- Faculty with relevant expertise
+- Professionals you cited or interviewed
+- Organizations you analyzed
+- Alumni working in related fields
 
-As you complete your project, consider how you can continue applying these approaches in your career, community involvement, and personal decision-making. The need for data-driven ethical analysis has never been greater, and your voice and expertise are part of the solution.
+**Maintain Your Expertise:**
+
+- Set up Google Alerts for your industry
+- Follow key researchers and advocates
+- Join relevant professional associations
+- Subscribe to trade publications
+- Attend conferences and webinars
+
+#### MicroSim: Career Path Explorer
+
+<details markdown="1">
+    <summary>Interactive Career Pathways for Data-Driven Ethics</summary>
+    Type: microsim
+
+    Learning Objective: Students will explore career paths that apply data-driven ethics skills (Bloom Level: Evaluate - L5)
+
+    Canvas layout:
+    - Left panel (200x600): Skills and interests selector
+    - Center area (500x600): Career path visualization
+    - Right panel (200x600): Selected path details
+
+    Skills inventory (checkboxes):
+    - Data analysis
+    - Systems thinking
+    - Policy analysis
+    - Communication/advocacy
+    - Research methods
+    - Technical writing
+    - Visual design
+    - Organizing/coalition building
+
+    Interest areas:
+    - Environmental issues
+    - Labor rights
+    - Consumer protection
+    - Corporate governance
+    - Public health
+    - Financial regulation
+    - Technology ethics
+
+    Career paths displayed (based on selections):
+    1. Policy Analyst (government, think tank)
+    2. ESG Analyst (investment, corporate)
+    3. Investigative Journalist
+    4. Nonprofit Program Director
+    5. Sustainability Consultant
+    6. Academic Researcher
+    7. Campaign Strategist
+    8. Corporate Social Responsibility Manager
+    9. Impact Investor
+    10. Elected Official / Political Staff
+
+    Path details panel:
+    - Typical job titles and organizations
+    - Required skills and education
+    - Salary ranges
+    - Entry points and career progression
+    - How capstone project applies
+    - Notable people in this path
+
+    Interactive elements:
+    - Check skills/interests to filter paths
+    - Click path for detailed view
+    - "Day in the Life" scenarios
+    - Links to job postings and organizations
+
+    Implementation: p5.js with filtering and card display
+</details>
+
+## Final Reflection
+
+As you complete your capstone project, consider these questions:
+
+??? question "How has your understanding of ethics and systems thinking evolved since the beginning of this course?"
+    Reflect on where you started. Did you see ethics as individual choices? How do you see it now? What changed?
+
+??? question "What was most challenging about applying data science to ethical problems?"
+    Data isn't always available for the harms that matter most. How did you navigate this? What did you learn about the limits of quantification?
+
+??? question "Which analytical framework or concept will be most useful in your future work?"
+    Systems archetypes? Leverage points? Behavioral economics? Harm measurement? What will stick with you?
+
+??? question "How might you continue developing your skills in data-driven ethical analysis?"
+    What do you want to learn next? What gaps did you discover in your knowledge or skills?
+
+??? question "What role do you see yourself playing in creating positive systemic change?"
+    Researcher? Advocate? Policymaker? Entrepreneur? All of the above? What's your contribution?
+
+## Learning Outcomes
+
+By completing this chapter and capstone project, you will be able to:
+
+- **Evaluate** corporate responsibility frameworks (shareholder primacy, stakeholder capitalism, regenerative business) and their implications for reform
+
+- **Apply** ESG analysis and triple bottom line accounting to assess industry impact
+
+- **Design** a comprehensive, multi-phase research and analysis project
+
+- **Create** compelling data visualizations and narratives for diverse audiences
+
+- **Develop** realistic implementation plans with theory of change
+
+- **Communicate** complex analytical findings in executive summaries and presentations
+
+- **Synthesize** all course concepts into an integrated reform proposal
+
+## Summary: Go Make Things Better
+
+*You've now completed the conceptual journey of this course. You understand how to see systems, measure harm, find root causes, identify leverage points, and design interventions. You know how corporations work, how change spreads, and how advocates build power.*
+
+*But knowledge without action is just... interesting. The point of all this learning is to actually make things better. Your capstone project is the first step—a real analysis of a real problem with real recommendations.*
+
+*What happens next is up to you.*
+
+*Maybe your project becomes a policy brief that influences legislation. Maybe it becomes the foundation for a nonprofit you start. Maybe it shapes your career choices, guiding you toward work that matters. Maybe it just changes how you think about the products you buy and the companies you support.*
+
+*Whatever form it takes, you now have something valuable: the ability to look at complex, harmful systems and see not just the problem, but the path to the solution.*
+
+*Use it well.*
 
 ---
 
@@ -408,6 +912,7 @@ As you complete your project, consider how you can continue applying these appro
 This chapter covers the following 43 concepts from the learning graph:
 
 ### Communication Concepts (COMM)
+
 1. Data Storytelling
 2. Narrative Techniques
 3. Audience Analysis
@@ -425,6 +930,7 @@ This chapter covers the following 43 concepts from the learning graph:
 15. Plain Language
 
 ### Capstone Project Concepts (CAP)
+
 16. Project Scoping
 17. Research Design
 18. Literature Review
@@ -440,6 +946,7 @@ This chapter covers the following 43 concepts from the learning graph:
 28. Peer Review Process
 
 ### Corporate Responsibility Concepts (CORP)
+
 29. Corporate Social Responsibility
 30. ESG Metrics
 31. Sustainability Reporting

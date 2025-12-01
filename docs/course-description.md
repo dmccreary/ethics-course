@@ -3,6 +3,8 @@
 ## ETHICS: Data-Driven Ethics and Systems Change
 
 **3 Credit Hours | Prerequisites: STATS 201 or DATA 101 or instructor permission**
+**Duration:** 14 weeks - the final 4 weeks are the capstone project
+**Audience:** College students with some background in data science
 
 ### Course Description
 
