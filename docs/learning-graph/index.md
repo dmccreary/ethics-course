@@ -6,6 +6,9 @@ Welcome to the Learning Graph for **Data-Driven Ethics and Systems Change**. Thi
 
 A learning graph is a Directed Acyclic Graph (DAG) that represents the relationships between concepts in a course. Each node represents a concept, and edges represent prerequisite dependencies - showing which concepts must be understood before others.
 
+[Run the Learning Graph Viewer](../../sims/graph-viewer/main.html){ .md-button .md-button--primary }
+
+
 ## Course Overview
 
 This learning graph contains:

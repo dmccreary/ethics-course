@@ -601,3 +601,63 @@ By the end of this chapter, you should be able to:
 ## Next Steps
 
 Having completed the seven core chapters of understanding, analyzing, and acting for ethical change, we'll now move to the capstone project where you'll apply all these concepts to design your own data-driven ethical reform initiative.
+
+---
+
+## Concepts Covered in This Chapter
+
+This chapter covers the following 37 concepts from the learning graph:
+
+### Leverage Points Concepts (LEVR)
+1. Leverage Points
+2. Donella Meadows Framework
+3. Parameter Interventions
+4. Buffer Interventions
+5. Stock-Flow Structure
+6. Delay Interventions
+7. Negative Feedback Loops
+8. Positive Feedback Loops
+9. Information Flow Interventions
+10. Rule Interventions
+11. Self-Organization
+12. Goal Interventions
+13. Paradigm Interventions
+14. Transcending Paradigms
+15. Intervention Hierarchy
+16. High-Leverage vs Low-Leverage
+
+### Behavioral Economics Concepts (BEHAV)
+17. Behavioral Economics
+18. Nudge Theory
+19. Choice Architecture
+20. Default Options
+21. Framing Effects
+22. Anchoring Bias
+23. Availability Heuristic
+24. Present Bias
+25. Loss Aversion Applications
+26. Social Norms Interventions
+27. Incentive Design
+28. Behavioral Insights
+
+### Advocacy Concepts (ADVOC)
+29. Advocacy Strategies
+30. Policy Advocacy
+31. Coalition Building
+32. Grassroots Organizing
+33. Media Advocacy
+34. Corporate Campaigns
+35. Shareholder Advocacy
+36. Consumer Boycotts
+37. Divestment Campaigns
+
+## Prerequisites
+
+This chapter builds on concepts from:
+
+- [Chapter 1: Introduction to Data-Driven Ethics](../01-introduction/index.md)
+- [Chapter 2: Measuring Harm](../02-measuring-harm/index.md)
+- [Chapter 3: Ethical Data Gathering](../03-data-gathering/index.md)
+- [Chapter 4: Systems Thinking and Impact Analysis](../04-impact-analysis/index.md)
+- [Chapter 5: System Archetypes and Root Cause Analysis](../05-systems-thinking/index.md)
+- [Chapter 6: Markets, Power, and Industry Cases](../06-looking-for-leverage/index.md)
