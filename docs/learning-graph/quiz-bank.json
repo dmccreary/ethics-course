@@ -1,0 +1,179 @@
+{
+  "course": "Ethics in Modern Society",
+  "generated_date": "2025-11-30",
+  "generator_version": "0.2",
+  "total_questions": 86,
+  "total_chapters": 8,
+  "chapters": [
+    {
+      "chapter": 1,
+      "title": "Introduction to Data-Driven Ethics",
+      "quiz_path": "../chapters/01-introduction/quiz.md",
+      "questions": 10,
+      "difficulty": "introductory",
+      "concepts": [
+        "Data-Driven Ethics",
+        "Evidence-Based Ethics",
+        "Scientific Method",
+        "Confirmation Bias",
+        "Source Triangulation",
+        "Qualitative Analysis",
+        "Data Credibility",
+        "Objectivity and Subjectivity",
+        "Primary Sources"
+      ]
+    },
+    {
+      "chapter": 2,
+      "title": "Measuring Harm",
+      "quiz_path": "../chapters/02-measuring-harm/quiz.md",
+      "questions": 10,
+      "difficulty": "introductory",
+      "concepts": [
+        "DALYs",
+        "Externalities",
+        "True Cost Accounting",
+        "Social Cost Accounting",
+        "Mortality Rate Limitations",
+        "Harm Scorecards",
+        "Economic Harm Measurement",
+        "Life-Cycle Analysis",
+        "Normalization"
+      ]
+    },
+    {
+      "chapter": 3,
+      "title": "Ethical Data Gathering",
+      "quiz_path": "../chapters/03-data-gathering/quiz.md",
+      "questions": 10,
+      "difficulty": "intermediate",
+      "concepts": [
+        "Sampling Bias",
+        "Informed Consent",
+        "Primary vs Secondary Data",
+        "Response Bias",
+        "Methodological Transparency",
+        "Conflict of Interest",
+        "Literature Review",
+        "Selection Bias",
+        "Research Ethics",
+        "Data Quality Assessment"
+      ]
+    },
+    {
+      "chapter": 4,
+      "title": "Systems Thinking and Impact Analysis",
+      "quiz_path": "../chapters/04-impact-analysis/quiz.md",
+      "questions": 10,
+      "difficulty": "intermediate",
+      "concepts": [
+        "Reinforcing Feedback Loops",
+        "Balancing Feedback Loops",
+        "Causal Loop Diagrams",
+        "System Delays",
+        "Stocks and Flows",
+        "Impact Networks",
+        "System Resistance",
+        "Cascading Effects",
+        "Mental Models",
+        "Stakeholder Analysis"
+      ]
+    },
+    {
+      "chapter": 5,
+      "title": "System Archetypes and Root Cause Analysis",
+      "quiz_path": "../chapters/05-systems-thinking/quiz.md",
+      "questions": 10,
+      "difficulty": "intermediate",
+      "concepts": [
+        "System Archetypes",
+        "Limits to Growth",
+        "Shifting the Burden",
+        "Tragedy of the Commons",
+        "5 Whys Technique",
+        "Iceberg Model",
+        "Success to the Successful",
+        "Proximate vs Root Causes",
+        "Fixes that Fail",
+        "Archetype-Based Intervention"
+      ]
+    },
+    {
+      "chapter": 6,
+      "title": "Markets, Power, and Industry Cases",
+      "quiz_path": "../chapters/06-looking-for-leverage/quiz.md",
+      "questions": 12,
+      "difficulty": "advanced",
+      "concepts": [
+        "Leverage Points",
+        "Paradigm Interventions",
+        "Regulatory Capture",
+        "Externalities",
+        "Manufactured Doubt",
+        "Nash Equilibrium",
+        "Astroturfing",
+        "Information Flow Interventions",
+        "Multi-Level Intervention Strategy",
+        "Revolving Door",
+        "Shallow Interventions",
+        "Stakeholder Analysis"
+      ]
+    },
+    {
+      "chapter": 7,
+      "title": "Intervention Design and Advocacy",
+      "quiz_path": "../chapters/07-advocating-for-change/quiz.md",
+      "questions": 12,
+      "difficulty": "advanced",
+      "concepts": [
+        "Neural Habituation",
+        "Loss Aversion",
+        "Nudge Theory",
+        "Default Options",
+        "Social Proof",
+        "Courage Habituation",
+        "Diffusion of Innovation",
+        "B-Corporations",
+        "Present Bias",
+        "Story-Based Strategy",
+        "Nudge Limitations",
+        "Shareholder Advocacy"
+      ]
+    },
+    {
+      "chapter": 8,
+      "title": "Corporate Responsibility and Capstone Project",
+      "quiz_path": "../chapters/08-capstone-project/quiz.md",
+      "questions": 12,
+      "difficulty": "advanced",
+      "concepts": [
+        "Shareholder Primacy",
+        "ESG Metrics",
+        "Triple Bottom Line",
+        "Stakeholder Capitalism",
+        "Impact Investing",
+        "Capstone Project Structure",
+        "Source Credibility",
+        "Theory of Change",
+        "True Cost Accounting",
+        "CSR Evolution",
+        "Project Scoping",
+        "Presentation Skills"
+      ]
+    }
+  ],
+  "bloom_taxonomy_summary": {
+    "remember": 21,
+    "understand": 23,
+    "apply": 20,
+    "analyze": 16,
+    "evaluate": 3,
+    "create": 3
+  },
+  "difficulty_distribution": {
+    "introductory": 20,
+    "intermediate": 30,
+    "advanced": 36
+  },
+  "unique_concepts_tested": 82
+}

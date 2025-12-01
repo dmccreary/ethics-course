@@ -1,4 +1,15 @@
+---
+title: Modern Ethics
+description: An ethics course based on data science and systems thinking.
+hide:
+    toc
+---
+
 # Welcome
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
+![](./img/cover.jpg)
 
 Ethics is not just about right and wrong — it's about understanding the invisible systems that shape our choices. By combining critical thinking, systems thinking, and data science, we can make sense of complex global challenges and discover where small changes can make the biggest difference.
 

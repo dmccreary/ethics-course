@@ -1,0 +1,35 @@
+{
+  "chapter": 5,
+  "title": "System Archetypes and Root Cause Analysis",
+  "quiz_file": "quiz.md",
+  "total_questions": 10,
+  "bloom_distribution": {
+    "remember": 2,
+    "understand": 3,
+    "apply": 3,
+    "analyze": 2,
+    "evaluate": 0,
+    "create": 0
+  },
+  "answer_distribution": {
+    "A": 1,
+    "B": 8,
+    "C": 0,
+    "D": 1
+  },
+  "concepts_tested": [
+    "System Archetypes",
+    "Limits to Growth",
+    "Shifting the Burden",
+    "Tragedy of the Commons",
+    "5 Whys Technique",
+    "Iceberg Model",
+    "Success to the Successful",
+    "Proximate vs Root Causes",
+    "Fixes that Fail",
+    "Archetype-Based Intervention"
+  ],
+  "difficulty_level": "intermediate",
+  "generated_date": "2025-11-30",
+  "generator_version": "0.2"
+}
