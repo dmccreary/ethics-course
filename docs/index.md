@@ -1,6 +1,8 @@
 ---
 title: Modern Ethics
 description: An ethics course based on data science and systems thinking.
+image: /img/cover.jpg
+og:image: /img/cover.jpg
 hide:
     toc
 ---
