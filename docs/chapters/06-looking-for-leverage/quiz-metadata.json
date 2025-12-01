@@ -1,0 +1,37 @@
+{
+  "chapter": 6,
+  "title": "Markets, Power, and Industry Cases",
+  "quiz_file": "quiz.md",
+  "total_questions": 12,
+  "bloom_distribution": {
+    "remember": 2,
+    "understand": 2,
+    "apply": 3,
+    "analyze": 3,
+    "evaluate": 1,
+    "create": 1
+  },
+  "answer_distribution": {
+    "A": 1,
+    "B": 9,
+    "C": 1,
+    "D": 1
+  },
+  "concepts_tested": [
+    "Leverage Points",
+    "Paradigm Interventions",
+    "Regulatory Capture",
+    "Externalities",
+    "Manufactured Doubt",
+    "Nash Equilibrium",
+    "Astroturfing",
+    "Information Flow Interventions",
+    "Multi-Level Intervention Strategy",
+    "Revolving Door",
+    "Shallow Interventions",
+    "Stakeholder Analysis"
+  ],
+  "difficulty_level": "advanced",
+  "generated_date": "2025-11-30",
+  "generator_version": "0.2"
+}

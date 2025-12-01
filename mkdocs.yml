@@ -8,23 +8,36 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
-  - course-description.md
-  - Outline: outline.md
+  # - About the Course: about.md
+  - Course Description: course-description.md
+  
   - Chapters:
+    - List of Chapters: chapters/index.md
     - "1. Introduction": chapters/01-introduction/index.md
+    - "1. Quiz": chapters/01-introduction/quiz.md
     - "2. Measuring Harm": chapters/02-measuring-harm/index.md
+    - "2. Quiz": chapters/02-measuring-harm/quiz.md
     - "2.1 Rankings": chapters/02-measuring-harm/ranking.md
     - "2.2 Scorecard": chapters/02-measuring-harm/scorecard.md
     - "3. Data Gathering": chapters/03-data-gathering/index.md
+    - "3. Quiz": chapters/03-data-gathering/quiz.md
     - "4. Impact Analysis": chapters/04-impact-analysis/index.md
+    - "4. Quiz": chapters/04-impact-analysis/quiz.md
     - "5. Systems Thinking": chapters/05-systems-thinking/index.md
+    - "5. Quiz": chapters/05-systems-thinking/quiz.md
     - "6. Looking for Leverage": chapters/06-looking-for-leverage/index.md
+    - "6. Quiz": chapters/06-looking-for-leverage/quiz.md
     - "7. Advocating for Change": chapters/07-advocating-for-change/index.md
+    - "7. Quiz": chapters/07-advocating-for-change/quiz.md
     - "8. Capstone Project": chapters/08-capstone-project/index.md
+    - "8. Quiz": chapters/08-capstone-project/quiz.md
+  
   - Micro Simulations:
     - "Ranking Simulation": sims/ranking/index.md
     - "Harm Bubble Chart": sims/harm-bubble-chart/index.md
+    - "Ethics Education Timeline": sims/ethics-education-timeline/index.md
     - "Graph Viewer": sims/graph-viewer/index.md
+  
   - Learning Graph:
     - Introduction: learning-graph/index.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
@@ -32,6 +45,15 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+    - Glossary Quality Report: learning-graph/glossary-quality-report.md
+    - FAQ Quality Report: learning-graph/faq-quality-report.md
+    - Quiz Generation Report: learning-graph/quiz-generation-report.md
+    - learning-graph/book-metrics.md
+    - learning-graph/build-notes.md
+    - learning-graph/chapter-metrics.md
+    - learning-graph/diagram-details.md
+    - learning-graph/diagram-table.md
+  
   - Generative AI Prompts:
     - Intro: prompts/index.md
     - Learning Graph:
@@ -39,8 +61,12 @@ nav:
       - prompts/learning-graph/01-course-description.md
       - prompts/learning-graph/02-concept-enumeration.md
       - prompts/learning-graph/03-concept-dependencies.md
-    - Bubble Char: prompts/harm-bubble-chart.md
+    - Chapter Content Generation: prompts/chapter-content-generation.md
+    - Bubble Chart: prompts/harm-bubble-chart.md
     - Glossary Prompt: prompts/glossary.md
+    - OpenAI Feedback: outline.md
+
+  - FAQ: faq.md
   - Glossary: glossary.md
   - References: references.md
   - License: license.md
