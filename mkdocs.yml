@@ -13,24 +13,32 @@ nav:
   
   - Chapters:
     - List of Chapters: chapters/index.md
-    - "1. Introduction": chapters/01-introduction/index.md
-    - "1. Quiz": chapters/01-introduction/quiz.md
-    - "2. Measuring Harm": chapters/02-measuring-harm/index.md
-    - "2. Quiz": chapters/02-measuring-harm/quiz.md
-    - "2.1 Rankings": chapters/02-measuring-harm/ranking.md
-    - "2.2 Scorecard": chapters/02-measuring-harm/scorecard.md
-    - "3. Data Gathering": chapters/03-data-gathering/index.md
-    - "3. Quiz": chapters/03-data-gathering/quiz.md
-    - "4. Impact Analysis": chapters/04-impact-analysis/index.md
-    - "4. Quiz": chapters/04-impact-analysis/quiz.md
-    - "5. Systems Thinking": chapters/05-systems-thinking/index.md
-    - "5. Quiz": chapters/05-systems-thinking/quiz.md
-    - "6. Looking for Leverage": chapters/06-looking-for-leverage/index.md
-    - "6. Quiz": chapters/06-looking-for-leverage/quiz.md
-    - "7. Advocating for Change": chapters/07-advocating-for-change/index.md
-    - "7. Quiz": chapters/07-advocating-for-change/quiz.md
-    - "8. Capstone Project": chapters/08-capstone-project/index.md
-    - "8. Quiz": chapters/08-capstone-project/quiz.md
+    - Ch 1. Introduction:
+      - Content: chapters/01-introduction/index.md
+      - Quiz: chapters/01-introduction/quiz.md
+    - Ch 2. Measuring Harm:
+      - Content: chapters/02-measuring-harm/index.md
+      - Quiz: chapters/02-measuring-harm/quiz.md
+      - Rankings: chapters/02-measuring-harm/ranking.md
+      - Scorecard: chapters/02-measuring-harm/scorecard.md
+    - Ch 3. Data Gathering:
+      - Content: chapters/03-data-gathering/index.md
+      - Quiz: chapters/03-data-gathering/quiz.md
+    - Ch 4. Impact Analysis:
+      - Content: chapters/04-impact-analysis/index.md
+      - Quiz: chapters/04-impact-analysis/quiz.md
+    - Ch 5. Systems Thinking:
+      - Content: chapters/05-systems-thinking/index.md
+      - Quiz: chapters/05-systems-thinking/quiz.md
+    - Ch 6. Looking for Leverage:
+      - Content: chapters/06-looking-for-leverage/index.md
+      - Quiz: chapters/06-looking-for-leverage/quiz.md
+    - Ch 7. Advocating for Change:
+      - Content: chapters/07-advocating-for-change/index.md
+      - Quiz: chapters/07-advocating-for-change/quiz.md
+    - Ch 8. Capstone Project:
+      - Content: chapters/08-capstone-project/index.md
+      - Quiz: chapters/08-capstone-project/quiz.md
   
   - Micro Simulations:
     - "Ranking Simulation": sims/ranking/index.md

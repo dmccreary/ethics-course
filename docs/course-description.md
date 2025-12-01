@@ -1,12 +1,13 @@
-# Course Catalog Description
+# Course Description
 
-## ETHICS: Data-Driven Ethics and Systems Change
+**Title:** Modern Ethics: A Data-Driven Systems Thinking Approach
 
-**3 Credit Hours | Prerequisites: STATS 201 or DATA 101 or instructor permission**
-**Duration:** 14 weeks - the final 4 weeks are the capstone project
+**3 Credit Hours
+**Prerequisites:** STATS 201 or DATA 101 or instructor permission<br/>
+**Duration:** 14 weeks - the final 4 weeks are the capstone project<br/>
 **Audience:** College students with some background in data science
 
-### Course Description
+### Course Overview
 
 This innovative course transforms traditional ethics education by integrating data science, systems thinking, and advocacy strategies to address the most harmful industries and behaviors in modern society. Students will move beyond philosophical debates to measure, analyze, and design interventions for real-world ethical challenges affecting millions globally.
 
