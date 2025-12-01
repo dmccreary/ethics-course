@@ -1,0 +1,173 @@
+{
+  "title": "Evolution of Ethics Education Timeline",
+  "events": [
+    {
+      "start_date": {
+        "year": "-500",
+        "display_date": "500 BCE"
+      },
+      "text": {
+        "headline": "Greek Philosophers Establish Virtue Ethics",
+        "text": "Aristotle, Plato, and other Greek philosophers develop systematic approaches to ethical thinking. Aristotle's Nicomachean Ethics introduces the concept of virtue as the mean between extremes, while Plato explores justice and the ideal state in The Republic. These foundational works establish ethics as a formal discipline of philosophical inquiry."
+      },
+      "group": "Classical Philosophy Era",
+      "notes": "Key figures: Aristotle, Plato, Socrates. Introduced concepts of eudaimonia (human flourishing), the cardinal virtues, and systematic ethical reasoning."
+    },
+    {
+      "start_date": {
+        "year": "1785",
+        "display_date": "1785"
+      },
+      "text": {
+        "headline": "Kant's \"Groundwork of the Metaphysics of Morals\"",
+        "text": "Immanuel Kant publishes his foundational work on deontological ethics, introducing the categorical imperative: 'Act only according to that maxim whereby you can at the same time will that it should become a universal law.' This work establishes duty-based ethics as a major philosophical framework."
+      },
+      "group": "Classical Philosophy Era",
+      "notes": "Kant's deontological approach emphasizes moral duties and universal principles over consequences. The categorical imperative remains central to modern ethical theory."
+    },
+    {
+      "start_date": {
+        "year": "1863",
+        "display_date": "1863"
+      },
+      "text": {
+        "headline": "John Stuart Mill's \"Utilitarianism\"",
+        "text": "Mill publishes his systematic defense of utilitarian ethics, refining Bentham's earlier work. Mill argues that actions are right in proportion to their tendency to promote happiness and wrong as they tend to produce the opposite. This consequentialist framework becomes highly influential in public policy."
+      },
+      "group": "Classical Philosophy Era",
+      "notes": "Mill distinguishes between higher and lower pleasures, addressing criticisms of simple hedonism. Utilitarianism provides a quantitative approach to ethics that prefigures data-driven methods."
+    },
+    {
+      "start_date": {
+        "year": "1962",
+        "display_date": "1962"
+      },
+      "text": {
+        "headline": "Kuhn's \"Structure of Scientific Revolutions\"",
+        "text": "Thomas Kuhn introduces the concept of paradigm shifts in scientific thinking. While not directly about ethics, this work profoundly influences how ethicists understand moral progress and the evolution of ethical frameworks. It suggests that ethics, like science, may undergo revolutionary transformations."
+      },
+      "group": "Applied Ethics Era",
+      "notes": "Kuhn's paradigm concept helps explain why ethical thinking can change dramatically between eras and cultures. Provides framework for understanding the current shift toward data-driven ethics."
+    },
+    {
+      "start_date": {
+        "year": "1971",
+        "display_date": "1971"
+      },
+      "text": {
+        "headline": "Rawls' \"A Theory of Justice\"",
+        "text": "John Rawls publishes his landmark work introducing the 'veil of ignorance' thought experiment and principles of justice as fairness. This reinvigorates political philosophy and provides a framework for thinking about distributive justice and systemic fairness that continues to influence policy debates."
+      },
+      "group": "Applied Ethics Era",
+      "notes": "The veil of ignorance asks: what principles would you choose if you didn't know your place in society? This approach bridges abstract philosophy with practical policy considerations."
+    },
+    {
+      "start_date": {
+        "year": "1979",
+        "display_date": "1979"
+      },
+      "text": {
+        "headline": "Belmont Report Establishes Research Ethics",
+        "text": "Following the Tuskegee Syphilis Study revelations, the National Commission publishes the Belmont Report, establishing three fundamental principles for ethical research: respect for persons, beneficence, and justice. This codifies ethical standards for research involving human subjects."
+      },
+      "group": "Applied Ethics Era",
+      "notes": "The Belmont Report creates the foundation for Institutional Review Boards (IRBs) and informed consent requirements. Represents the formalization of applied ethics in institutional settings."
+    },
+    {
+      "start_date": {
+        "year": "1985",
+        "display_date": "1985"
+      },
+      "text": {
+        "headline": "Business Ethics Enters MBA Curriculum",
+        "text": "Following corporate scandals of the 1970s and 1980s, major business schools begin requiring business ethics courses as standard MBA curriculum. This marks the professionalization of applied ethics and its integration into practical professional training."
+      },
+      "group": "Applied Ethics Era",
+      "notes": "Corporate scandals like the Equity Funding fraud and concerns about multinational corporate responsibility drive institutional adoption of ethics education in professional schools."
+    },
+    {
+      "start_date": {
+        "year": "1998",
+        "display_date": "1998"
+      },
+      "text": {
+        "headline": "Google Founded - Beginning of Big Data Era",
+        "text": "Larry Page and Sergey Brin found Google, launching an era of unprecedented data collection and analysis. The ability to gather, store, and analyze massive datasets creates new possibilities for empirical approaches to ethics while raising unprecedented ethical questions about privacy and data use."
+      },
+      "group": "Applied Ethics Era",
+      "notes": "Google's founding symbolizes the beginning of the big data revolution. The company's motto 'Don't be evil' (later modified) reflects early awareness of technology ethics challenges."
+    },
+    {
+      "start_date": {
+        "year": "2006",
+        "display_date": "2006"
+      },
+      "text": {
+        "headline": "Al Gore's \"An Inconvenient Truth\"",
+        "text": "Al Gore's documentary demonstrates the power of data visualization for ethical advocacy, presenting climate science through compelling graphics and charts. This work shows how empirical evidence can be communicated effectively to drive ethical action on a global scale."
+      },
+      "group": "Data Ethics Era",
+      "notes": "The film wins Academy Award for Best Documentary Feature. Demonstrates that data-driven storytelling can shift public opinion and influence policy on ethical issues."
+    },
+    {
+      "start_date": {
+        "year": "2012",
+        "display_date": "2012"
+      },
+      "text": {
+        "headline": "Sandy Hook Tragedy - Data-Driven Gun Violence Research",
+        "text": "The Sandy Hook Elementary School shooting intensifies calls for evidence-based approaches to gun violence prevention. Researchers increasingly use data analysis to understand patterns of violence and evaluate intervention effectiveness, despite political obstacles to funding such research."
+      },
+      "group": "Data Ethics Era",
+      "notes": "This tragedy highlights both the need for data-driven policy and the challenges of conducting politically sensitive research. Demonstrates that ethical advocacy requires empirical foundations."
+    },
+    {
+      "start_date": {
+        "year": "2018",
+        "display_date": "2018"
+      },
+      "text": {
+        "headline": "Cambridge Analytica Scandal",
+        "text": "Revelations about Cambridge Analytica's harvesting of Facebook user data brings data ethics into mainstream public consciousness. The scandal demonstrates how data can be weaponized for manipulation and highlights the urgent need for ethical frameworks governing data use."
+      },
+      "group": "Data Ethics Era",
+      "notes": "The scandal leads to congressional hearings, GDPR implementation, and broader public awareness of data privacy issues. Marks a turning point in public consciousness about tech ethics."
+    },
+    {
+      "start_date": {
+        "year": "2020",
+        "display_date": "2020"
+      },
+      "text": {
+        "headline": "COVID-19 Reveals Systemic Vulnerabilities",
+        "text": "The global pandemic exposes systemic inequities and demonstrates the power of real-time data tracking for understanding and responding to public health crises. Data dashboards, epidemiological modeling, and contact tracing become central to ethical decision-making about lockdowns, resource allocation, and vaccine distribution."
+      },
+      "group": "Data Ethics Era",
+      "notes": "The pandemic accelerates adoption of data-driven decision-making while raising ethical questions about surveillance, privacy, and equitable resource distribution."
+    },
+    {
+      "start_date": {
+        "year": "2024",
+        "display_date": "2024"
+      },
+      "text": {
+        "headline": "AI Ethics and Measurement Frameworks Converge",
+        "text": "As AI systems become more powerful and pervasive, frameworks for AI ethics increasingly incorporate quantitative approaches to measuring bias, fairness, and harm. Organizations develop metrics for AI impact assessment, merging traditional ethical analysis with data science methodologies."
+      },
+      "group": "Data Ethics Era",
+      "notes": "Major tech companies, governments, and NGOs develop AI ethics frameworks. The EU AI Act establishes regulatory requirements for AI risk assessment based on measurable criteria."
+    },
+    {
+      "start_date": {
+        "year": "2025",
+        "display_date": "2025"
+      },
+      "text": {
+        "headline": "Data-Driven Ethics Becomes Standard Curriculum",
+        "text": "Educational institutions increasingly adopt curricula that integrate traditional ethical theory with quantitative methods for measuring harm, analyzing systems, and evaluating interventions. Students learn to combine philosophical reasoning with data analysis skills for evidence-based ethical advocacy."
+      },
+      "group": "Data Ethics Era",
+      "notes": "This course exemplifies the new paradigm: teaching students to measure harm using DALYs, analyze causal systems, identify leverage points, and advocate for change using data-driven approaches."
+    }
+  ]
+}
