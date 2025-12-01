@@ -355,3 +355,41 @@ By the end of this chapter, you should be able to:
 ## Next Steps
 
 In the next chapter, we'll focus specifically on identifying and evaluating leverage points for creating positive change in unethical industries, using the systems thinking foundations we've built here.
+
+---
+
+## Concepts Covered in This Chapter
+
+This chapter covers the following 22 concepts from the learning graph:
+
+1. System Archetypes
+2. Tragedy of the Commons
+3. Shifting the Burden
+4. Success to the Successful
+5. Fixes That Fail
+6. Limits to Growth
+7. Escalation
+8. Eroding Goals
+9. Growth and Underinvestment
+10. Root Cause Analysis
+11. Five Whys Technique
+12. Iceberg Model
+13. Events Level
+14. Patterns Level
+15. Structures Level
+16. Mental Models Level
+17. Unintended Consequences
+18. Side Effects
+19. Rebound Effects
+20. Problem Shifting
+21. Time Shifting
+22. Geographic Shifting
+
+## Prerequisites
+
+This chapter builds on concepts from:
+
+- [Chapter 1: Introduction to Data-Driven Ethics](../01-introduction/index.md)
+- [Chapter 2: Measuring Harm](../02-measuring-harm/index.md)
+- [Chapter 3: Ethical Data Gathering](../03-data-gathering/index.md)
+- [Chapter 4: Systems Thinking and Impact Analysis](../04-impact-analysis/index.md)

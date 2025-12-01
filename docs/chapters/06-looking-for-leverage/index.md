@@ -429,3 +429,65 @@ By the end of this chapter, you should be able to:
 ## Next Steps
 
 In the next chapter, we'll explore practical strategies for advocating and implementing the changes identified through leverage point analysis, including coalition building, policy design, and movement organizing strategies.
+
+---
+
+## Concepts Covered in This Chapter
+
+This chapter covers the following 42 concepts from the learning graph:
+
+### Market Failure Concepts (MRKT)
+1. Market Failures
+2. Information Asymmetry
+3. Externality Pricing
+4. Regulatory Capture
+5. Industry Lobbying
+6. Greenwashing
+7. Misleading Marketing
+8. Power Dynamics
+9. Stakeholder Analysis
+10. Game Theory
+11. Prisoner's Dilemma
+12. Nash Equilibrium
+13. Collective Action Problems
+14. Free Rider Problem
+15. Coordination Failures
+
+### Industry Case Study Concepts (CASE)
+16. Tobacco Industry Case
+17. Fossil Fuel Industry Case
+18. Ultra-Processed Foods Case
+19. Social Media Case
+20. Fast Fashion Case
+21. Pharmaceutical Industry Case
+22. Gambling Industry Case
+23. Industrial Agriculture Case
+24. Firearms Industry Case
+25. Alcohol Industry Case
+26. Private Prison Case
+27. Payday Lending Case
+28. Arms Industry Case
+29. Chemical Industry Case
+30. Mining Industry Case
+31. Pesticide Industry Case
+32. Industry Comparison
+33. Cross-Industry Patterns
+34. Industry Accountability
+35. Deceptive Practices
+36. Science Denial
+37. Manufactured Doubt
+38. Astroturfing
+39. Front Groups
+40. Revolving Door
+41. Corporate Lobbying
+42. Political Influence
+
+## Prerequisites
+
+This chapter builds on concepts from:
+
+- [Chapter 1: Introduction to Data-Driven Ethics](../01-introduction/index.md)
+- [Chapter 2: Measuring Harm](../02-measuring-harm/index.md)
+- [Chapter 3: Ethical Data Gathering](../03-data-gathering/index.md)
+- [Chapter 4: Systems Thinking and Impact Analysis](../04-impact-analysis/index.md)
+- [Chapter 5: System Archetypes and Root Cause Analysis](../05-systems-thinking/index.md)

@@ -400,3 +400,70 @@ This capstone project represents the culmination of your learning in data-driven
 Remember that this project is not just an academic exercise—it's preparation for real-world engagement with complex ethical challenges. The skills you develop here—systems thinking, data analysis, strategic planning, and advocacy design—are increasingly important in every sector of society.
 
 As you complete your project, consider how you can continue applying these approaches in your career, community involvement, and personal decision-making. The need for data-driven ethical analysis has never been greater, and your voice and expertise are part of the solution.
+
+---
+
+## Concepts Covered in This Chapter
+
+This chapter covers the following 43 concepts from the learning graph:
+
+### Communication Concepts (COMM)
+1. Data Storytelling
+2. Narrative Techniques
+3. Audience Analysis
+4. Visual Communication
+5. Infographics
+6. Data Dashboards
+7. Interactive Visualizations
+8. Presentation Skills
+9. Written Reports
+10. Policy Briefs
+11. Op-Ed Writing
+12. Social Media Communication
+13. Stakeholder Presentations
+14. Technical Writing
+15. Plain Language
+
+### Capstone Project Concepts (CAP)
+16. Project Scoping
+17. Research Design
+18. Literature Review
+19. Methodology Selection
+20. Data Collection Planning
+21. Analysis Framework
+22. Findings Synthesis
+23. Recommendations Development
+24. Implementation Planning
+25. Evaluation Design
+26. Project Management
+27. Team Collaboration
+28. Peer Review Process
+
+### Corporate Responsibility Concepts (CORP)
+29. Corporate Social Responsibility
+30. ESG Metrics
+31. Sustainability Reporting
+32. Triple Bottom Line
+33. Stakeholder Capitalism
+34. B Corporation
+35. Social Enterprise
+36. Impact Investing
+37. Responsible Investment
+38. Corporate Governance
+39. Executive Compensation
+40. Board Accountability
+41. Whistleblower Protection
+42. Corporate Ethics Programs
+43. Compliance Systems
+
+## Prerequisites
+
+This chapter builds on concepts from all previous chapters:
+
+- [Chapter 1: Introduction to Data-Driven Ethics](../01-introduction/index.md)
+- [Chapter 2: Measuring Harm](../02-measuring-harm/index.md)
+- [Chapter 3: Ethical Data Gathering](../03-data-gathering/index.md)
+- [Chapter 4: Systems Thinking and Impact Analysis](../04-impact-analysis/index.md)
+- [Chapter 5: System Archetypes and Root Cause Analysis](../05-systems-thinking/index.md)
+- [Chapter 6: Markets, Power, and Industry Cases](../06-looking-for-leverage/index.md)
+- [Chapter 7: Intervention Design and Leverage Points](../07-advocating-for-change/index.md)
