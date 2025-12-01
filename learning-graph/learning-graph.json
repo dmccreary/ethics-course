@@ -10,65 +10,9 @@
     "license": "CC BY-NC-SA 4.0 DEED"
   },
   "groups": {
-    "COMM": {
-      "classifierName": "Communication",
-      "color": "Honeydew",
-      "font": {
-        "color": "black"
-      }
-    },
-    "MRKT": {
-      "classifierName": "Market and Power",
-      "color": "PowderBlue",
-      "font": {
-        "color": "black"
-      }
-    },
-    "ARCH": {
-      "classifierName": "System Archetypes",
-      "color": "Aquamarine",
-      "font": {
-        "color": "black"
-      }
-    },
-    "CORP": {
-      "classifierName": "Corporate Responsibility",
-      "color": "Gainsboro",
-      "font": {
-        "color": "black"
-      }
-    },
-    "CASE": {
-      "classifierName": "Industry Cases",
-      "color": "Thistle",
-      "font": {
-        "color": "black"
-      }
-    },
-    "LEVR": {
-      "classifierName": "Leverage Points",
-      "color": "LightSteelBlue",
-      "font": {
-        "color": "black"
-      }
-    },
     "FOUND": {
       "classifierName": "Foundation Concepts",
       "color": "LightCoral",
-      "font": {
-        "color": "black"
-      }
-    },
-    "ADVOC": {
-      "classifierName": "Advocacy Strategies",
-      "color": "Lavender",
-      "font": {
-        "color": "black"
-      }
-    },
-    "CAP": {
-      "classifierName": "Capstone and Reform",
-      "color": "Plum",
       "font": {
         "color": "black"
       }
@@ -87,9 +31,16 @@
         "color": "black"
       }
     },
-    "BEHAV": {
-      "classifierName": "Behavioral Economics",
-      "color": "MistyRose",
+    "MRKT": {
+      "classifierName": "Market and Power",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CASE": {
+      "classifierName": "Industry Cases",
+      "color": "Thistle",
       "font": {
         "color": "black"
       }
@@ -97,6 +48,55 @@
     "SYSF": {
       "classifierName": "Systems Foundations",
       "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ARCH": {
+      "classifierName": "System Archetypes",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "LEVR": {
+      "classifierName": "Leverage Points",
+      "color": "LightSteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BEHAV": {
+      "classifierName": "Behavioral Economics",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ADVOC": {
+      "classifierName": "Advocacy Strategies",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "COMM": {
+      "classifierName": "Communication",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CORP": {
+      "classifierName": "Corporate Responsibility",
+      "color": "Gainsboro",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CAP": {
+      "classifierName": "Capstone and Reform",
+      "color": "Plum",
       "font": {
         "color": "black"
       }
