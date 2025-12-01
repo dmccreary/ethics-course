@@ -1,0 +1,35 @@
+{
+  "chapter": 3,
+  "title": "Ethical Data Gathering",
+  "quiz_file": "quiz.md",
+  "total_questions": 10,
+  "bloom_distribution": {
+    "remember": 3,
+    "understand": 3,
+    "apply": 3,
+    "analyze": 1,
+    "evaluate": 0,
+    "create": 0
+  },
+  "answer_distribution": {
+    "A": 2,
+    "B": 6,
+    "C": 1,
+    "D": 1
+  },
+  "concepts_tested": [
+    "Sampling Bias",
+    "Informed Consent",
+    "Primary vs Secondary Data",
+    "Response Bias",
+    "Methodological Transparency",
+    "Conflict of Interest",
+    "Literature Review",
+    "Selection Bias",
+    "Research Ethics",
+    "Data Quality Assessment"
+  ],
+  "difficulty_level": "intermediate",
+  "generated_date": "2025-11-30",
+  "generator_version": "0.2"
+}

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolution of Ethics Education Timeline</title>
+
+    <!-- vis-timeline CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.3/vis-timeline-graph2d.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin: 0 0 10px 0;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin: 0;
+        }
+
+        .filter-controls {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            color: white;
+        }
+
+        .filter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .filter-btn.active {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .filter-btn.all {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .filter-btn.classical {
+            background: #3498db;
+        }
+
+        .filter-btn.applied {
+            background: #27ae60;
+        }
+
+        .filter-btn.data {
+            background: #f39c12;
+        }
+
+        #timeline {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .info-panel {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .info-panel {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .legend {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .legend h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            margin-right: 12px;
+        }
+
+        .legend-text {
+            font-size: 14px;
+            color: #34495e;
+        }
+
+        .legend-period {
+            font-size: 12px;
+            color: #7f8c8d;
+            margin-left: auto;
+        }
+
+        .event-details {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .event-details h3 {
+            margin: 0 0 15px 0;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        .event-details .placeholder {
+            color: #95a5a6;
+            font-style: italic;
+        }
+
+        .event-title {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .event-date {
+            font-size: 0.95em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .event-category {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            color: white;
+            font-weight: 500;
+        }
+
+        .event-description {
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .event-context {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .event-context-label {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .event-context-text {
+            color: #5d6d7e;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+
+        /* vis-timeline customizations */
+        .vis-item {
+            border-radius: 4px;
+            border: none;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .vis-item.vis-selected {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.3);
+        }
+
+        .vis-item .vis-item-content {
+            padding: 5px 10px;
+        }
+
+        .vis-tooltip {
+            background: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 13px;
+            max-width: 300px;
+            line-height: 1.4;
+        }
+
+        .instructions {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Evolution of Ethics Education</h1>
+            <p class="subtitle">From Classical Philosophy to Data-Driven Approaches (500 BCE - 2025 CE)</p>
+        </header>
+
+        <div class="filter-controls">
+            <button class="filter-btn all active" onclick="filterCategory('all')">All Events</button>
+            <button class="filter-btn classical" onclick="filterCategory('Classical Philosophy Era')">Classical Philosophy Era</button>
+            <button class="filter-btn applied" onclick="filterCategory('Applied Ethics Era')">Applied Ethics Era</button>
+            <button class="filter-btn data" onclick="filterCategory('Data Ethics Era')">Data Ethics Era</button>
+        </div>
+
+        <div id="timeline"></div>
+
+        <p class="instructions">Click and drag to pan | Scroll to zoom | Click an event for details</p>
+
+        <div class="info-panel">
+            <div class="legend">
+                <h3>Timeline Eras</h3>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #3498db;"></div>
+                    <span class="legend-text">Classical Philosophy Era</span>
+                    <span class="legend-period">500 BCE - 1950</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #27ae60;"></div>
+                    <span class="legend-text">Applied Ethics Era</span>
+                    <span class="legend-period">1950 - 2000</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f39c12;"></div>
+                    <span class="legend-text">Data Ethics Era</span>
+                    <span class="legend-period">2000 - Present</span>
+                </div>
+            </div>
+
+            <div class="event-details">
+                <h3>Event Details</h3>
+                <div id="details-content">
+                    <p class="placeholder">Click on a timeline event to see its full details here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- vis-timeline JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-timeline/7.7.3/vis-timeline-graph2d.min.js"></script>
+
+    <script>
+        // Color scheme for categories
+        const categoryColors = {
+            'Classical Philosophy Era': '#3498db',
+            'Applied Ethics Era': '#27ae60',
+            'Data Ethics Era': '#f39c12'
+        };
+
+        let timeline;
+        let timelineData;
+        let allItems = [];
+        let currentFilter = 'all';
+
+        // Load timeline data
+        fetch('timeline.json')
+            .then(response => response.json())
+            .then(data => {
+                initializeTimeline(data);
+            })
+            .catch(error => {
+                console.error('Error loading timeline data:', error);
+                document.getElementById('timeline').innerHTML =
+                    '<p style="padding: 20px; color: #e74c3c;">Error loading timeline data. Please ensure timeline.json exists.</p>';
+            });
+
+        function initializeTimeline(data) {
+            // Convert JSON events to vis-timeline format
+            allItems = data.events.map((event, index) => {
+                const year = parseInt(event.start_date.year);
+                // Handle BCE dates (negative years)
+                const startDate = new Date(year < 0 ? year : year, 0, 1);
+
+                return {
+                    id: `event-${index}`,
+                    content: event.text.headline,
+                    start: startDate,
+                    title: event.notes || event.text.headline,
+                    className: event.group.replace(/\s+/g, '-').toLowerCase(),
+                    style: `background-color: ${categoryColors[event.group]}; color: white; border-color: ${categoryColors[event.group]};`,
+                    category: event.group,
+                    eventData: event
+                };
+            });
+
+            // Create a DataSet
+            timelineData = new vis.DataSet(allItems);
+
+            // Timeline options
+            const options = {
+                width: '100%',
+                height: '400px',
+                margin: {
+                    item: 20,
+                    axis: 40
+                },
+                orientation: 'top',
+                zoomMin: 1000 * 60 * 60 * 24 * 365 * 50,      // 50 years
+                zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000,    // 3000 years
+                min: new Date(-600, 0, 1),   // 600 BCE
+                max: new Date(2030, 0, 1),   // 2030 CE
+                tooltip: {
+                    followMouse: true,
+                    template: function(originalItemData, parsedItemData) {
+                        return `<div>${originalItemData.title}</div>`;
+                    }
+                },
+                stack: true,
+                selectable: true,
+                showCurrentTime: false
+            };
+
+            // Create timeline
+            const container = document.getElementById('timeline');
+            timeline = new vis.Timeline(container, timelineData, options);
+
+            // Handle event selection
+            timeline.on('select', function(properties) {
+                if (properties.items.length > 0) {
+                    const itemId = properties.items[0];
+                    const item = allItems.find(i => i.id === itemId);
+                    if (item) {
+                        showEventDetails(item.eventData);
+                    }
+                }
+            });
+
+            // Fit timeline to show all events
+            timeline.fit();
+        }
+
+        function filterCategory(category) {
+            currentFilter = category;
+
+            // Update button states
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+
+            if (category === 'all') {
+                document.querySelector('.filter-btn.all').classList.add('active');
+                timelineData.clear();
+                timelineData.add(allItems);
+            } else {
+                const btnClass = category.toLowerCase().includes('classical') ? 'classical' :
+                                 category.toLowerCase().includes('applied') ? 'applied' : 'data';
+                document.querySelector(`.filter-btn.${btnClass}`).classList.add('active');
+
+                const filtered = allItems.filter(item => item.category === category);
+                timelineData.clear();
+                timelineData.add(filtered);
+            }
+
+            timeline.fit();
+        }
+
+        function showEventDetails(event) {
+            const displayDate = event.start_date.display_date || event.start_date.year;
+            const categoryColor = categoryColors[event.group];
+
+            const html = `
+                <div class="event-title">${event.text.headline}</div>
+                <div class="event-date">
+                    <span>${displayDate}</span>
+                    <span class="event-category" style="background: ${categoryColor};">${event.group}</span>
+                </div>
+                <div class="event-description">${event.text.text}</div>
+                ${event.notes ? `
+                <div class="event-context">
+                    <div class="event-context-label">Historical Context</div>
+                    <div class="event-context-text">${event.notes}</div>
+                </div>
+                ` : ''}
+            `;
+
+            document.getElementById('details-content').innerHTML = html;
+        }
+    </script>
+</body>
+</html>
