@@ -12,7 +12,7 @@ hide:
 
 # Harmful Industries Bubble Chart
 
-<iframe src="./main.html" height="500px" scrolling="no"
+<iframe src="./main.html" height="550px" scrolling="no"
   style="overflow: hidden;"></iframe>
 
 You can include this MicroSim in your course by pasting the following HTML directly into your web page.
