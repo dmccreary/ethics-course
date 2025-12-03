@@ -431,6 +431,71 @@ Traditional economics assumes people are rational utility maximizers. Behavioral
     Implementation: p5.js with scenario database and scoring logic
 </details>
 
+## The Limits of Quantification: A Critical Reflection on Scientism
+
+Before we proceed to design interventions based on data and behavioral science, we must pause for a critical reflection. This course has emphasized measurement, metrics, and evidence-based approaches. But what might we be missing?
+
+### What is Scientism?
+
+**Scientism** is the belief that the scientific method—particularly computational, formal, and mathematical-logical reasoning—is the only valid way of understanding the world. It goes beyond appreciating science's power to claiming science as the *exclusive* path to truth.
+
+This is distinct from science itself. Science is a method of inquiry that has proven extraordinarily powerful for understanding the natural world. Scientism is an *ideology* that elevates that method to the status of religion—complete with its own blind spots and dogmas.
+
+!!! warning "This Course's Potential Blind Spot"
+    A course built on "data-driven ethics" and "measuring harm" inherently privileges what can be counted. We've spent chapters discussing DALYs, economic costs, and quantifiable metrics. But what about harms that resist quantification?
+
+### What Gets Missed When We Only Count
+
+**Harms to meaning and dignity:** How do you quantify the harm of a job that pays well but strips workers of autonomy and purpose? The DALY framework can measure physical and mental health impacts, but the erosion of human dignity often precedes measurable symptoms.
+
+**Harms to relationships and community:** Social isolation, the weakening of civic bonds, the replacement of human connection with algorithmic interaction—these harms are real but difficult to reduce to numbers.
+
+**Harms to ways of knowing:** Indigenous knowledge systems, contemplative traditions, artistic and narrative ways of understanding—when we privilege only what can be measured, we may inadvertently devalue other forms of wisdom.
+
+**Long-term and diffuse harms:** Some of the most serious harms unfold over generations or affect systems so complex that causal attribution becomes impossible. Climate change is partially measurable; the loss of cultural diversity or the erosion of democratic norms is harder to quantify.
+
+### The Machine Intelligence Parallel
+
+The rise of artificial intelligence makes this reflection urgent. AI systems excel at pattern recognition, optimization, and processing vast datasets. If we conflate intelligence with these capabilities, we risk:
+
+- **Devaluing human judgment:** Treating human wisdom as inferior to algorithmic processing
+- **Automating the wrong things:** Optimizing for measurable proxies while ignoring unmeasurable essentials
+- **Creating false equivalences:** Assuming that because AI can process language, it understands meaning
+
+This doesn't mean AI is harmful or that data-driven approaches are wrong. It means we must be humble about their limits.
+
+### Integrating Multiple Ways of Knowing
+
+Effective advocacy for change requires more than data. It requires:
+
+**Narrative and story:** Humans understand the world through stories, not spreadsheets. The most powerful social movements have always combined evidence with compelling narratives that speak to values, identity, and meaning.
+
+**Ethical intuition:** Sometimes our moral intuitions detect wrongs before we can articulate or measure them. The visceral sense that "something is wrong here" often precedes—and motivates—the research that eventually produces data.
+
+**Relational knowledge:** Understanding power, culture, and community often requires presence, relationship, and long engagement—not just data collection.
+
+**Wisdom traditions:** Religious, philosophical, and indigenous traditions have spent millennia grappling with questions of how to live well. Their insights don't fit neatly into regression models, but they contain hard-won wisdom.
+
+### Practical Implications
+
+This critique doesn't mean abandoning data-driven approaches. It means:
+
+1. **Use data as a tool, not a master:** Data can inform decisions but shouldn't make them. Human judgment, informed by multiple sources of wisdom, remains essential.
+
+2. **Be humble about what you can't measure:** When designing interventions, explicitly consider unmeasurable harms and benefits. Ask: "What might we be missing because we can't count it?"
+
+3. **Combine evidence with narrative:** Effective advocacy uses data to support stories that speak to human values. Neither data alone nor stories alone are sufficient.
+
+4. **Listen to those who know differently:** Communities affected by harm often understand it in ways that don't show up in surveys or statistics. Participatory approaches that center affected voices may reveal what metrics miss.
+
+5. **Recognize the limits of optimization:** Not every problem is an optimization problem. Some situations require wisdom, discernment, and acceptance of irreducible uncertainty.
+
+??? question "Reflection: What has this course missed?"
+    Think about an ethical issue you care about. What aspects of that issue resist quantification? What sources of wisdom—personal, traditional, relational—inform your understanding beyond what data could tell you?
+
+!!! tip "The Complementary Approach"
+    The goal is not to replace quantitative analysis with intuition, but to recognize that both have essential roles. Data without wisdom is dangerous. Wisdom without data is often ineffective. The skilled advocate for change learns to work with both.
+
 ## Nudge Theory and Choice Architecture
 
 Now we get practical. How do we use these behavioral insights to design interventions that help people act on their values?

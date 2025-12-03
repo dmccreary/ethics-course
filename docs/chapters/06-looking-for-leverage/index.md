@@ -815,6 +815,91 @@ After analyzing multiple harmful industries, clear patterns emerge:
 !!! tip "Industry Accountability: The Universal Playbook"
     Once you've seen how tobacco was transformed, you have a template. Ask: What information needs to be disclosed? What rules need to change? What paradigm shift is needed? How can power be redistributed? The specifics differ, but the strategic logic transfers.
 
+## Systemic Drivers of Harm: Beyond Individual Industries
+
+While analyzing harmful industries is valuable, some critics argue that focusing only on industries misses deeper, structural forces that *enable* and *amplify* harm across all sectors. These "systemic drivers" operate at a meta-level—they're not industries themselves, but rather economic logics, ideological frameworks, and governance failures that shape how industries behave.
+
+Understanding these drivers doesn't replace industry-level analysis; it *complements* it by revealing higher-leverage intervention points.
+
+### Extractive Capitalism
+
+**What it is:** An economic orientation focused exclusively on extracting maximum short-term profit, which is then funneled to owners and executives rather than reinvested in workers, communities, or sustainability.
+
+**How it drives harm:**
+
+- **Externalization imperative:** When profit is the sole metric, companies are incentivized to push costs onto others (workers, communities, environment)
+- **Short-termism:** Quarterly earnings pressure discourages long-term investments in safety, sustainability, or worker wellbeing
+- **Wealth concentration:** Extracted profits flow to a shrinking pool of owners, undermining the consumer base and democratic governance
+- **Financialization:** When making money from money becomes more profitable than making useful goods, productive investment declines
+
+**Industries most affected:** For-profit healthcare and insurance, private equity-owned companies, payday lending, private prisons—anywhere the "product" is vulnerable people.
+
+**Leverage implications:** This operates at Level 5 (Goals) and Level 4 (Paradigms). Changing individual industry rules (Level 7) without addressing extractive logic may simply shift harmful practices elsewhere. Deeper interventions include:
+
+- Stakeholder governance requirements (Level 6)
+- Fiduciary duty reform to include non-shareholder interests (Level 7)
+- Alternative ownership models: cooperatives, employee ownership, community ownership (Level 6)
+- Mission-lock structures like B-Corps and benefit corporations (Level 5)
+
+### Fundamentalism: Religious and Political Absolutism
+
+**What it is:** Ideological frameworks—whether religious or political—that claim absolute certainty and reject compromise, evidence, or democratic deliberation.
+
+**How it drives harm:**
+
+- **Policy paralysis:** When positions are non-negotiable, evidence-based harm reduction becomes impossible
+- **Science denial:** Climate denial, vaccine hesitancy, and rejection of public health measures often have fundamentalist roots
+- **In-group/out-group dynamics:** Fundamentalist frameworks often dehumanize those outside the group
+- **Democratic erosion:** Absolutist thinking is incompatible with democratic give-and-take
+
+**Where it appears:** Climate policy obstruction, resistance to harm reduction for drug use, opposition to evidence-based sex education, rejection of regulatory frameworks as "government overreach."
+
+**Leverage implications:** This operates at Level 4 (Paradigms) and is extremely resistant to lower-level interventions. Strategies include:
+
+- Finding values alignment: Identify shared values (stewardship, community care) that can bridge ideological divides
+- Messenger credibility: Voices from within fundamentalist communities carry more weight than outside critics
+- Narrative reframing: Present ethical action in terms compatible with existing worldviews
+- Long-term cultural work: Education, exposure, and generational change
+
+!!! warning "Distinguishing Critique from Attack"
+    Identifying fundamentalism as a systemic driver of harm is not an attack on religious faith or political conviction per se. Many religious and political traditions contain profound ethical resources. The critique targets *absolutism*—the refusal to engage with evidence, dialogue, or democratic process—not sincere belief.
+
+### Government Dysfunction and Regulatory Failure
+
+**What it is:** The systematic failure of government institutions to serve public interest, whether through capture, corruption, bureaucratic ossification, or ideological sabotage.
+
+**How it drives harm:**
+
+- **Regulatory capture:** Agencies meant to protect the public instead serve industry interests (discussed earlier in this chapter)
+- **Enforcement gaps:** Laws exist but aren't enforced due to underfunding or political interference
+- **Bureaucratic inertia:** Systems designed for past problems fail to address emerging harms
+- **Intentional sabotage:** Ideological opposition to regulation leads to deliberate weakening of protective agencies
+
+**Where it appears:** Environmental protection failures, financial regulation gaps, workplace safety lapses, public health system weaknesses.
+
+**Leverage implications:** This operates at multiple levels simultaneously:
+
+- Level 7 (Rules): Strengthen conflict-of-interest rules, revolving door restrictions
+- Level 6 (Power): Increase citizen oversight, strengthen whistleblower protections
+- Level 8 (Information): Transparency requirements for lobbying and regulatory decisions
+- Level 5 (Goals): Redefine agency success metrics around public outcomes rather than industry satisfaction
+
+### The Interaction Effect
+
+These systemic drivers don't operate in isolation—they reinforce each other:
+
+| Driver A | Driver B | Interaction |
+|----------|----------|-------------|
+| Extractive capitalism | Government dysfunction | Industry captures regulators to protect extraction |
+| Fundamentalism | Extractive capitalism | Religious frameworks justify economic inequality |
+| Government dysfunction | Fundamentalism | Ideological opposition weakens regulatory capacity |
+| All three | — | Create conditions where harmful industries flourish |
+
+**Strategic implication:** Addressing any one driver may be undermined by the others. The most effective strategies work on multiple drivers simultaneously, just as they work at multiple leverage levels.
+
+??? question "Reflection: Which systemic driver most enables the industry you're studying?"
+    Think about the harmful industry you've been analyzing. Which of these systemic drivers—extractive capitalism, fundamentalism, or government dysfunction—most enables its harmful practices? How might addressing that driver change the industry's behavior?
+
 ## Finding Your Leverage: A Practical Framework
 
 Now let's bring this all together into a practical framework you can use to find leverage in any system you want to change.

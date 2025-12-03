@@ -137,6 +137,14 @@ let industries = [
     economicImpact: 65,
     color: '#9c27b0',
     summary: "Single-digit to low-double-digit % problematic use"
+  },
+  {
+    name: "AI\nIndustry",
+    harmToPeople: 45, // Wealth concentration, job displacement, misinformation
+    harmToPlanet: 55, // Data centers, training energy consumption
+    economicImpact: 90, // Massive investment and market cap
+    color: '#00bcd4',
+    summary: "Data center energy use; wealth centralization; job displacement; misinformation risks"
   }
 ];
 
