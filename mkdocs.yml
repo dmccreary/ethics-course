@@ -43,6 +43,7 @@ nav:
   - Micro Simulations:
     - "Ranking Simulation": sims/ranking/index.md
     - "Harm Bubble Chart": sims/harm-bubble-chart/index.md
+    - "Leverage Points Iceberg": sims/leverage-iceberg/index.md
     - "Ethics Education Timeline": sims/ethics-education-timeline/index.md
     - "Graph Viewer": sims/graph-viewer/index.md
   

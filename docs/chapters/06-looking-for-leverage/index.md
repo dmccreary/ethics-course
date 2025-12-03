@@ -821,6 +821,9 @@ While analyzing harmful industries is valuable, some critics argue that focusing
 
 Understanding these drivers doesn't replace industry-level analysis; it *complements* it by revealing higher-leverage intervention points.
 
+!!! info "Leverage Point Levels"
+    Throughout this section, we reference [Donella Meadows' 12 Leverage Points](#donella-meadows-12-leverage-points-your-field-guide) framework introduced earlier in this chapter. The levels range from shallow interventions (Level 12: tweaking numbers) to deep interventions (Level 4: changing paradigms). Higher numbers = easier but less effective; lower numbers = harder but transformative.
+
 ### Extractive Capitalism
 
 **What it is:** An economic orientation focused exclusively on extracting maximum short-term profit, which is then funneled to owners and executives rather than reinvested in workers, communities, or sustainability.
@@ -834,12 +837,12 @@ Understanding these drivers doesn't replace industry-level analysis; it *complem
 
 **Industries most affected:** For-profit healthcare and insurance, private equity-owned companies, payday lending, private prisons—anywhere the "product" is vulnerable people.
 
-**Leverage implications:** This operates at Level 5 (Goals) and Level 4 (Paradigms). Changing individual industry rules (Level 7) without addressing extractive logic may simply shift harmful practices elsewhere. Deeper interventions include:
+**Leverage implications:** This operates at [Level 5 (Goals)](#level-5-goals-of-the-system) and [Level 4 (Paradigms)](#level-4-mental-models-and-paradigms). Changing individual industry rules ([Level 7](#level-7-rules-of-the-system)) without addressing extractive logic may simply shift harmful practices elsewhere. Deeper interventions include:
 
-- Stakeholder governance requirements (Level 6)
-- Fiduciary duty reform to include non-shareholder interests (Level 7)
-- Alternative ownership models: cooperatives, employee ownership, community ownership (Level 6)
-- Mission-lock structures like B-Corps and benefit corporations (Level 5)
+- Stakeholder governance requirements ([Level 6](#level-6-power-to-self-organize-system-structure))
+- Fiduciary duty reform to include non-shareholder interests ([Level 7](#level-7-rules-of-the-system))
+- Alternative ownership models: cooperatives, employee ownership, community ownership ([Level 6](#level-6-power-to-self-organize-system-structure))
+- Mission-lock structures like B-Corps and benefit corporations ([Level 5](#level-5-goals-of-the-system))
 
 ### Fundamentalism: Religious and Political Absolutism
 
@@ -854,7 +857,7 @@ Understanding these drivers doesn't replace industry-level analysis; it *complem
 
 **Where it appears:** Climate policy obstruction, resistance to harm reduction for drug use, opposition to evidence-based sex education, rejection of regulatory frameworks as "government overreach."
 
-**Leverage implications:** This operates at Level 4 (Paradigms) and is extremely resistant to lower-level interventions. Strategies include:
+**Leverage implications:** This operates at [Level 4 (Paradigms)](#level-4-mental-models-and-paradigms) and is extremely resistant to lower-level interventions. Strategies include:
 
 - Finding values alignment: Identify shared values (stewardship, community care) that can bridge ideological divides
 - Messenger credibility: Voices from within fundamentalist communities carry more weight than outside critics
@@ -879,10 +882,10 @@ Understanding these drivers doesn't replace industry-level analysis; it *complem
 
 **Leverage implications:** This operates at multiple levels simultaneously:
 
-- Level 7 (Rules): Strengthen conflict-of-interest rules, revolving door restrictions
-- Level 6 (Power): Increase citizen oversight, strengthen whistleblower protections
-- Level 8 (Information): Transparency requirements for lobbying and regulatory decisions
-- Level 5 (Goals): Redefine agency success metrics around public outcomes rather than industry satisfaction
+- [Level 7 (Rules)](#level-7-rules-of-the-system): Strengthen conflict-of-interest rules, revolving door restrictions
+- [Level 6 (Power)](#level-6-power-to-self-organize-system-structure): Increase citizen oversight, strengthen whistleblower protections
+- [Level 8 (Information)](#level-8-information-flows): Transparency requirements for lobbying and regulatory decisions
+- [Level 5 (Goals)](#level-5-goals-of-the-system): Redefine agency success metrics around public outcomes rather than industry satisfaction
 
 ### The Interaction Effect
 
