@@ -14,7 +14,7 @@ This textbook is organized into 8 chapters covering 250 concepts from the learni
 
 5. [System Archetypes and Root Cause Analysis](05-systems-thinking/index.md) - Covers system archetypes (Tragedy of the Commons, Shifting the Burden, etc.), the iceberg model, root cause analysis, five whys technique, and unintended consequences.
 
-6. [Markets, Power, and Industry Cases](06-looking-for-leverage/index.md) - Covers market failures, power dynamics, stakeholder analysis, game theory, plus all industry case studies including tobacco, fossil fuels, ultra-processed foods, fast fashion, and more.
+6. [Finding Leverage](06-looking-for-leverage/index.md) - Covers market failures, power dynamics, stakeholder analysis, game theory, plus all industry case studies including tobacco, fossil fuels, ultra-processed foods, fast fashion, and more.
 
 7. [Intervention Design and Leverage Points](07-advocating-for-change/index.md) - Covers Donella Meadows' leverage points framework, intervention hierarchy, behavioral economics, nudge theory, choice architecture, and advocacy strategies.
 
