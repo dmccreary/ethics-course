@@ -1,0 +1,1883 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ethical issues and considerations in modern society backed by critical thinking and data science.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ethics-course/sims/leverage-iceberg/spec/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Leverage Points Iceberg - MicroSim Specification - Ethics in Modern Society</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Leverage Points Iceberg - MicroSim Specification - Ethics in Modern Society" >
+      
+        <meta  property="og:description"  content="Ethical issues and considerations in modern society backed by critical thinking and data science." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/ethics-course/assets/images/social/sims/leverage-iceberg/spec.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/ethics-course/sims/leverage-iceberg/spec/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Leverage Points Iceberg - MicroSim Specification - Ethics in Modern Society" >
+      
+        <meta  name="twitter:description"  content="Ethical issues and considerations in modern society backed by critical thinking and data science." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/ethics-course/assets/images/social/sims/leverage-iceberg/spec.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#leverage-points-iceberg-microsim-specification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Ethics in Modern Society" class="md-header__button md-logo" aria-label="Ethics in Modern Society" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ethics in Modern Society
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Leverage Points Iceberg - MicroSim Specification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ethics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Ethics in Modern Society" class="md-nav__button md-logo" aria-label="Ethics in Modern Society" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    Ethics in Modern Society
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ethics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About This Course
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../ranking/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Micro Simulations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../prompts/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Generative AI Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#canvas-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Canvas Layout
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Canvas Layout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dimensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dimensions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visual-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Visual Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iceberg-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      Iceberg Shape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#waterline" class="md-nav__link">
+    <span class="md-ellipsis">
+      Waterline
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layer-zones" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layer Zones
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#individual-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individual Layers
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interaction-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interaction Design
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Interaction Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hover-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hover Behavior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#click-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Click Behavior
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#infobox-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Infobox Design
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-state-no-hover" class="md-nav__link">
+    <span class="md-ellipsis">
+      Default State (No Hover)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#animation-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Animation Details
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Animation Details">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#water-surface-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Water Surface Animation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layer-glow-animation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Layer Glow Animation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hover-transition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hover Transition
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessibility
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessibility">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#keyboard-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyboard Navigation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#screen-reader-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      Screen Reader Support
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Color Considerations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#responsive-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      Responsive Behavior
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Responsive Behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tablet-800px" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tablet (&lt; 800px)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mobile-500px" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mobile (&lt; 500px)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Control Bar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-with-chapter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Integration with Chapter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#success-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Success Metrics
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ethics-course/blob/master/docs/sims/leverage-iceberg/spec.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="leverage-points-iceberg-microsim-specification">Leverage Points Iceberg - MicroSim Specification</h1>
+<h2 id="overview">Overview</h2>
+<p>An interactive visualization of Donella Meadows' 12 Leverage Points using the iceberg metaphor. The iceberg shows that the most powerful intervention points are hidden beneath the surface—harder to see and access, but far more transformative.</p>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li><strong>Bloom Level:</strong> Understand (L2) / Apply (L3)</li>
+<li>Students will understand the hierarchy of intervention effectiveness</li>
+<li>Students will recognize why surface-level interventions often fail</li>
+<li>Students will identify which leverage level is appropriate for different change strategies</li>
+</ul>
+<h2 id="canvas-layout">Canvas Layout</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span></pre></div></td><td class="code"><div><pre><span></span><code>┌─────────────────────────────────────────────────────────────┐
+│                        TITLE BAR                            │
+│         &quot;Leverage Points: Where to Intervene&quot;               │
+├────────────────────────────┬────────────────────────────────┤
+│                            │                                │
+│                            │         INFOBOX AREA           │
+│       ICEBERG              │                                │
+│       VISUAL               │    (appears on hover)          │
+│                            │                                │
+│       (400px wide)         │       (350px wide)             │
+│                            │                                │
+│                            │                                │
+│                            │                                │
+│                            │                                │
+├────────────────────────────┴────────────────────────────────┤
+│                      CONTROL BAR                            │
+│            &quot;Click any layer to learn more&quot;                  │
+└─────────────────────────────────────────────────────────────┘
+</code></pre></div></td></tr></table></div>
+<h3 id="dimensions">Dimensions</h3>
+<ul>
+<li><strong>Total canvas:</strong> 800 x 650 pixels (responsive, scales down for mobile)</li>
+<li><strong>Drawing area:</strong> 800 x 580 pixels</li>
+<li><strong>Control bar:</strong> 800 x 70 pixels</li>
+<li><strong>Iceberg area:</strong> 400 x 520 pixels (left side)</li>
+<li><strong>Infobox area:</strong> 380 x 520 pixels (right side, 20px padding)</li>
+</ul>
+<h2 id="visual-design">Visual Design</h2>
+<h3 id="iceberg-shape">Iceberg Shape</h3>
+<p>The iceberg is drawn as a polygon with these characteristics:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code>Above waterline (visible, ~20% of mass):
+- Narrow peak at top
+- Widens slightly at waterline
+- Light, bright colors (white/light blue)
+- Sharp, crystalline edges
+
+Below waterline (hidden, ~80% of mass):
+- Dramatically wider
+- Deepens to dark navy/purple at bottom
+- Slightly softer edges (water diffusion effect)
+- Subtle glow on deepest layers
+</code></pre></div></td></tr></table></div>
+<h3 id="waterline">Waterline</h3>
+<ul>
+<li><strong>Position:</strong> Approximately 25% down from top of iceberg</li>
+<li><strong>Visual:</strong> Animated wave line with subtle motion</li>
+<li><strong>Label:</strong> "SURFACE" on left, small wave icon</li>
+<li><strong>Effect:</strong> Slight refraction/blur effect below waterline</li>
+</ul>
+<h3 id="layer-zones">Layer Zones</h3>
+<p>The 12 leverage points are grouped into 4 zones:</p>
+<table>
+<thead>
+<tr>
+<th>Zone</th>
+<th>Levels</th>
+<th>Position</th>
+<th>Color Range</th>
+<th>Label</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shallow</td>
+<td>12, 11, 10</td>
+<td>Above waterline</td>
+<td>White → Light cyan</td>
+<td>"Easy to reach"</td>
+</tr>
+<tr>
+<td>Structural</td>
+<td>9, 8, 7</td>
+<td>Just below waterline</td>
+<td>Cyan → Teal</td>
+<td>"Requires effort"</td>
+</tr>
+<tr>
+<td>Deep</td>
+<td>6, 5</td>
+<td>Middle depths</td>
+<td>Teal → Navy</td>
+<td>"Systemic change"</td>
+</tr>
+<tr>
+<td>Transformative</td>
+<td>4, 3, 2, 1</td>
+<td>Bottom</td>
+<td>Navy → Deep purple</td>
+<td>"Paradigm shift"</td>
+</tr>
+</tbody>
+</table>
+<h3 id="individual-layers">Individual Layers</h3>
+<p>Each layer is a horizontal band within the iceberg:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">  1</span>
+<span class="normal">  2</span>
+<span class="normal">  3</span>
+<span class="normal">  4</span>
+<span class="normal">  5</span>
+<span class="normal">  6</span>
+<span class="normal">  7</span>
+<span class="normal">  8</span>
+<span class="normal">  9</span>
+<span class="normal"> 10</span>
+<span class="normal"> 11</span>
+<span class="normal"> 12</span>
+<span class="normal"> 13</span>
+<span class="normal"> 14</span>
+<span class="normal"> 15</span>
+<span class="normal"> 16</span>
+<span class="normal"> 17</span>
+<span class="normal"> 18</span>
+<span class="normal"> 19</span>
+<span class="normal"> 20</span>
+<span class="normal"> 21</span>
+<span class="normal"> 22</span>
+<span class="normal"> 23</span>
+<span class="normal"> 24</span>
+<span class="normal"> 25</span>
+<span class="normal"> 26</span>
+<span class="normal"> 27</span>
+<span class="normal"> 28</span>
+<span class="normal"> 29</span>
+<span class="normal"> 30</span>
+<span class="normal"> 31</span>
+<span class="normal"> 32</span>
+<span class="normal"> 33</span>
+<span class="normal"> 34</span>
+<span class="normal"> 35</span>
+<span class="normal"> 36</span>
+<span class="normal"> 37</span>
+<span class="normal"> 38</span>
+<span class="normal"> 39</span>
+<span class="normal"> 40</span>
+<span class="normal"> 41</span>
+<span class="normal"> 42</span>
+<span class="normal"> 43</span>
+<span class="normal"> 44</span>
+<span class="normal"> 45</span>
+<span class="normal"> 46</span>
+<span class="normal"> 47</span>
+<span class="normal"> 48</span>
+<span class="normal"> 49</span>
+<span class="normal"> 50</span>
+<span class="normal"> 51</span>
+<span class="normal"> 52</span>
+<span class="normal"> 53</span>
+<span class="normal"> 54</span>
+<span class="normal"> 55</span>
+<span class="normal"> 56</span>
+<span class="normal"> 57</span>
+<span class="normal"> 58</span>
+<span class="normal"> 59</span>
+<span class="normal"> 60</span>
+<span class="normal"> 61</span>
+<span class="normal"> 62</span>
+<span class="normal"> 63</span>
+<span class="normal"> 64</span>
+<span class="normal"> 65</span>
+<span class="normal"> 66</span>
+<span class="normal"> 67</span>
+<span class="normal"> 68</span>
+<span class="normal"> 69</span>
+<span class="normal"> 70</span>
+<span class="normal"> 71</span>
+<span class="normal"> 72</span>
+<span class="normal"> 73</span>
+<span class="normal"> 74</span>
+<span class="normal"> 75</span>
+<span class="normal"> 76</span>
+<span class="normal"> 77</span>
+<span class="normal"> 78</span>
+<span class="normal"> 79</span>
+<span class="normal"> 80</span>
+<span class="normal"> 81</span>
+<span class="normal"> 82</span>
+<span class="normal"> 83</span>
+<span class="normal"> 84</span>
+<span class="normal"> 85</span>
+<span class="normal"> 86</span>
+<span class="normal"> 87</span>
+<span class="normal"> 88</span>
+<span class="normal"> 89</span>
+<span class="normal"> 90</span>
+<span class="normal"> 91</span>
+<span class="normal"> 92</span>
+<span class="normal"> 93</span>
+<span class="normal"> 94</span>
+<span class="normal"> 95</span>
+<span class="normal"> 96</span>
+<span class="normal"> 97</span>
+<span class="normal"> 98</span>
+<span class="normal"> 99</span>
+<span class="normal">100</span>
+<span class="normal">101</span>
+<span class="normal">102</span>
+<span class="normal">103</span>
+<span class="normal">104</span>
+<span class="normal">105</span>
+<span class="normal">106</span>
+<span class="normal">107</span>
+<span class="normal">108</span>
+<span class="normal">109</span>
+<span class="normal">110</span>
+<span class="normal">111</span>
+<span class="normal">112</span>
+<span class="normal">113</span>
+<span class="normal">114</span>
+<span class="normal">115</span>
+<span class="normal">116</span>
+<span class="normal">117</span>
+<span class="normal">118</span>
+<span class="normal">119</span>
+<span class="normal">120</span>
+<span class="normal">121</span>
+<span class="normal">122</span>
+<span class="normal">123</span>
+<span class="normal">124</span>
+<span class="normal">125</span>
+<span class="normal">126</span>
+<span class="normal">127</span>
+<span class="normal">128</span>
+<span class="normal">129</span>
+<span class="normal">130</span>
+<span class="normal">131</span>
+<span class="normal">132</span>
+<span class="normal">133</span>
+<span class="normal">134</span>
+<span class="normal">135</span>
+<span class="normal">136</span>
+<span class="normal">137</span>
+<span class="normal">138</span>
+<span class="normal">139</span>
+<span class="normal">140</span>
+<span class="normal">141</span>
+<span class="normal">142</span>
+<span class="normal">143</span>
+<span class="normal">144</span>
+<span class="normal">145</span>
+<span class="normal">146</span>
+<span class="normal">147</span>
+<span class="normal">148</span>
+<span class="normal">149</span>
+<span class="normal">150</span>
+<span class="normal">151</span>
+<span class="normal">152</span>
+<span class="normal">153</span>
+<span class="normal">154</span>
+<span class="normal">155</span>
+<span class="normal">156</span>
+<span class="normal">157</span>
+<span class="normal">158</span>
+<span class="normal">159</span>
+<span class="normal">160</span>
+<span class="normal">161</span>
+<span class="normal">162</span>
+<span class="normal">163</span>
+<span class="normal">164</span>
+<span class="normal">165</span>
+<span class="normal">166</span>
+<span class="normal">167</span>
+<span class="normal">168</span>
+<span class="normal">169</span>
+<span class="normal">170</span>
+<span class="normal">171</span>
+<span class="normal">172</span>
+<span class="normal">173</span>
+<span class="normal">174</span>
+<span class="normal">175</span>
+<span class="normal">176</span>
+<span class="normal">177</span>
+<span class="normal">178</span>
+<span class="normal">179</span>
+<span class="normal">180</span>
+<span class="normal">181</span>
+<span class="normal">182</span>
+<span class="normal">183</span>
+<span class="normal">184</span>
+<span class="normal">185</span>
+<span class="normal">186</span>
+<span class="normal">187</span>
+<span class="normal">188</span>
+<span class="normal">189</span>
+<span class="normal">190</span>
+<span class="normal">191</span>
+<span class="normal">192</span>
+<span class="normal">193</span>
+<span class="normal">194</span>
+<span class="normal">195</span>
+<span class="normal">196</span>
+<span class="normal">197</span>
+<span class="normal">198</span>
+<span class="normal">199</span>
+<span class="normal">200</span>
+<span class="normal">201</span>
+<span class="normal">202</span>
+<span class="normal">203</span>
+<span class="normal">204</span>
+<span class="normal">205</span>
+<span class="normal">206</span>
+<span class="normal">207</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">layers</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">12</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Constants &amp; Numbers&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Numbers&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;shallow&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.05</span><span class="p">,</span><span class="w"> </span><span class="c1">// percentage from top</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.06</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#E8F4F8&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#FFFFFF&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-12-constants-numbers-subsidies&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Tweaking parameters like tax rates, quotas, and subsidies&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Carbon tax rate&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Minimum wage amount&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Emission caps&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Low - system finds workarounds&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Immediate&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Politicians&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Regulators&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Economists&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;calculator&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">11</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Stocks &amp; Buffers&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Stocks&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;shallow&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.11</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.06</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#D4EEF5&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#E8F4F8&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-11-material-stocks-and-flows&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing physical infrastructure and capacity&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Building renewable plants&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Expanding transit&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Training inspectors&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Low-Medium - slow and expensive&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Years&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Engineers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Planners&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Investors&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;warehouse&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">10</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Negative Feedback&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Regulation&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;shallow&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.17</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.06</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#B8E4F0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#D4EEF5&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-10-regulating-negative-feedback-loops&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Creating constraints and regulations&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Safety standards&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Environmental limits&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Antitrust enforcement&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Medium - can change competitive dynamics&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Months to years&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Regulators&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Lawyers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Compliance officers&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;shield&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="c1">// --- WATERLINE (~0.23) ---</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">9</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Positive Feedback&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Acceleration&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;structural&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.26</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.08</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#7ECCE0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#9DD9E8&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-9-driving-positive-feedback-loops&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Accelerating beneficial self-reinforcing processes&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Feed-in tariffs&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Network effects&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Viral adoption&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Medium-High - harnesses system momentum&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Months to years&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Entrepreneurs&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Movement builders&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Early adopters&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;rocket&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">8</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Information Flows&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Information&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;structural&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.34</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.08</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#5BBDD0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#7ECCE0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-8-information-flows&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing who knows what, when, and how they can act&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Disclosure requirements&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Whistleblower protections&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Real-time feedback&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;High - information is power&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Weeks to months&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Journalists&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Researchers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Transparency advocates&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;broadcast&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">7</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Rules of the System&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Rules&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;structural&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.42</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.08</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#3AADC2&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#5BBDD0&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-7-rules-of-the-system&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing formal and informal rules that define behavior&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Property rights&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Voting rules&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Market structures&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Extended producer responsibility&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;High - rules define the game&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Years&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Legislators&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Courts&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Standards bodies&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;gavel&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">6</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Power to Self-Organize&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Power&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;deep&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.52</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.10</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#2090A8&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#3AADC2&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-6-power-to-self-organize-system-structure&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing who makes the rules and how rule-making works&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Worker co-determination&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Community ownership&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Democratic governance&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Very High - power over power&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Years to decades&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Organizers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Reformers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Social movements&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;users&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">5</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Goals of the System&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Goals&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;deep&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.62</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.10</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#186B80&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#2090A8&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-5-goals-of-the-system&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing what the system is trying to achieve&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;From shareholder to stakeholder value&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;From GDP to wellbeing&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;From treatment to prevention&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Transformative - purpose drives everything&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Decades&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Visionaries&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;B-Corp founders&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Policy innovators&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;target&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">4</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;transformative&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.72</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.12</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#0F4D5C&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#186B80&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-4-mental-models-and-paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Changing shared beliefs and assumptions that create the system&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Nature as partner vs resource&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Enough vs more&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Cooperation vs competition&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Revolutionary - source code of culture&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Generations&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Philosophers&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Artists&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Spiritual leaders&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Scientists&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;brain&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">3</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Goals of Paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Meta-Goals&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;transformative&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.84</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.08</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#0A3340&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#0F4D5C&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-4-mental-models-and-paradigms&quot;</span><span class="p">,</span><span class="w"> </span><span class="c1">// Links to paradigm section</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;The goals that arise from paradigms themselves&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;What does &#39;progress&#39; mean?&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;What is a &#39;good life&#39;?&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Foundational&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Generations&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Cultures&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Civilizations&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;infinity&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">2</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Mindset of Paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Mindset&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;transformative&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.92</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.04</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#061E28&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#0A3340&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-4-mental-models-and-paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;The ability to see paradigms as paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Recognizing your own assumptions&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Holding beliefs lightly&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Liberating&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Lifetime practice&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Contemplatives&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Systems thinkers&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;eye&quot;</span>
+<span class="w">  </span><span class="p">},</span>
+<span class="w">  </span><span class="p">{</span>
+<span class="w">    </span><span class="nx">level</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Transcending Paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">shortName</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Transcendence&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">zone</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;transformative&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">yPosition</span><span class="o">:</span><span class="w"> </span><span class="mf">0.96</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">height</span><span class="o">:</span><span class="w"> </span><span class="mf">0.04</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#2D1B4E&quot;</span><span class="p">,</span><span class="w"> </span><span class="c1">// Deep purple</span>
+<span class="w">    </span><span class="nx">hoverColor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#3D2B5E&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">anchor</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;#level-4-mental-models-and-paradigms&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;The power to transcend paradigms entirely&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">examples</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;No paradigm is &#39;true&#39;&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Flexible mind, appropriate response&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">impact</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Beyond measurement&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">timeToEffect</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Timeless&quot;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">typicalActors</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;Sages&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;Masters&quot;</span><span class="p">],</span>
+<span class="w">    </span><span class="nx">icon</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;sparkles&quot;</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">];</span>
+</code></pre></div></td></tr></table></div>
+<h2 id="interaction-design">Interaction Design</h2>
+<h3 id="hover-behavior">Hover Behavior</h3>
+<p>When mouse enters a layer:</p>
+<ol>
+<li><strong>Layer highlight:</strong></li>
+<li>Layer color shifts to <code>hoverColor</code></li>
+<li>Slight scale increase (102%)</li>
+<li>Subtle glow effect matching zone color</li>
+<li>
+<p>Cursor changes to pointer</p>
+</li>
+<li>
+<p><strong>Infobox appears</strong> (right side):</p>
+</li>
+<li>Fade in animation (200ms)</li>
+<li>
+<p>Contains structured information (see Infobox Design below)</p>
+</li>
+<li>
+<p><strong>Other layers:</strong></p>
+</li>
+<li>Dim slightly (opacity 0.7)</li>
+<li>Creates focus effect</li>
+</ol>
+<h3 id="click-behavior">Click Behavior</h3>
+<p>When user clicks a layer:</p>
+<ol>
+<li>Brief pulse animation on layer</li>
+<li>Navigate to anchor link in current page</li>
+<li>Use smooth scroll behavior</li>
+</ol>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">handleLayerClick</span><span class="p">(</span><span class="nx">layer</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="c1">// Navigate to the anchor in the chapter</span>
+<span class="w">  </span><span class="nb">window</span><span class="p">.</span><span class="nx">location</span><span class="p">.</span><span class="nx">href</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">layer</span><span class="p">.</span><span class="nx">anchor</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="infobox-design">Infobox Design</h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span></pre></div></td><td class="code"><div><pre><span></span><code>┌─────────────────────────────────────┐
+│ [ICON]  LEVEL 8                     │
+│         INFORMATION FLOWS           │
+├─────────────────────────────────────┤
+│                                     │
+│ Changing who knows what, when,      │
+│ and how they can act on it.         │
+│                                     │
+├─────────────────────────────────────┤
+│ EXAMPLES                            │
+│ • Disclosure requirements           │
+│ • Whistleblower protections         │
+│ • Real-time feedback systems        │
+├─────────────────────────────────────┤
+│ ⚡ Impact: High                      │
+│ ⏱️ Time to effect: Weeks to months  │
+│ 👥 Typical actors: Journalists,     │
+│    Researchers, Advocates           │
+├─────────────────────────────────────┤
+│     [ Click to learn more → ]       │
+└─────────────────────────────────────┘
+</code></pre></div></td></tr></table></div>
+<p><strong>Infobox styling:</strong>
+- Background: White with subtle shadow
+- Border-left: 4px solid in zone color
+- Padding: 20px
+- Max-width: 340px
+- Font: System sans-serif</p>
+<h3 id="default-state-no-hover">Default State (No Hover)</h3>
+<p>When nothing is hovered, show a general introduction in the infobox area:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span></pre></div></td><td class="code"><div><pre><span></span><code>┌─────────────────────────────────────┐
+│        🧊 THE ICEBERG MODEL         │
+├─────────────────────────────────────┤
+│                                     │
+│ Most intervention attempts focus    │
+│ on what&#39;s visible above the         │
+│ waterline—numbers, regulations,     │
+│ quick fixes.                        │
+│                                     │
+│ But the real leverage lies beneath: │
+│ in rules, power structures, goals,  │
+│ and the paradigms that shape how    │
+│ we see the world.                   │
+│                                     │
+│ Hover over any layer to explore.    │
+│ Click to dive deeper.               │
+│                                     │
+├─────────────────────────────────────┤
+│ Shallow (12-10): Easy, low impact   │
+│ Structural (9-7): Harder, lasting   │
+│ Deep (6-5): Systemic change         │
+│ Transformative (4-1): Paradigm shift│
+└─────────────────────────────────────┘
+</code></pre></div></td></tr></table></div>
+<h2 id="animation-details">Animation Details</h2>
+<h3 id="water-surface-animation">Water Surface Animation</h3>
+<ul>
+<li>Subtle sine wave motion on waterline</li>
+<li>Amplitude: 3-5 pixels</li>
+<li>Period: 3 seconds</li>
+<li>Creates sense of the dividing line being dynamic</li>
+</ul>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">drawWaterline</span><span class="p">(</span><span class="nx">y</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">stroke</span><span class="p">(</span><span class="mf">100</span><span class="p">,</span><span class="w"> </span><span class="mf">180</span><span class="p">,</span><span class="w"> </span><span class="mf">220</span><span class="p">,</span><span class="w"> </span><span class="mf">150</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">strokeWeight</span><span class="p">(</span><span class="mf">2</span><span class="p">);</span>
+<span class="w">  </span><span class="nx">noFill</span><span class="p">();</span>
+<span class="w">  </span><span class="nx">beginShape</span><span class="p">();</span>
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kd">let</span><span class="w"> </span><span class="nx">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0</span><span class="p">;</span><span class="w"> </span><span class="nx">x</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="nx">icebergWidth</span><span class="p">;</span><span class="w"> </span><span class="nx">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mf">5</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="nx">waveY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">y</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">sin</span><span class="p">((</span><span class="nx">x</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.05</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="nx">frameCount</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.03</span><span class="p">))</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">4</span><span class="p">;</span>
+<span class="w">    </span><span class="nx">vertex</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span><span class="w"> </span><span class="nx">waveY</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="nx">endShape</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="layer-glow-animation">Layer Glow Animation</h3>
+<p>Deep layers (4-1) have subtle pulsing glow:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">function</span><span class="w"> </span><span class="nx">drawDeepGlow</span><span class="p">(</span><span class="nx">layer</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="nx">glowIntensity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">sin</span><span class="p">(</span><span class="nx">frameCount</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.02</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.3</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mf">0.7</span><span class="p">;</span>
+<span class="w">  </span><span class="c1">// Draw glow behind layer</span>
+<span class="w">  </span><span class="nx">fill</span><span class="p">(</span><span class="nx">layer</span><span class="p">.</span><span class="nx">color</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">hex</span><span class="p">(</span><span class="nx">glowIntensity</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">50</span><span class="p">));</span>
+<span class="w">  </span><span class="c1">// ... draw expanded layer shape</span>
+<span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="hover-transition">Hover Transition</h3>
+<p>Smooth easing on all hover state changes:
+- Color transition: 150ms ease-out
+- Scale transition: 100ms ease-out
+- Opacity transition: 200ms ease-out</p>
+<h2 id="accessibility">Accessibility</h2>
+<h3 id="keyboard-navigation">Keyboard Navigation</h3>
+<ul>
+<li>Tab through layers (top to bottom)</li>
+<li>Enter/Space to "click" (navigate to anchor)</li>
+<li>Escape to clear focus</li>
+<li>Focus indicator: High-contrast outline</li>
+</ul>
+<h3 id="screen-reader-support">Screen Reader Support</h3>
+<ul>
+<li>Each layer has aria-label with full description</li>
+<li>Infobox uses aria-live for dynamic content</li>
+<li>Role="img" on canvas with full alt text</li>
+</ul>
+<h3 id="color-considerations">Color Considerations</h3>
+<ul>
+<li>All text meets WCAG AA contrast requirements</li>
+<li>Zone colors distinguishable for colorblind users</li>
+<li>Patterns/textures supplement color coding</li>
+</ul>
+<h2 id="responsive-behavior">Responsive Behavior</h2>
+<h3 id="tablet-800px">Tablet (&lt; 800px)</h3>
+<ul>
+<li>Canvas scales to container width</li>
+<li>Infobox moves below iceberg</li>
+<li>Touch-friendly hit targets (minimum 44px)</li>
+</ul>
+<h3 id="mobile-500px">Mobile (&lt; 500px)</h3>
+<ul>
+<li>Iceberg fills width</li>
+<li>Infobox appears as modal overlay on tap</li>
+<li>Swipe to dismiss infobox</li>
+<li>Larger layer labels</li>
+</ul>
+<h2 id="control-bar">Control Bar</h2>
+<p>Bottom control bar contains:</p>
+<ul>
+<li><strong>Left:</strong> "Hover to explore • Click to learn more"</li>
+<li><strong>Right:</strong> Zone legend with color swatches:</li>
+<li>🔵 Shallow (easy)</li>
+<li>🔷 Structural (harder)</li>
+<li>🔹 Deep (systemic)</li>
+<li>💜 Transformative (paradigm)</li>
+</ul>
+<h2 id="file-structure">File Structure</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code>/docs/sims/leverage-iceberg/
+├── index.md          # Documentation and iframe embed
+├── main.html         # HTML wrapper
+├── iceberg.js        # Main p5.js sketch
+├── layers-data.js    # Layer configuration data
+├── styles.css        # Additional styling
+└── metadata.json     # Dublin Core metadata
+</code></pre></div></td></tr></table></div>
+<h2 id="integration-with-chapter">Integration with Chapter</h2>
+<p>The MicroSim should be embedded in Chapter 6 after the "Donella Meadows' 12 Leverage Points" heading, replacing or supplementing the existing <code>&lt;details&gt;</code> placeholder:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="gu">#### Interactive Visualization: The Leverage Iceberg</span>
+
+&lt;iframe
+  src=&quot;../../sims/leverage-iceberg/main.html&quot;
+  width=&quot;100%&quot;
+  height=&quot;680&quot;
+  frameborder=&quot;0&quot;
+  title=&quot;Interactive Leverage Points Iceberg&quot;
+  loading=&quot;lazy&quot;&gt;
+&lt;/iframe&gt;
+</code></pre></div></td></tr></table></div>
+<h2 id="success-metrics">Success Metrics</h2>
+<ul>
+<li>Users can identify which zone a given intervention falls into</li>
+<li>Users understand why "quick fixes" often fail (they're above waterline)</li>
+<li>Users can navigate to detailed explanations of each level</li>
+<li>Average engagement time &gt; 30 seconds</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
