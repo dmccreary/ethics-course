@@ -24,10 +24,10 @@ nav:
     - Ch 3. Data Gathering:
       - Content: chapters/03-data-gathering/index.md
       - Quiz: chapters/03-data-gathering/quiz.md
-    - Ch 4. Impact Analysis:
+    - Ch 4. Systems Thinking for Impact:
       - Content: chapters/04-impact-analysis/index.md
       - Quiz: chapters/04-impact-analysis/quiz.md
-    - Ch 5. Systems Thinking:
+    - Ch 5. Systems Thinking Archetypes:
       - Content: chapters/05-systems-thinking/index.md
       - Quiz: chapters/05-systems-thinking/quiz.md
     - Ch 6. Looking for Leverage:
@@ -41,11 +41,12 @@ nav:
       - Quiz: chapters/08-capstone-project/quiz.md
   
   - Micro Simulations:
-    - "Ranking Simulation": sims/ranking/index.md
-    - "Harm Bubble Chart": sims/harm-bubble-chart/index.md
-    - "Leverage Points Iceberg": sims/leverage-iceberg/index.md
-    - "Ethics Education Timeline": sims/ethics-education-timeline/index.md
-    - "Graph Viewer": sims/graph-viewer/index.md
+    - Ethics Education Timeline: sims/ethics-education-timeline/index.md
+    - Graph Viewer: sims/graph-viewer/index.md
+    - Harm Bubble Chart: sims/harm-bubble-chart/index.md
+    - Leverage Iceberg: sims/leverage-iceberg/index.md
+    - Ranking Simulation: sims/ranking/index.md
+    - Technology Adoption: sims/technology-adoption/index.md
   
   - Learning Graph:
     - Introduction: learning-graph/index.md

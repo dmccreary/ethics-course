@@ -22,7 +22,7 @@ That pattern repeated throughout my career. Ethics was treated as an afterthough
 
 None of it was illegal. All of it caused immense harm.
 
-## The Systems Thinking Solution
+## The Data-Drive Systems Thinking Solution
 
 Everything changed when I discovered systems thinking. I learned to see organizations not as collections of decisions but as *systems*—with feedback loops, leverage points, and emergent behaviors. I learned that complex problems rarely yield to simple solutions, but that small interventions at the right leverage points can transform entire systems.
 
