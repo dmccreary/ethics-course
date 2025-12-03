@@ -1,12 +1,12 @@
 ---
-title: Intervention Design and Leverage Points
+title: The Neurobiology of Moral Decision-Making
 description: Understanding the neurobiology of moral decision-making and how to design effective interventions that change behavior, organizations, and systems
 generated_by: claude skill chapter-content-generator
 date: 2025-11-30
 version: 0.03
 ---
 
-# Intervention Design and Leverage Points
+# The Neurobiology of Moral Decision-Making
 
 *Here's the uncomfortable truth about human beings: we're not the perfectly rational decision-makers we like to think we are. We routinely make choices that harm ourselves, our families, and our communities—often while believing we're doing the right thing. Understanding why this happens isn't just fascinating neuroscience; it's essential knowledge for anyone who wants to create positive change.*
 
