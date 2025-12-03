@@ -1,12 +1,15 @@
 ---
-title: Markets, Power, and Industry Cases
+title: Finding Leverage
 description: Finding your systems thinking superpower - small changes that create big impact through leverage points, market dynamics, and industry analysis
-generated_by: claude skill chapter-content-generator
+generated_by: claude skill chapter-content-generator v0.03
+edited_by: Dan McCreary
 date: 2025-11-30
 version: 0.03
+image: /chapters/06-looking-for-leverage/leverage-cover.png
+og:image: /chapters/06-looking-for-leverage/leverage-cover.png
 ---
 
-# Markets, Power, and Industry Cases
+# Finding Leverage
 
 *Here's where things get exciting. You've learned to see systems. You can draw CLDs, recognize archetypes, and dig for root causes. But seeing problems clearly—while essential—doesn't automatically mean you can fix them. Now we discover your superpower.*
 
