@@ -5,7 +5,7 @@ description: An interactive visualization of Donella Meadows' 12 Leverage Points
 
 # Leverage Points Iceberg
 
-<iframe src="main.html" height="660" width="100%" scrolling="no" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="main.html" height="560" width="100%" scrolling="no"></iframe>
 
 [Run the Leverage Iceberg MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 

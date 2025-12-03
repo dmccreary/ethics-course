@@ -5,8 +5,8 @@
 
 // Canvas dimensions
 let canvasWidth = 800;
-let drawHeight = 580;
-let controlHeight = 50;
+let drawHeight = 520;
+let controlHeight = 40;
 let canvasHeight = drawHeight + controlHeight;
 
 // Layout
@@ -270,8 +270,8 @@ function draw() {
 
 function drawIceberg() {
   let icebergLeft = 20;
-  let icebergTop = 60;
-  let icebergHeight = drawHeight - 100;
+  let icebergTop = 40;
+  let icebergHeight = drawHeight - 40;
 
   // Draw title
   fill(40);
