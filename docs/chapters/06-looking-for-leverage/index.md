@@ -44,6 +44,9 @@ Think of these twelve points as a ladder. The bottom rungs (12-10) are easy to r
 
 #### Diagram: Leverage Points Ladder
 
+<iframe src="../../sims/leverage-iceberg/main.html" height="560" width="100%" scrolling="no"></iframe>
+[Run the Leverage Iceberg MicroSim Fullscreen](../../sims/leverage-iceberg/main.html)
+
 <details markdown="1">
     <summary>Interactive Leverage Points Ladder Visualization</summary>
     Type: infographic
