@@ -8,7 +8,7 @@ edit_uri: 'blob/master/docs'
 
 nav:
   - Home: index.md
-  # - About the Course: about.md
+  - About This Course: about.md
   - Course Description: course-description.md
   
   - Chapters:
@@ -56,12 +56,12 @@ nav:
     - Glossary Quality Report: learning-graph/glossary-quality-report.md
     - FAQ Quality Report: learning-graph/faq-quality-report.md
     - Quiz Generation Report: learning-graph/quiz-generation-report.md
-    - learning-graph/book-metrics.md
-    - learning-graph/build-notes.md
-    - learning-graph/chapter-metrics.md
-    - learning-graph/diagram-details.md
-    - learning-graph/diagram-table.md
-  
+    - Book Metrics: learning-graph/book-metrics.md
+    - Chapter Metrics: learning-graph/chapter-metrics.md
+    - Diagram Table: learning-graph/diagram-table.md
+    - Diagram Details: learning-graph/diagram-details.md
+    - Build Notes: learning-graph/build-notes.md
+
   - Generative AI Prompts:
     - Intro: prompts/index.md
     - Learning Graph:
