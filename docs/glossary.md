@@ -1964,6 +1964,14 @@ Whistleblowers play crucial roles in exposing hidden harm and enabling accountab
 
 **Example:** Tobacco industry scientists revealing internal knowledge of health risks.
 
+#### Wicked Problems
+
+Complex social or policy challenges that are difficult or impossible to solve due to incomplete knowledge, interconnected causes, changing requirements, and the absence of a clear stopping point.
+
+Wicked problems resist traditional problem-solving approaches because every attempt to address them changes the problem itself. They have no definitive formulation, no stopping rule, and no objective measure of success. Understanding wicked problems helps explain why systemic issues like climate change, poverty, and healthcare reform persist despite decades of intervention attempts.
+
+**Example:** Climate change is a wicked problem because it involves competing values, uncertain science, global coordination challenges, and solutions that create new problems.
+
 #### Years Lived with Disability
 
 The component of DALYs measuring time spent in less-than-perfect health states.
