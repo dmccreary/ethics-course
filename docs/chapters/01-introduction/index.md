@@ -597,6 +597,8 @@ This process transforms vague ethical concerns into specific, actionable insight
 
 #### Diagram: Data-Driven Ethics Process Flow
 
+<iframe src="../../sims/ethics-process-flow/main.html" width="100%" height="450" scrolling="no" style="border: none; overflow: hidden;"></iframe>
+
 <details markdown="1">
     <summary>Data-Driven Ethics Analysis Process</summary>
     Type: workflow
