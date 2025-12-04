@@ -10,11 +10,40 @@ let currentFilter = 'all';
 let selectedNode = null;
 
 // ===========================================
-// URL PARAMETER DETECTION
+// VIEW POSITIONING
+// ===========================================
+// increase X to move the graph left
+// increase Y to move the graph up
+function positionView() {
+    if (network) {
+        network.moveTo({
+            position: { x: -10, y: -20 },
+            scale: 0.9,
+            animation: false
+        });
+    }
+}
+
+// ===========================================
+// ENVIRONMENT DETECTION
 // ===========================================
 function isSaveEnabled() {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get('enable-save') === 'true';
+}
+
+function isInIframe() {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true; // If access denied, we're in a cross-origin iframe
+    }
+}
+
+function isFullscreen() {
+    return !!(document.fullscreenElement ||
+              document.webkitFullscreenElement ||
+              document.mozFullScreenElement);
 }
 
 // ===========================================
@@ -95,7 +124,7 @@ function initializeNetwork() {
             width: typeConfig.width,
             arrows: { to: { enabled: true, scaleFactor: 0.8 } },
             smooth: { type: 'curvedCW', roundness: 0.1 },
-            font: { size: 10, align: 'middle', color: '#333', strokeWidth: 2, strokeColor: '#ffffff' },
+            font: { size: 10, align: 'middle', color: 'black', strokeWidth: 2, strokeColor: 'white' },
             type: edge.type,
             problematic: edge.problematic || false,
             description: edge.description,
@@ -113,10 +142,19 @@ function initializeNetwork() {
             selectConnectedEdges: true,
             hover: true,
             hoverConnectedEdges: true,
-            dragNodes: saveEnabled,  // Only allow dragging in save mode
-            dragView: saveEnabled,   // Only allow panning in save mode
-            zoomView: saveEnabled,   // Only allow zooming in save mode
-            navigationButtons: true
+            dragNodes: saveEnabled,                      // Only allow node dragging in save mode
+            dragView: saveEnabled || !isInIframe(),     // Enable pan in save mode or fullscreen
+            zoomView: saveEnabled || !isInIframe(),     // Enable zoom in save mode or fullscreen
+            navigationButtons: true,
+            keyboard: {
+                enabled: true,
+                bindToWindow: false,
+                speed: {
+                    x: 2,
+                    y: 2,
+                    zoom: 0.01
+                }
+            }
         },
         nodes: {
             shape: 'box',
@@ -139,14 +177,8 @@ function initializeNetwork() {
     const data = { nodes: nodes, edges: edges };
     network = new vis.Network(container, data, options);
 
-    // Position view to show the network centered-left
-    setTimeout(() => {
-        network.moveTo({
-            position: { x: -20, y: 0 },
-            scale: 0.9,
-            animation: false
-        });
-    }, 100);
+    // Position view after network renders
+    network.once('afterDrawing', positionView);
 
     // Set up event handlers
     setupEventHandlers();
@@ -489,13 +521,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Handle window resize
-    window.addEventListener('resize', function() {
-        if (network) {
-            network.moveTo({
-                position: { x: -20, y: 0 },
-                scale: 0.9,
-                animation: false
-            });
-        }
-    });
+    window.addEventListener('resize', positionView);
 });

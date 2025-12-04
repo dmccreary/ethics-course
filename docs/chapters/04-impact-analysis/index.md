@@ -106,6 +106,9 @@ The structure of interconnections—not just what's connected but how—determin
 
 #### Diagram: System Components Map
 
+<iframe src="../../sims/tobacco-system/main.html" height="560" width="100%" scrolling="no" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
+[Run the Tobacco System MicroSim Fullscreen](../../sims/tobacco-system/main.html)
+
 <details markdown="1">
     <summary>Tobacco Industry System Components</summary>
     Type: diagram
@@ -122,6 +125,7 @@ The structure of interconnections—not just what's connected but how—determin
 
     1. INDUSTRY (Red)
        - Tobacco companies
+       - Tabacco products
        - Advertising agencies
        - Retail outlets
        - Tobacco farmers

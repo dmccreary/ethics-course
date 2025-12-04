@@ -3,7 +3,7 @@
     "title": "Tobacco Industry System Components",
     "description": "Network diagram showing interconnections in the tobacco industry",
     "version": "1.0",
-    "lastUpdated": "2025-12-04"
+    "lastUpdated": "2025-12-03"
   },
   "categories": {
     "industry": {
@@ -68,8 +68,8 @@
       "id": "tobacco_companies",
       "label": "Tobacco\nCompanies",
       "category": "industry",
-      "x": -163,
-      "y": -107,
+      "x": -66,
+      "y": -118,
       "description": "Major tobacco corporations (Philip Morris, BAT, etc.) that manufacture and distribute tobacco products globally.",
       "title": "Tobacco Companies"
     },
@@ -95,8 +95,8 @@
       "id": "farmers",
       "label": "Tobacco\nFarmers",
       "category": "industry",
-      "x": -114,
-      "y": -256,
+      "x": -132,
+      "y": -263,
       "description": "Agricultural workers who grow tobacco, often economically dependent on the industry.",
       "title": "Tobacco Farmers"
     },
@@ -113,7 +113,7 @@
       "id": "tax_authorities",
       "label": "Tax\nAuthorities",
       "category": "government",
-      "x": 117,
+      "x": 114,
       "y": -37,
       "description": "Government bodies that collect tobacco taxes—a significant revenue source.",
       "title": "Tax Authorities"
@@ -131,8 +131,8 @@
       "id": "legislators",
       "label": "Legislators",
       "category": "government",
-      "x": 78,
-      "y": -140,
+      "x": 98,
+      "y": -137,
       "description": "Elected officials who create tobacco-related laws and receive industry lobbying.",
       "title": "Legislators"
     },
@@ -140,8 +140,8 @@
       "id": "healthcare",
       "label": "Healthcare\nSystems",
       "category": "health",
-      "x": 78,
-      "y": 194,
+      "x": 72,
+      "y": 183,
       "description": "Hospitals, clinics, and providers treating smoking-related diseases.",
       "title": "Healthcare Systems"
     },
@@ -149,8 +149,8 @@
       "id": "insurance",
       "label": "Insurance\nCompanies",
       "category": "health",
-      "x": 160,
-      "y": 99,
+      "x": 179,
+      "y": 87,
       "description": "Health insurers who bear costs of tobacco-related illnesses.",
       "title": "Insurance Companies"
     },
@@ -167,8 +167,8 @@
       "id": "treatment",
       "label": "Treatment\nProviders",
       "category": "health",
-      "x": -53,
-      "y": 200,
+      "x": -46,
+      "y": 163,
       "description": "Smoking cessation programs and addiction treatment specialists.",
       "title": "Treatment Providers"
     },
@@ -176,8 +176,8 @@
       "id": "consumers",
       "label": "Consumers\n(Smokers)",
       "category": "society",
-      "x": -1,
-      "y": 88,
+      "x": 1,
+      "y": 70,
       "description": "Adult tobacco users who purchase and consume products.",
       "title": "Consumers/Smokers"
     },
@@ -185,8 +185,8 @@
       "id": "youth",
       "label": "Youth",
       "category": "society",
-      "x": -159,
-      "y": 167,
+      "x": -149,
+      "y": 160,
       "description": "Potential new users—primary target for industry growth strategies.",
       "title": "Youth (Potential New Users)"
     },
@@ -194,8 +194,8 @@
       "id": "advocacy",
       "label": "Advocacy\nGroups",
       "category": "society",
-      "x": 247,
-      "y": -134,
+      "x": 250,
+      "y": -152,
       "description": "Anti-smoking organizations and public health advocates.",
       "title": "Advocacy Groups"
     },
@@ -212,8 +212,8 @@
       "id": "cigarettes_vapes",
       "label": "Cigarettes\nVapes",
       "category": "industry",
-      "x": -12,
-      "y": -39,
+      "x": -66,
+      "y": -30,
       "description": "Tobacco products including traditional cigarettes, e-cigarettes, and vaping devices.",
       "title": "Cigarettes and Vapes"
     }

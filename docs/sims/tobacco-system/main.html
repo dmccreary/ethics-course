@@ -63,14 +63,20 @@
                 <div class="filter-label">Filter Connections:</div>
                 <select id="filter-select">
                     <option value="all">Show All</option>
-                    <option value="money">Money Flows Only</option>
-                    <option value="information">Information Only</option>
-                    <option value="influence">Influence Only</option>
-                    <option value="products">Products Only</option>
-                    <option value="regulatory">Regulatory Only</option>
-                    <option value="problematic">Problematic Only</option>
+                    <option value="money">Money Flows</option>
+                    <option value="information">Information</option>
+                    <option value="influence">Influence</option>
+                    <option value="products">Products</option>
+                    <option value="regulatory">Regulatory</option>
+                    <option value="problematic">Problematic</option>
                 </select>
                 <button class="btn btn-secondary" id="reset-btn">Reset</button>
+            </div>
+
+            <div class="status-info" id="status-info">
+                <div class="status-text" id="status-text">
+                    Click or hover over any node to see details.
+                </div>
             </div>
 
             <!-- Save controls - only visible when ?enable-save=true -->
@@ -80,19 +86,7 @@
                 <div class="save-hint">Drag nodes to reposition, then save</div>
             </div>
 
-            <div class="status-info" id="status-info">
-                <div class="status-title">Component Details:</div>
-                <div class="status-text" id="status-text">
-                    Click or hover over any node to see its description and connections.
-                </div>
-            </div>
-
-            <div class="annotation-box" id="annotation-box">
-                <div class="annotation-title">System Dynamics:</div>
-                <div class="annotation-text" id="annotation-text">
-                    This diagram shows how the tobacco industry operates as a complex system with multiple stakeholders and feedback loops.
-                </div>
-            </div>
+            
         </div>
     </div>
 
