@@ -35,7 +35,7 @@ let industries = [
     summary: "8.1M deaths/year from air pollution; major climate driver"
   },
   {
-    name: "Ultra-processed Foods",
+    name: "Ultra\nProcessed\nFoods",
     harmToPeople: 100, // 11M deaths
     harmToPlanet: 35,
     economicImpact: 95,
@@ -107,7 +107,7 @@ let industries = [
     summary: "14.5% of anthropogenic GHG; antimicrobial resistance risks"
   },
   {
-    name: "Deforestation",
+    name: "Defor-\nestation",
     harmToPeople: 30, // Indirect: Indigenous rights
     harmToPlanet: 95, // Biodiversity loss, carbon
     economicImpact: 60,
@@ -272,14 +272,16 @@ function drawQuadrantLabels() {
   let midY = (margin + drawHeight - margin) / 2;
 
   // Upper right - worst quadrant
-  textAlign(CENTER, CENTER);
-  text("High harm to both", canvasWidth - margin - 80, margin + 40);
+  textAlign(RIGHT, TOP);
+  text("High harm to both", canvasWidth - margin, 15);
 
   // Upper left
-  text("High people harm\nLower planet harm", margin + 80, margin + 40);
+  textAlign(LEFT, TOP);
+  text("High people harm\nLower planet harm", margin, 15);
 
   // Lower right
-  text("High planet harm\nLower people harm", canvasWidth - margin - 80, drawHeight - margin - 40);
+  textAlign(RIGHT, TOP);
+  text("High planet harm\nLower people harm", canvasWidth - margin - 20, drawHeight - margin - 40);
 }
 
 function drawBubble(bubble, isHovered) {
@@ -299,7 +301,7 @@ function drawBubble(bubble, isHovered) {
   circle(bubble.x, bubble.y, bubble.size);
 
   // Label for larger bubbles or when hovered
-  if (bubble.size > 50 || isHovered) {
+  if (bubble.size > 40 || isHovered) {
     fill(255);
     noStroke();
     textAlign(CENTER, CENTER);

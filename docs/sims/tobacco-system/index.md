@@ -7,7 +7,8 @@ description: An interactive network diagram showing the interconnected stakehold
 
 <iframe src="main.html" height="560" width="100%" scrolling="no" style="border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-[Run the Tobacco System MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Run Fullscreen](./main.html){ .md-button .md-button--primary }
+[Edit](./main.html?enable-save=true){ .md-button }
 
 ## About This Visualization
 
