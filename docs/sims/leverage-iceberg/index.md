@@ -9,7 +9,7 @@ description: An interactive visualization of Donella Meadows' 12 Leverage Points
 
 [Run the Leverage Iceberg MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
 
-[Edit in p5.js Editor](https://editor.p5js.org/){ .md-button }
+[Edit in p5.js Editor](hhttps://editor.p5js.org/dmccreary/sketches/hObQcK1cz){ .md-button }
 
 ## About This Visualization
 

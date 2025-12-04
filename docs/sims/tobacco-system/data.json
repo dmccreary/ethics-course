@@ -207,6 +207,15 @@
       "y": 0,
       "description": "News outlets and entertainment that shape public perception of smoking.",
       "title": "Media"
+    },
+    {
+      "id": "cigarettes_vapes",
+      "label": "Cigarettes\nVapes",
+      "category": "industry",
+      "x": -66,
+      "y": -30,
+      "description": "Tobacco products including traditional cigarettes, e-cigarettes, and vaping devices.",
+      "title": "Cigarettes and Vapes"
     }
   ],
   "edges": [
@@ -237,18 +246,26 @@
     },
     {
       "from": "consumers",
-      "to": "tobacco_companies",
+      "to": "cigarettes_vapes",
       "type": "money",
       "label": "Purchases",
-      "description": "Consumer purchases fund the industry",
+      "description": "Consumer purchases of tobacco and vaping products",
       "problematic": false
     },
     {
-      "from": "consumers",
+      "from": "tobacco_companies",
+      "to": "cigarettes_vapes",
+      "type": "products",
+      "label": "Produces",
+      "description": "Companies manufacture cigarettes and vaping products",
+      "problematic": false
+    },
+    {
+      "from": "cigarettes_vapes",
       "to": "tax_authorities",
       "type": "money",
       "label": "Taxes",
-      "description": "Tobacco taxes paid by consumers",
+      "description": "Tobacco and vape product taxes collected at point of sale",
       "problematic": false
     },
     {
@@ -342,7 +359,7 @@
       "problematic": false
     },
     {
-      "from": "tobacco_companies",
+      "from": "cigarettes_vapes",
       "to": "retail",
       "type": "products",
       "label": "Distribution",
