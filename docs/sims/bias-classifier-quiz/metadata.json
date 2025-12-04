@@ -1,0 +1,110 @@
+{
+  "$schema": "https://github.com/dmccreary/microsims/blob/main/src/microsim-schema/microsim-schema.json",
+  "dublinCore": {
+    "title": "Cognitive Bias Recognition Quiz",
+    "creator": "Dan McCreary",
+    "subject": ["Ethics", "Critical Thinking", "Cognitive Psychology", "Data Literacy"],
+    "description": "An interactive quiz game that presents real-world scenarios and asks students to identify which cognitive bias is being demonstrated. Includes 8 scenarios covering cherry picking, availability heuristic, ad hominem bias, anchoring, framing effect, survivorship bias, confirmation bias, and correlation-causation fallacy.",
+    "date": "2025-12-03",
+    "type": "Interactive Simulation",
+    "format": "text/html",
+    "language": "en",
+    "rights": "CC BY 4.0"
+  },
+  "educational": {
+    "gradeLevel": "9-12, Undergraduate",
+    "subjectArea": "Ethics, Critical Thinking",
+    "topic": "Cognitive Biases in Ethical Reasoning",
+    "learningObjectives": [
+      "Identify common cognitive biases in realistic scenarios",
+      "Distinguish between similar biases such as cherry picking and confirmation bias",
+      "Explain why specific reasoning patterns qualify as biased thinking",
+      "Apply bias recognition skills to evaluate arguments and data presentations"
+    ],
+    "bloomsTaxonomyLevel": "Apply (L3)",
+    "duration": "15-20 minutes",
+    "prerequisites": [
+      "Basic understanding of what cognitive biases are",
+      "Familiarity with concepts of evidence and argumentation"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "version": "1.11.10",
+    "canvasDimensions": "800x500",
+    "responsive": "Width-responsive",
+    "dependencies": ["p5.js CDN"],
+    "dataFiles": ["data.json"],
+    "accessibility": {
+      "screenReaderDescription": true,
+      "keyboardNavigation": false,
+      "highContrast": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "button",
+        "name": "Option buttons",
+        "description": "Four multiple choice buttons for selecting the identified bias"
+      },
+      {
+        "type": "button",
+        "name": "Show Hint",
+        "description": "Displays a hint to help identify the bias (reduces points from 10 to 5)"
+      },
+      {
+        "type": "button",
+        "name": "Explain",
+        "description": "Shows detailed explanation of why the answer is correct"
+      },
+      {
+        "type": "button",
+        "name": "Next Scenario",
+        "description": "Advances to the next quiz scenario"
+      },
+      {
+        "type": "button",
+        "name": "Restart Quiz",
+        "description": "Resets the quiz with randomized question order"
+      }
+    ]
+  },
+  "simulationModel": {
+    "modelType": "Quiz/Assessment",
+    "variables": [
+      "currentScenarioIndex",
+      "score",
+      "answered",
+      "selectedAnswer",
+      "usedHint"
+    ],
+    "scoringSystem": {
+      "correctWithoutHint": 10,
+      "correctWithHint": 5,
+      "incorrect": 0
+    },
+    "assumptions": [
+      "Each scenario demonstrates one primary cognitive bias",
+      "Distractor options are plausible but distinguishable from correct answer"
+    ],
+    "limitations": [
+      "Real-world scenarios may involve multiple overlapping biases",
+      "Quiz format cannot capture nuanced understanding"
+    ]
+  },
+  "contentMetadata": {
+    "biasesCovered": [
+      "Cherry Picking",
+      "Availability Heuristic",
+      "Ad Hominem Bias",
+      "Anchoring",
+      "Framing Effect",
+      "Survivorship Bias",
+      "Confirmation Bias",
+      "Correlation-Causation Fallacy"
+    ],
+    "scenarioCount": 8,
+    "randomizedOrder": true
+  }
+}
