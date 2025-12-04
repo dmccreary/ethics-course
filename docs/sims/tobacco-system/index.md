@@ -80,24 +80,124 @@ Three critical dynamics are highlighted in this system:
 
 - Built with vis-network.js
 - Responsive design optimized for narrow iframes
-- Mouse zoom/pan disabled to prevent scroll interference
-- Navigation buttons enabled for accessibility
+- Navigation buttons enabled for zoom control
 - Data stored in separate `data.json` for easy editing
+
+## File Structure
+
+```
+tobacco-system/
+├── main.html           # HTML wrapper
+├── tobacco-system.js   # Visualization logic
+├── style.css           # Styling
+├── data.json           # Node positions, edges, and metadata
+├── index.md            # This documentation
+└── metadata.json       # Dublin Core metadata
+```
 
 ## Editor Mode
 
 To reposition nodes and save the layout:
 
-1. Open the MicroSim with `?enable-save=true` appended to the URL:
-   ```
-   main.html?enable-save=true
-   ```
-2. Drag nodes to reposition them on the canvas
-3. Use mouse wheel to zoom and drag to pan
-4. Click **Save Positions** to download the updated `data.json`
-5. Replace the existing `data.json` file with the downloaded version
+1. Click the **Edit** button below the diagram or append `?enable-save=true` to the URL
+2. **Drag nodes** to reposition them on the canvas
+3. **Mouse wheel** to zoom in/out
+4. **Drag canvas** to pan the view
+5. Click **Save Positions** to download the updated `data.json`
+6. Replace the existing `data.json` file in the project with the downloaded version
 
 [Open Editor Mode](./main.html?enable-save=true){ .md-button }
+
+## Customization Guide
+
+### Modifying Node Positions
+
+Node positions are stored in `data.json` under the `nodes` array. Each node has `x` and `y` coordinates:
+
+```json
+{
+  "id": "tobacco_companies",
+  "label": "Tobacco\nCompanies",
+  "category": "industry",
+  "x": -163,
+  "y": -107,
+  "description": "Major tobacco corporations...",
+  "title": "Tobacco Companies"
+}
+```
+
+**Two ways to modify positions:**
+
+1. **Visual Editor** (recommended): Use Editor Mode to drag nodes, then save
+2. **Manual Edit**: Directly edit `x` and `y` values in `data.json`
+
+### Setting Initial View (Zoom and Pan)
+
+The initial view position is controlled in `tobacco-system.js` in the `positionView()` function:
+
+```javascript
+function positionView() {
+    if (network) {
+        network.moveTo({
+            position: { x: -10, y: -20 },  // Pan position
+            scale: 0.9,                     // Zoom level
+            animation: false
+        });
+    }
+}
+```
+
+**Parameters:**
+
+| Parameter | Effect |
+|-----------|--------|
+| `position.x` | Increase to move view left (shows more right side) |
+| `position.y` | Increase to move view up (shows more bottom) |
+| `scale` | `1.0` = default, `< 1.0` = zoomed out, `> 1.0` = zoomed in |
+
+### Adding New Nodes
+
+Add a new node object to the `nodes` array in `data.json`:
+
+```json
+{
+  "id": "new_node_id",
+  "label": "Node\nLabel",
+  "category": "industry",
+  "x": 0,
+  "y": 0,
+  "description": "Description shown on hover",
+  "title": "Full Node Title"
+}
+```
+
+**Categories:** `industry` (red), `government` (blue), `health` (green), `society` (yellow)
+
+### Adding New Edges
+
+Add a new edge object to the `edges` array in `data.json`:
+
+```json
+{
+  "from": "source_node_id",
+  "to": "target_node_id",
+  "type": "money",
+  "label": "Edge Label",
+  "description": "Description shown on hover",
+  "problematic": false
+}
+```
+
+**Edge types:** `money`, `information`, `influence`, `products`, `regulatory`
+
+### Saving Your Changes
+
+After downloading `data.json` from Editor Mode:
+
+1. Locate the downloaded file (usually in your Downloads folder)
+2. Copy it to replace `docs/sims/tobacco-system/data.json` in the project
+3. Refresh the page to see your changes
+4. Commit to git if satisfied with the layout
 
 ## Embedding
 
