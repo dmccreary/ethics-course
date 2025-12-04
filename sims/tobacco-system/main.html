@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobacco Industry System Components</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="network"></div>
+
+        <!-- Title at top center -->
+        <div class="title">Tobacco Industry System Components</div>
+
+        <!-- Legend in upper left -->
+        <div class="legend">
+            <div class="legend-title">Nodes</div>
+            <div class="legend-item">
+                <div class="legend-color color-industry"></div>
+                <span><strong>Industry</strong></span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-government"></div>
+                <span><strong>Government</strong></span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-health"></div>
+                <span><strong>Health</strong></span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-society"></div>
+                <span><strong>Society</strong></span>
+            </div>
+            <div class="legend-divider"></div>
+            <div class="legend-title">Edges</div>
+            <div class="legend-item">
+                <div class="legend-line solid"></div>
+                <span>Money flows</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line information"></div>
+                <span>Information</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line influence"></div>
+                <span>Influence</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line dotted"></div>
+                <span>Products</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-line bold-line"></div>
+                <span>Regulatory</span>
+            </div>
+        </div>
+
+        <!-- Right panel with controls and status -->
+        <div class="right-panel">
+            <div class="controls">
+                <div class="filter-label">Filter Connections:</div>
+                <select id="filter-select">
+                    <option value="all">Show All</option>
+                    <option value="money">Money Flows</option>
+                    <option value="information">Information</option>
+                    <option value="influence">Influence</option>
+                    <option value="products">Products</option>
+                    <option value="regulatory">Regulatory</option>
+                    <option value="problematic">Problematic</option>
+                </select>
+                <button class="btn btn-secondary" id="reset-btn">Reset</button>
+            </div>
+
+            <div class="status-info" id="status-info">
+                <div class="status-text" id="status-text">
+                    Click or hover over any node to see details.
+                </div>
+            </div>
+
+            <!-- Save controls - only visible when ?enable-save=true -->
+            <div class="save-controls" id="save-controls" style="display: none;">
+                <div class="save-label">Editor Mode</div>
+                <button class="btn btn-save" id="save-btn">Save Positions</button>
+                <div class="save-hint">Drag nodes to reposition, then save</div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <script src="tobacco-system.js"></script>
+</body>
+</html>

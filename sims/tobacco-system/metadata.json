@@ -1,0 +1,43 @@
+{
+  "title": "Tobacco Industry System Components",
+  "description": "An interactive network diagram showing the interconnected stakeholders and dynamics of the tobacco industry as a complex system, including money flows, influence, products, and regulatory relationships.",
+  "creator": "Dan McCreary",
+  "date": "2025-12-03",
+  "subject": "Systems Thinking, Ethics, Public Health",
+  "type": "Interactive Visualization",
+  "format": "text/html",
+  "identifier": "tobacco-system-microsim-v1",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "educationalLevel": "High School, Undergraduate",
+  "bloomLevel": "Understand (L2)",
+  "learningObjective": "Students will understand how to identify system components and map their interconnections",
+  "keywords": [
+    "tobacco industry",
+    "systems thinking",
+    "stakeholder analysis",
+    "regulatory capture",
+    "public health",
+    "ethics",
+    "network diagram",
+    "complex systems",
+    "feedback loops"
+  ],
+  "technology": {
+    "library": "vis-network.js",
+    "version": "standalone/umd/vis-network.min.js",
+    "responsive": true,
+    "interactivity": [
+      "node hover",
+      "node click",
+      "edge hover",
+      "connection filtering",
+      "problematic connection highlighting"
+    ]
+  },
+  "relatedChapters": [
+    "04-impact-analysis",
+    "05-systems-thinking",
+    "06-looking-for-leverage"
+  ]
+}

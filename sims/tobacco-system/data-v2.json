@@ -1,0 +1,447 @@
+{
+  "metadata": {
+    "title": "Tobacco Industry System Components",
+    "description": "Network diagram showing interconnections in the tobacco industry",
+    "version": "1.0",
+    "lastUpdated": "2025-12-03"
+  },
+  "categories": {
+    "industry": {
+      "background": "#e74c3c",
+      "border": "#c0392b",
+      "font": "#ffffff"
+    },
+    "government": {
+      "background": "#3498db",
+      "border": "#2980b9",
+      "font": "#ffffff"
+    },
+    "health": {
+      "background": "#27ae60",
+      "border": "#1e8449",
+      "font": "#ffffff"
+    },
+    "society": {
+      "background": "#f1c40f",
+      "border": "#d4ac0d",
+      "font": "#333333"
+    }
+  },
+  "edgeTypes": {
+    "money": {
+      "color": "#27ae60",
+      "dashes": false,
+      "width": 2
+    },
+    "information": {
+      "color": "#3498db",
+      "dashes": [
+        8,
+        4
+      ],
+      "width": 2
+    },
+    "influence": {
+      "color": "#9b59b6",
+      "dashes": [
+        12,
+        4
+      ],
+      "width": 2
+    },
+    "products": {
+      "color": "#e67e22",
+      "dashes": [
+        3,
+        3
+      ],
+      "width": 2
+    },
+    "regulatory": {
+      "color": "#2c3e50",
+      "dashes": false,
+      "width": 4
+    }
+  },
+  "nodes": [
+    {
+      "id": "tobacco_companies",
+      "label": "Tobacco\nCompanies",
+      "category": "industry",
+      "x": -66,
+      "y": -118,
+      "description": "Major tobacco corporations (Philip Morris, BAT, etc.) that manufacture and distribute tobacco products globally.",
+      "title": "Tobacco Companies"
+    },
+    {
+      "id": "advertising",
+      "label": "Advertising\nAgencies",
+      "category": "industry",
+      "x": -167,
+      "y": 47,
+      "description": "Marketing firms that create campaigns to promote tobacco products and shape public perception.",
+      "title": "Advertising Agencies"
+    },
+    {
+      "id": "retail",
+      "label": "Retail\nOutlets",
+      "category": "industry",
+      "x": -26,
+      "y": -263,
+      "description": "Stores, gas stations, and vendors that sell tobacco products directly to consumers.",
+      "title": "Retail Outlets"
+    },
+    {
+      "id": "farmers",
+      "label": "Tobacco\nFarmers",
+      "category": "industry",
+      "x": -132,
+      "y": -263,
+      "description": "Agricultural workers who grow tobacco, often economically dependent on the industry.",
+      "title": "Tobacco Farmers"
+    },
+    {
+      "id": "regulators",
+      "label": "Regulatory\nAgencies",
+      "category": "government",
+      "x": 171,
+      "y": -251,
+      "description": "FDA, FTC, and other agencies responsible for tobacco regulation and enforcement.",
+      "title": "Regulatory Agencies (FDA, etc.)"
+    },
+    {
+      "id": "tax_authorities",
+      "label": "Tax\nAuthorities",
+      "category": "government",
+      "x": 114,
+      "y": -37,
+      "description": "Government bodies that collect tobacco taxes—a significant revenue source.",
+      "title": "Tax Authorities"
+    },
+    {
+      "id": "public_health",
+      "label": "Public Health\nDepartments",
+      "category": "government",
+      "x": 221,
+      "y": -8,
+      "description": "Government agencies focused on population health and anti-smoking campaigns.",
+      "title": "Public Health Departments"
+    },
+    {
+      "id": "legislators",
+      "label": "Legislators",
+      "category": "government",
+      "x": 98,
+      "y": -137,
+      "description": "Elected officials who create tobacco-related laws and receive industry lobbying.",
+      "title": "Legislators"
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare\nSystems",
+      "category": "health",
+      "x": 72,
+      "y": 183,
+      "description": "Hospitals, clinics, and providers treating smoking-related diseases.",
+      "title": "Healthcare Systems"
+    },
+    {
+      "id": "insurance",
+      "label": "Insurance\nCompanies",
+      "category": "health",
+      "x": 179,
+      "y": 87,
+      "description": "Health insurers who bear costs of tobacco-related illnesses.",
+      "title": "Insurance Companies"
+    },
+    {
+      "id": "researchers",
+      "label": "Medical\nResearchers",
+      "category": "health",
+      "x": 224,
+      "y": -60,
+      "description": "Scientists studying tobacco health effects—sometimes industry-funded.",
+      "title": "Medical Researchers"
+    },
+    {
+      "id": "treatment",
+      "label": "Treatment\nProviders",
+      "category": "health",
+      "x": -46,
+      "y": 163,
+      "description": "Smoking cessation programs and addiction treatment specialists.",
+      "title": "Treatment Providers"
+    },
+    {
+      "id": "consumers",
+      "label": "Consumers\n(Smokers)",
+      "category": "society",
+      "x": 1,
+      "y": 70,
+      "description": "Adult tobacco users who purchase and consume products.",
+      "title": "Consumers/Smokers"
+    },
+    {
+      "id": "youth",
+      "label": "Youth",
+      "category": "society",
+      "x": -149,
+      "y": 160,
+      "description": "Potential new users—primary target for industry growth strategies.",
+      "title": "Youth (Potential New Users)"
+    },
+    {
+      "id": "advocacy",
+      "label": "Advocacy\nGroups",
+      "category": "society",
+      "x": 250,
+      "y": -152,
+      "description": "Anti-smoking organizations and public health advocates.",
+      "title": "Advocacy Groups"
+    },
+    {
+      "id": "media",
+      "label": "Media",
+      "category": "society",
+      "x": -90,
+      "y": 0,
+      "description": "News outlets and entertainment that shape public perception of smoking.",
+      "title": "Media"
+    },
+    {
+      "id": "cigarettes_vapes",
+      "label": "Cigarettes\nVapes",
+      "category": "industry",
+      "x": -66,
+      "y": -30,
+      "description": "Tobacco products including traditional cigarettes, e-cigarettes, and vaping devices.",
+      "title": "Cigarettes and Vapes"
+    }
+  ],
+  "edges": [
+    {
+      "from": "tobacco_companies",
+      "to": "advertising",
+      "type": "money",
+      "label": "Ad Spend",
+      "description": "Companies pay agencies for marketing",
+      "problematic": false
+    },
+    {
+      "from": "tobacco_companies",
+      "to": "legislators",
+      "type": "money",
+      "label": "Lobbying",
+      "description": "Industry lobbying and campaign contributions",
+      "problematic": true,
+      "annotation": "Regulatory capture"
+    },
+    {
+      "from": "tobacco_companies",
+      "to": "researchers",
+      "type": "money",
+      "label": "Funding",
+      "description": "Industry-funded research with potential bias",
+      "problematic": true
+    },
+    {
+      "from": "consumers",
+      "to": "cigarettes_vapes",
+      "type": "money",
+      "label": "Purchases",
+      "description": "Consumer purchases of tobacco and vaping products",
+      "problematic": false
+    },
+    {
+      "from": "tobacco_companies",
+      "to": "cigarettes_vapes",
+      "type": "products",
+      "label": "Produces",
+      "description": "Companies manufacture cigarettes and vaping products",
+      "problematic": false
+    },
+    {
+      "from": "cigarettes_vapes",
+      "to": "tax_authorities",
+      "type": "money",
+      "label": "Taxes",
+      "description": "Tobacco and vape product taxes collected at point of sale",
+      "problematic": false
+    },
+    {
+      "from": "tobacco_companies",
+      "to": "farmers",
+      "type": "money",
+      "label": "Crop Payment",
+      "description": "Payment for tobacco crops",
+      "problematic": false
+    },
+    {
+      "from": "consumers",
+      "to": "healthcare",
+      "type": "money",
+      "label": "Medical Bills",
+      "description": "Healthcare costs from smoking-related illness",
+      "problematic": false,
+      "annotation": "Externalized costs"
+    },
+    {
+      "from": "insurance",
+      "to": "healthcare",
+      "type": "money",
+      "label": "Claims",
+      "description": "Insurance payments for treatment",
+      "problematic": false
+    },
+    {
+      "from": "advertising",
+      "to": "consumers",
+      "type": "influence",
+      "label": "Marketing",
+      "description": "Marketing messages targeting consumers",
+      "problematic": true,
+      "annotation": "Information asymmetry"
+    },
+    {
+      "from": "advertising",
+      "to": "youth",
+      "type": "influence",
+      "label": "Targeting",
+      "description": "Marketing reaching youth audiences",
+      "problematic": true
+    },
+    {
+      "from": "researchers",
+      "to": "regulators",
+      "type": "information",
+      "label": "Evidence",
+      "description": "Scientific evidence informing policy",
+      "problematic": false
+    },
+    {
+      "from": "advocacy",
+      "to": "legislators",
+      "type": "influence",
+      "label": "Advocacy",
+      "description": "Public health advocacy efforts",
+      "problematic": false
+    },
+    {
+      "from": "public_health",
+      "to": "consumers",
+      "type": "influence",
+      "label": "Campaigns",
+      "description": "Anti-smoking campaigns and education",
+      "problematic": false
+    },
+    {
+      "from": "media",
+      "to": "consumers",
+      "type": "information",
+      "label": "Coverage",
+      "description": "Media coverage shaping perceptions",
+      "problematic": false
+    },
+    {
+      "from": "tobacco_companies",
+      "to": "media",
+      "type": "influence",
+      "label": "PR",
+      "description": "Industry PR and media relationships",
+      "problematic": true
+    },
+    {
+      "from": "farmers",
+      "to": "tobacco_companies",
+      "type": "products",
+      "label": "Tobacco Leaf",
+      "description": "Raw tobacco leaf supply",
+      "problematic": false
+    },
+    {
+      "from": "cigarettes_vapes",
+      "to": "retail",
+      "type": "products",
+      "label": "Distribution",
+      "description": "Products distributed to retailers",
+      "problematic": false
+    },
+    {
+      "from": "retail",
+      "to": "consumers",
+      "type": "products",
+      "label": "Sales",
+      "description": "Products sold to consumers",
+      "problematic": false
+    },
+    {
+      "from": "treatment",
+      "to": "consumers",
+      "type": "products",
+      "label": "Cessation",
+      "description": "Cessation products and services",
+      "problematic": false
+    },
+    {
+      "from": "regulators",
+      "to": "tobacco_companies",
+      "type": "regulatory",
+      "label": "Regulations",
+      "description": "Rules on manufacturing, labeling, marketing",
+      "problematic": false
+    },
+    {
+      "from": "regulators",
+      "to": "retail",
+      "type": "regulatory",
+      "label": "Age Limits",
+      "description": "Age verification and sales restrictions",
+      "problematic": false
+    },
+    {
+      "from": "legislators",
+      "to": "regulators",
+      "type": "regulatory",
+      "label": "Laws",
+      "description": "Legislative framework for regulation",
+      "problematic": false
+    },
+    {
+      "from": "consumers",
+      "to": "insurance",
+      "type": "regulatory",
+      "label": "Premiums",
+      "description": "Insurance coverage requirements",
+      "problematic": false
+    }
+  ],
+  "annotations": {
+    "regulatory_capture": {
+      "title": "Regulatory Capture",
+      "text": "Industry lobbying can lead to regulators serving industry interests rather than public health.",
+      "nodes": [
+        "tobacco_companies",
+        "legislators",
+        "regulators"
+      ]
+    },
+    "information_asymmetry": {
+      "title": "Information Asymmetry",
+      "text": "Industry has more information about product harms than consumers, creating an unfair advantage.",
+      "nodes": [
+        "tobacco_companies",
+        "advertising",
+        "consumers"
+      ]
+    },
+    "externalized_costs": {
+      "title": "Externalized Costs",
+      "text": "Healthcare costs of smoking are borne by consumers and society, not the industry.",
+      "nodes": [
+        "consumers",
+        "healthcare",
+        "insurance"
+      ]
+    }
+  }
+}

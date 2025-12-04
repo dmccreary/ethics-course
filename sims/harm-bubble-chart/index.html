@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Interactive 2D bubble chart comparing industries by harm to people (Y-axis) versus harm to planet (X-axis), with bubble size representing economic impact.">
+        <meta name="description" content="Interactive 2D bubble chart comparing industries by gross harm to people (Y-axis) versus gross harm to planet (X-axis), with bubble size representing economic impact.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -65,7 +65,7 @@
       
         <meta  property="og:title"  content="Harmful Industries Bubble Chart - Ethics in Modern Society" >
       
-        <meta  property="og:description"  content="Interactive 2D bubble chart comparing industries by harm to people (Y-axis) versus harm to planet (X-axis), with bubble size representing economic impact." >
+        <meta  property="og:description"  content="Interactive 2D bubble chart comparing industries by gross harm to people (Y-axis) versus gross harm to planet (X-axis), with bubble size representing economic impact." >
       
         <meta property="og:image" content="https://dmccreary.github.io/ethics-course/img/cover-preview.png">
       
@@ -81,7 +81,7 @@
       
         <meta  name="twitter:title"  content="Harmful Industries Bubble Chart - Ethics in Modern Society" >
       
-        <meta  name="twitter:description"  content="Interactive 2D bubble chart comparing industries by harm to people (Y-axis) versus harm to planet (X-axis), with bubble size representing economic impact." >
+        <meta  name="twitter:description"  content="Interactive 2D bubble chart comparing industries by gross harm to people (Y-axis) versus gross harm to planet (X-axis), with bubble size representing economic impact." >
       
         <meta name="twitter:image" content="https://dmccreary.github.io/ethics-course/img/cover-preview.png">
       
@@ -406,6 +406,10 @@
           
         
       
+        
+          
+        
+      
     
     
     
@@ -530,6 +534,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#understanding-gross-harm-vs-net-harm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Gross Harm vs. Net Harm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#how-to-use" class="md-nav__link">
     <span class="md-ellipsis">
       How to Use
@@ -560,6 +573,15 @@
   <a href="#learning-applications" class="md-nav__link">
     <span class="md-ellipsis">
       Learning Applications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#future-enhancement-net-harm-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Enhancement: Net Harm Visualization
     </span>
   </a>
   
@@ -633,6 +655,27 @@
   
   <span class="md-ellipsis">
     Technology Adoption
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tobacco-system/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tobacco Industry System
   </span>
   
 
@@ -914,6 +957,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#understanding-gross-harm-vs-net-harm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding Gross Harm vs. Net Harm
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#how-to-use" class="md-nav__link">
     <span class="md-ellipsis">
       How to Use
@@ -944,6 +996,15 @@
   <a href="#learning-applications" class="md-nav__link">
     <span class="md-ellipsis">
       Learning Applications
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#future-enhancement-net-harm-visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Enhancement: Net Harm Visualization
     </span>
   </a>
   
@@ -989,33 +1050,81 @@
 <p><a class="md-button md-button--primary" href="main.html">Run the Harmful Industries Bubble Chart MicroSim Fullscreen</a></p>
 <p><a href="https://editor.p5js.org/dmccreary/sketches/jTICnWooR">Edit the Harmful Industries Bubble Chart MicroSim on the p5.js editor</a></p>
 <h2 id="about-this-visualization">About This Visualization</h2>
-<p>This interactive bubble chart visualizes the comparative harm of 16 major industries across two critical dimensions:</p>
+<p>This interactive bubble chart visualizes the comparative <strong>gross harm</strong> of 17 major industries across two critical dimensions:</p>
 <ul>
-<li><strong>Y-Axis (Vertical)</strong>: Harm to People - measured through deaths, DALYs (Disability-Adjusted Life Years), and direct human suffering</li>
-<li><strong>X-Axis (Horizontal)</strong>: Harm to Planet - measured through environmental externalities, carbon emissions, and ecosystem damage</li>
+<li><strong>Y-Axis (Vertical)</strong>: Gross Harm to People - measured through deaths, DALYs (Disability-Adjusted Life Years), and direct human suffering</li>
+<li><strong>X-Axis (Horizontal)</strong>: Gross Harm to Planet - measured through environmental externalities, carbon emissions, and ecosystem damage</li>
 <li><strong>Bubble Size</strong>: Economic Impact - relative economic footprint of the industry</li>
+</ul>
+<h3 id="understanding-gross-harm-vs-net-harm">Understanding Gross Harm vs. Net Harm</h3>
+<p>This visualization measures <strong>gross harm</strong>—the total negative impacts of an industry—without accounting for benefits. This is an important distinction:</p>
+<table>
+<thead>
+<tr>
+<th>Measure</th>
+<th>Definition</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gross Harm</strong></td>
+<td>Total negative impacts only</td>
+<td>AI uses significant energy (harm)</td>
+</tr>
+<tr>
+<td><strong>Net Harm</strong></td>
+<td>Harms minus benefits</td>
+<td>AI energy use minus efficiency gains from AI optimization</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why gross harm?</strong></p>
+<ul>
+<li>Provides a clear "harm inventory" useful for advocacy and awareness</li>
+<li>Benefits are often harder to quantify and more subjective</li>
+<li>Separating harms from benefits allows clearer analysis of each</li>
+</ul>
+<p><strong>Limitations of this approach:</strong></p>
+<p>Industries like AI, Healthcare, and Renewable Energy may appear more harmful than their net impact suggests because their significant benefits are not factored in. For example:</p>
+<ul>
+<li><strong>AI Industry</strong> (center of chart): High energy use and job displacement risks, but also enables medical breakthroughs, accessibility tools, and scientific research</li>
+<li><strong>Healthcare</strong>: Can cause harm through fraud and over-treatment, but obviously provides enormous benefits</li>
 </ul>
 <h3 id="how-to-use">How to Use</h3>
 <ul>
 <li><strong>Hover</strong> over any bubble to see detailed information about that industry</li>
 <li>Each industry is represented by a different colored circle</li>
-<li>Industries in the upper-right quadrant cause high harm to both people and planet</li>
+<li>Industries in the upper-right quadrant cause high gross harm to both people and planet</li>
 <li>Larger bubbles represent industries with greater economic impact</li>
 </ul>
 <h3 id="key-insights">Key Insights</h3>
-<p>The visualization helps identify:
-- Industries with disproportionate harm relative to their economic contribution
-- Trade-offs between human health impacts and environmental damage
-- High-impact targets for ethical reform and intervention
-- Patterns in how different sectors concentrate harm</p>
+<p>The visualization helps identify:</p>
+<ul>
+<li>Industries with disproportionate gross harm relative to their economic contribution</li>
+<li>Trade-offs between human health impacts and environmental damage</li>
+<li>High-impact targets for ethical reform and intervention</li>
+<li>Patterns in how different sectors concentrate harm</li>
+</ul>
 <h3 id="data-source">Data Source</h3>
 <p>Industry rankings and harm metrics are based on the research compiled in <a href="../../chapters/02-measuring-harm/ranking/">Chapter 2: Measuring Harm</a>, drawing from authoritative sources including WHO, FAO, ILO, and peer-reviewed epidemiological studies.</p>
 <h3 id="learning-applications">Learning Applications</h3>
-<p>This visualization supports:
-- <strong>Systems Thinking</strong>: Understanding interconnected harm across multiple dimensions
-- <strong>Leverage Point Analysis</strong>: Identifying high-impact intervention opportunities
-- <strong>Ethical Decision Making</strong>: Comparing industries using data-driven frameworks
-- <strong>Advocacy Planning</strong>: Prioritizing reform efforts based on quantified harm</p>
+<p>This visualization supports:</p>
+<ul>
+<li><strong>Systems Thinking</strong>: Understanding interconnected harm across multiple dimensions</li>
+<li><strong>Leverage Point Analysis</strong>: Identifying high-impact intervention opportunities</li>
+<li><strong>Ethical Decision Making</strong>: Comparing industries using data-driven frameworks</li>
+<li><strong>Advocacy Planning</strong>: Prioritizing reform efforts based on quantified harm</li>
+</ul>
+<h3 id="future-enhancement-net-harm-visualization">Future Enhancement: Net Harm Visualization</h3>
+<p>A valuable next step would be creating a companion <strong>Net Harm Bubble Chart</strong> that attempts to quantify benefits and show <code>Net Harm = Gross Harm - Benefits</code>. This would:</p>
+<ul>
+<li>Provide a more nuanced view of industry impacts</li>
+<li>Better represent industries with significant positive contributions</li>
+<li>Enable comparison between gross and net perspectives</li>
+<li>Spark discussion about how to quantify benefits</li>
+</ul>
+<p>Challenges include the subjectivity of benefit quantification and the difficulty of comparing different types of benefits (economic, health, convenience, innovation) on a single scale.</p>
 
 
 
