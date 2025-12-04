@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data-Driven Ethics Process Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis',
+                nodeSpacing: 15,
+                rankSpacing: 25,
+                padding: 2
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="diagram-container">
+        <div class="mermaid">
+flowchart TD
+    Start(("&nbsp;&nbsp;Evidence +<br/>&nbsp;Values =&nbsp;<br/>&nbsp;&nbsp;Action&nbsp;&nbsp;")):::centerNode
+
+    Identify["1. IDENTIFY: What harm exists?"]:::researchNode
+    Quantify["2. QUANTIFY: How much harm?"]:::researchNode
+    Analyze["3. ANALYZE: What causes this?"]:::researchNode
+    Map["4. MAP: How does the system work?"]:::synthesisNode
+    Evaluate["5. EVALUATE: What interventions work?"]:::synthesisNode
+    Target["6. TARGET: Where to push?"]:::actionNode
+
+    Start --> Identify
+    Identify --> Quantify
+    Quantify --> Analyze
+    Analyze --> Map
+    Map --> Evaluate
+    Evaluate --> Target
+    Target -.->|"Iterate with<br/>new insights"| Identify
+
+    classDef centerNode fill:#f8f9fa,stroke:#333,stroke-width:3px,color:#333,font-size:14px
+    classDef researchNode fill:#4a90d9,stroke:#333,stroke-width:2px,color:#fff,font-size:16px
+    classDef synthesisNode fill:#50c878,stroke:#333,stroke-width:2px,color:#fff,font-size:16px
+    classDef actionNode fill:#ffc107,stroke:#333,stroke-width:2px,color:#333,font-size:16px
+
+    linkStyle default stroke:#666,stroke-width:2px,font-size:14px
+    linkStyle 6 stroke:#999,stroke-width:2px,stroke-dasharray:5
+        </div>
+    </div>
+</body>
+</html>

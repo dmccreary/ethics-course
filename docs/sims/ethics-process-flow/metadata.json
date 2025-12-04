@@ -1,0 +1,28 @@
+{
+  "title": "Data-Driven Ethics Process Flow",
+  "description": "Interactive workflow diagram showing the six-step systematic process for data-driven ethical analysis: Identify, Quantify, Analyze, Map, Evaluate, and Target",
+  "subject": "Ethics",
+  "creator": "Claude AI with Mermaid Generator Skill",
+  "date": "2025-12-03",
+  "type": "Interactive Workflow Diagram",
+  "format": "text/html",
+  "language": "en-US",
+  "coverage": "Introductory",
+  "rights": "Educational Use",
+  "audience": "High School",
+  "diagram_type": "flowchart",
+  "direction": "TD",
+  "node_count": "7",
+  "edge_count": "7",
+  "concepts": [
+    "Harm Identification",
+    "Harm Quantification",
+    "Causal Analysis",
+    "Systems Mapping",
+    "Intervention Evaluation",
+    "Leverage Points",
+    "Iterative Analysis"
+  ],
+  "bloom_taxonomy": "Apply",
+  "version": "1.0"
+}
