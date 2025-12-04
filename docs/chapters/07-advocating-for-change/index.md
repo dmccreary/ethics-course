@@ -265,8 +265,7 @@ Not everyone adopts new ideas—including new ethical practices—at the same ti
 | Late Majority | 34% | Skeptical, wait for proof | Show widespread adoption |
 | Laggards | 16% | Traditional, resistant | May never adopt |
 
-<iframe src="../../sims/technology-adoption/main.html" height="450px" scrolling="no"
-  style="overflow: hidden; width: 100%;"></iframe>
+<iframe src="../../sims/technology-adoption/main.html" height="410px" scrolling="no"></iframe>
 
 **The Tipping Point:**
 
@@ -277,6 +276,7 @@ When adoption reaches approximately 16% (Innovators + Early Adopters), you hit a
 <details markdown="1">
     <summary>Interactive Adoption Curve Visualization</summary>
     Type: chart
+    Status: Done
 
     Purpose: Illustrate how innovations spread through populations and where tipping points occur
 
