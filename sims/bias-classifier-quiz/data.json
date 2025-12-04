@@ -1,0 +1,192 @@
+{
+  "title": "Cognitive Bias Recognition Quiz",
+  "description": "Test your ability to identify cognitive biases in real-world scenarios",
+  "scenarios": [
+    {
+      "id": 1,
+      "scenario": "A company's environmental report only shows the 3 years with best performance, ignoring 7 years of poor results.",
+      "correctBias": "Cherry Picking",
+      "options": ["Cherry Picking", "Anchoring", "Framing Effect", "Survivorship Bias"],
+      "explanation": "Cherry Picking (also related to Confirmation Bias) occurs when someone selects only the data that supports their desired conclusion while ignoring contradicting evidence. The company deliberately chose favorable years to present a misleading picture.",
+      "hint": "Think about what data is being included vs. excluded from the report."
+    },
+    {
+      "id": 2,
+      "scenario": "After seeing extensive news coverage about a plane crash, someone decides to drive 500 miles instead of flying, even though driving is statistically more dangerous.",
+      "correctBias": "Availability Heuristic",
+      "options": ["Availability Heuristic", "Confirmation Bias", "Anchoring", "Framing Effect"],
+      "explanation": "The Availability Heuristic causes people to overestimate the likelihood of events that are easily recalled—often because they're recent, dramatic, or frequently reported in media. Plane crashes get extensive coverage, making them seem more common than they are.",
+      "hint": "Consider why some risks feel more threatening than others based on what we've recently heard about."
+    },
+    {
+      "id": 3,
+      "scenario": "A researcher dismisses a well-designed study because the lead author works for a corporation the researcher personally dislikes.",
+      "correctBias": "Ad Hominem Bias",
+      "options": ["Ad Hominem Bias", "Survivorship Bias", "Correlation-Causation Fallacy", "Cherry Picking"],
+      "explanation": "Ad Hominem Bias occurs when we reject an argument based on who made it rather than evaluating the argument's actual merits. The study's methodology and data should be evaluated independently of the author's affiliations.",
+      "hint": "Is the researcher evaluating the evidence itself, or the person presenting it?"
+    },
+    {
+      "id": 4,
+      "scenario": "An initial harm estimate of 1 million deaths is published. All subsequent expert estimates from different organizations cluster between 800,000 and 1.2 million, even when using different methodologies.",
+      "correctBias": "Anchoring",
+      "options": ["Anchoring", "Availability Heuristic", "Framing Effect", "Confirmation Bias"],
+      "explanation": "Anchoring occurs when an initial piece of information (the 'anchor') disproportionately influences subsequent judgments. Once the 1 million figure was established, it became a reference point that pulled other estimates toward it.",
+      "hint": "What role did the first number play in shaping later estimates?"
+    },
+    {
+      "id": 5,
+      "scenario": "A policy described as 'saving 200 lives' gets 70% approval, while the same policy described as 'letting 800 people die' (out of 1,000 at risk) gets only 30% approval.",
+      "correctBias": "Framing Effect",
+      "options": ["Framing Effect", "Anchoring", "Cherry Picking", "Availability Heuristic"],
+      "explanation": "The Framing Effect shows how the way information is presented affects decisions. Gains vs. losses, positive vs. negative framing—the identical outcome can seem very different depending on how it's described.",
+      "hint": "The outcomes are mathematically identical. What changed?"
+    },
+    {
+      "id": 6,
+      "scenario": "A business book studies only companies that successfully transformed their culture, concluding that 'bold leadership' is the key to success—without examining companies with bold leaders that failed.",
+      "correctBias": "Survivorship Bias",
+      "options": ["Survivorship Bias", "Confirmation Bias", "Ad Hominem Bias", "Anchoring"],
+      "explanation": "Survivorship Bias occurs when we study only the 'winners' and draw conclusions without examining the 'losers.' Many failed companies may have had equally bold leaders, but they're not included in the analysis.",
+      "hint": "What population is missing from this study?"
+    },
+    {
+      "id": 7,
+      "scenario": "An analyst investigating corporate harm only interviews whistleblowers and activists who already believe the company is guilty, then concludes there's overwhelming evidence of wrongdoing.",
+      "correctBias": "Confirmation Bias",
+      "options": ["Confirmation Bias", "Survivorship Bias", "Framing Effect", "Correlation-Causation Fallacy"],
+      "explanation": "Confirmation Bias leads us to seek, interpret, and remember information that confirms our existing beliefs. By only talking to people who share the preliminary conclusion, the analyst created an echo chamber.",
+      "hint": "Consider who the analyst chose to interview and why."
+    },
+    {
+      "id": 8,
+      "scenario": "A town notices that ice cream sales and drowning deaths both increase in summer. The mayor proposes banning ice cream to reduce drownings.",
+      "correctBias": "Correlation-Causation Fallacy",
+      "options": ["Correlation-Causation Fallacy", "Availability Heuristic", "Anchoring", "Framing Effect"],
+      "explanation": "The Correlation-Causation Fallacy assumes that because two things occur together, one must cause the other. Both ice cream sales and drowning increase in summer because of a third factor: hot weather driving people to pools and ice cream shops.",
+      "hint": "Just because two things happen together, does that mean one causes the other?"
+    },
+    {
+      "id": 9,
+      "scenario": "A pharmaceutical company highlights that their drug reduced heart attacks by 50%, but doesn't mention the reduction was from 2 in 1,000 patients to 1 in 1,000 patients.",
+      "correctBias": "Framing Effect",
+      "options": ["Framing Effect", "Cherry Picking", "Anchoring", "Survivorship Bias"],
+      "explanation": "The Framing Effect is at play here. Presenting a 50% relative risk reduction sounds impressive, but the absolute risk reduction is only 0.1%. The same data framed differently creates vastly different impressions.",
+      "hint": "How does the way the statistics are presented affect your perception of the drug's effectiveness?"
+    },
+    {
+      "id": 10,
+      "scenario": "After a factory explosion makes headlines, a regulator increases inspections at similar facilities nationwide, even though the overall accident rate in the industry has been declining for years.",
+      "correctBias": "Availability Heuristic",
+      "options": ["Availability Heuristic", "Confirmation Bias", "Anchoring", "Correlation-Causation Fallacy"],
+      "explanation": "The Availability Heuristic causes recent, vivid events to disproportionately influence decisions. The dramatic explosion is easily recalled, making the risk feel more urgent than the statistical trend suggests.",
+      "hint": "Is the decision based on overall data or on a recent memorable event?"
+    },
+    {
+      "id": 11,
+      "scenario": "A hiring manager believes that graduates from elite universities make better employees. When an elite graduate performs poorly, she attributes it to bad luck; when they perform well, she credits their education.",
+      "correctBias": "Confirmation Bias",
+      "options": ["Confirmation Bias", "Survivorship Bias", "Ad Hominem Bias", "Anchoring"],
+      "explanation": "Confirmation Bias causes us to interpret ambiguous evidence in ways that support our existing beliefs. The manager explains away contradicting evidence while embracing confirming evidence.",
+      "hint": "How does the manager interpret successes vs. failures differently?"
+    },
+    {
+      "id": 12,
+      "scenario": "A self-help author interviews 50 millionaires about their habits and concludes that waking up at 5 AM is the secret to wealth, without studying the wake-up times of unsuccessful people.",
+      "correctBias": "Survivorship Bias",
+      "options": ["Survivorship Bias", "Correlation-Causation Fallacy", "Cherry Picking", "Confirmation Bias"],
+      "explanation": "Survivorship Bias occurs when we only examine successes. Many unsuccessful people may also wake up at 5 AM. Without studying failures, we can't know if the habit actually contributes to success.",
+      "hint": "Who is missing from this research sample?"
+    },
+    {
+      "id": 13,
+      "scenario": "A negotiator starts salary discussions by stating the highest possible figure. The final agreed salary ends up much higher than if they had started with a reasonable number.",
+      "correctBias": "Anchoring",
+      "options": ["Anchoring", "Framing Effect", "Availability Heuristic", "Confirmation Bias"],
+      "explanation": "Anchoring demonstrates how the first number mentioned in a negotiation influences the final outcome. Even unrealistic starting points pull subsequent offers in their direction.",
+      "hint": "What effect did the first number have on the negotiation?"
+    },
+    {
+      "id": 14,
+      "scenario": "A climate skeptic dismisses a peer-reviewed study on global warming because one of the researchers once received funding from an environmental organization.",
+      "correctBias": "Ad Hominem Bias",
+      "options": ["Ad Hominem Bias", "Cherry Picking", "Confirmation Bias", "Framing Effect"],
+      "explanation": "Ad Hominem Bias attacks the source rather than the argument. The study's methodology, data, and conclusions should be evaluated on their own merits, regardless of funding sources.",
+      "hint": "Is the criticism about the research itself or about the researchers?"
+    },
+    {
+      "id": 15,
+      "scenario": "A school district reports that test scores improved after implementing a new curriculum, but fails to mention they also reduced class sizes and increased teacher training at the same time.",
+      "correctBias": "Correlation-Causation Fallacy",
+      "options": ["Correlation-Causation Fallacy", "Cherry Picking", "Framing Effect", "Survivorship Bias"],
+      "explanation": "The Correlation-Causation Fallacy is present because multiple changes happened simultaneously. We cannot attribute the improvement solely to the new curriculum when other factors changed too.",
+      "hint": "Was the curriculum the only thing that changed?"
+    },
+    {
+      "id": 16,
+      "scenario": "A political campaign ad shows the candidate helping at a food bank, visiting a hospital, and meeting with veterans—footage from just 3 days out of a 4-year term focused on fundraising.",
+      "correctBias": "Cherry Picking",
+      "options": ["Cherry Picking", "Framing Effect", "Survivorship Bias", "Availability Heuristic"],
+      "explanation": "Cherry Picking selects only favorable moments while ignoring the broader context. The ad presents an unrepresentative sample of the candidate's activities to create a misleading impression.",
+      "hint": "How representative is the footage of the candidate's overall activities?"
+    },
+    {
+      "id": 17,
+      "scenario": "A jury finds a defendant more likely to be guilty because the prosecutor presented evidence in a specific emotional order, ending with the most disturbing testimony.",
+      "correctBias": "Framing Effect",
+      "options": ["Framing Effect", "Availability Heuristic", "Anchoring", "Confirmation Bias"],
+      "explanation": "The Framing Effect shows how the order and emotional presentation of information influences judgments. The same evidence presented in a different order might lead to different conclusions.",
+      "hint": "Would the same evidence feel different if presented in a different order?"
+    },
+    {
+      "id": 18,
+      "scenario": "A venture capitalist only studies successful startups to identify patterns, then advises new founders to 'move fast and break things'—ignoring all the failed startups that did the same.",
+      "correctBias": "Survivorship Bias",
+      "options": ["Survivorship Bias", "Confirmation Bias", "Anchoring", "Ad Hominem Bias"],
+      "explanation": "Survivorship Bias leads to faulty conclusions when we only examine winners. Many failed startups also 'moved fast and broke things,' but they're not around to be studied.",
+      "hint": "What happened to the startups that followed similar advice but failed?"
+    },
+    {
+      "id": 19,
+      "scenario": "After seeing a documentary about shark attacks, a tourist refuses to swim at a beach where no shark attack has ever been recorded, while happily driving on roads with high accident rates.",
+      "correctBias": "Availability Heuristic",
+      "options": ["Availability Heuristic", "Framing Effect", "Confirmation Bias", "Anchoring"],
+      "explanation": "The Availability Heuristic makes dramatic, memorable events (like shark attacks in documentaries) feel more likely than mundane but statistically more dangerous activities (like driving).",
+      "hint": "Why does one risk feel more threatening than the other?"
+    },
+    {
+      "id": 20,
+      "scenario": "A manager who believes remote work reduces productivity only notices when remote employees miss deadlines, while overlooking the many times they deliver early or on time.",
+      "correctBias": "Confirmation Bias",
+      "options": ["Confirmation Bias", "Cherry Picking", "Availability Heuristic", "Ad Hominem Bias"],
+      "explanation": "Confirmation Bias causes selective attention and memory. The manager notices and remembers evidence supporting their belief while unconsciously filtering out contradicting evidence.",
+      "hint": "What kind of evidence does the manager pay attention to vs. ignore?"
+    }
+  ],
+  "encouragingMessages": {
+    "correct": [
+      "Excellent critical thinking!",
+      "You spotted that bias!",
+      "Great analysis!",
+      "Sharp reasoning!",
+      "Well done!"
+    ],
+    "incorrect": [
+      "This one is tricky—now you'll recognize it next time!",
+      "Good try! These biases can be subtle.",
+      "Learning from mistakes makes us better thinkers!",
+      "Keep practicing—bias recognition is a skill!",
+      "A common confusion—now you know the difference!"
+    ]
+  },
+  "biasDescriptions": {
+    "Cherry Picking": "Selecting only data that supports your conclusion while ignoring contradicting evidence.",
+    "Availability Heuristic": "Overestimating the likelihood of events that are easily recalled or recently encountered.",
+    "Ad Hominem Bias": "Rejecting an argument based on who made it rather than its actual merits.",
+    "Anchoring": "Relying too heavily on the first piece of information encountered when making decisions.",
+    "Framing Effect": "Being influenced by how information is presented rather than the information itself.",
+    "Survivorship Bias": "Drawing conclusions from 'winners' while ignoring the 'losers' who had similar characteristics.",
+    "Confirmation Bias": "Seeking, interpreting, and remembering information that confirms existing beliefs.",
+    "Correlation-Causation Fallacy": "Assuming that because two things occur together, one must cause the other."
+  }
+}

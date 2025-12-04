@@ -3,18 +3,6 @@
   "events": [
     {
       "start_date": {
-        "year": "-500",
-        "display_date": "500 BCE"
-      },
-      "text": {
-        "headline": "Greek Philosophers Establish Virtue Ethics",
-        "text": "Aristotle, Plato, and other Greek philosophers develop systematic approaches to ethical thinking. Aristotle's Nicomachean Ethics introduces the concept of virtue as the mean between extremes, while Plato explores justice and the ideal state in The Republic. These foundational works establish ethics as a formal discipline of philosophical inquiry."
-      },
-      "group": "Classical Philosophy Era",
-      "notes": "Key figures: Aristotle, Plato, Socrates. Introduced concepts of eudaimonia (human flourishing), the cardinal virtues, and systematic ethical reasoning."
-    },
-    {
-      "start_date": {
         "year": "1785",
         "display_date": "1785"
       },

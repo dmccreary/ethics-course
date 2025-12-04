@@ -1,0 +1,71 @@
+/* Compact Mermaid Diagram Stylesheet for iframe embedding */
+
+:root {
+    --background-color: aliceblue;
+    --text-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.diagram-container {
+    background: aliceblue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.mermaid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Compact node styling */
+.mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.mermaid .node text,
+.mermaid .edgeLabel text {
+    font-size: 14px !important;
+}
+
+/* Reduce node padding */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon {
+    padding: 1px !important;
+}
+
+/* Reduce line spacing in the center circle node */
+.mermaid .node:first-of-type .nodeLabel {
+    line-height: .8 !important;
+}
+
+.mermaid .node:first-of-type .nodeLabel span {
+    line-height: .8 !important;
+}
+
+.mermaid .nodeLabel {
+    padding: 2px 5px !important;
+}
