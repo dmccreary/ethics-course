@@ -46,9 +46,10 @@ function setup() {
   const canvas = createCanvas(canvasWidth, canvasHeight);
   canvas.parent(document.querySelector('main'));
 
-  // Initialize scenarios from loaded data
+  // Initialize scenarios from loaded data (select 10 random questions)
   if (quizData && quizData.scenarios) {
-    scenarios = shuffle([...quizData.scenarios]);
+    let shuffled = shuffle([...quizData.scenarios]);
+    scenarios = shuffled.slice(0, 10);
   }
 
   // Create control buttons
@@ -635,7 +636,8 @@ function resetScenarioState() {
 }
 
 function restartQuiz() {
-  scenarios = shuffle([...quizData.scenarios]);
+  let shuffled = shuffle([...quizData.scenarios]);
+  scenarios = shuffled.slice(0, 10);
   currentScenarioIndex = 0;
   score = 0;
   quizComplete = false;
