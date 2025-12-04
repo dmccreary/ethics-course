@@ -415,6 +415,8 @@ The solution isn't to pretend we can eliminate bias (we can't). It's to:
 
 #### Diagram: Common Cognitive Biases MicroSim
 
+<iframe src="../../sims/bias-classifier-quiz/main.html" width="800" height="600" style="border: none; max-width: 100%;"></iframe>
+
 <details markdown="1">
     <summary>Cognitive Bias Recognition Game</summary>
     Type: microsim

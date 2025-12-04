@@ -65,6 +65,102 @@
       "options": ["Correlation-Causation Fallacy", "Availability Heuristic", "Anchoring", "Framing Effect"],
       "explanation": "The Correlation-Causation Fallacy assumes that because two things occur together, one must cause the other. Both ice cream sales and drowning increase in summer because of a third factor: hot weather driving people to pools and ice cream shops.",
       "hint": "Just because two things happen together, does that mean one causes the other?"
+    },
+    {
+      "id": 9,
+      "scenario": "A pharmaceutical company highlights that their drug reduced heart attacks by 50%, but doesn't mention the reduction was from 2 in 1,000 patients to 1 in 1,000 patients.",
+      "correctBias": "Framing Effect",
+      "options": ["Framing Effect", "Cherry Picking", "Anchoring", "Survivorship Bias"],
+      "explanation": "The Framing Effect is at play here. Presenting a 50% relative risk reduction sounds impressive, but the absolute risk reduction is only 0.1%. The same data framed differently creates vastly different impressions.",
+      "hint": "How does the way the statistics are presented affect your perception of the drug's effectiveness?"
+    },
+    {
+      "id": 10,
+      "scenario": "After a factory explosion makes headlines, a regulator increases inspections at similar facilities nationwide, even though the overall accident rate in the industry has been declining for years.",
+      "correctBias": "Availability Heuristic",
+      "options": ["Availability Heuristic", "Confirmation Bias", "Anchoring", "Correlation-Causation Fallacy"],
+      "explanation": "The Availability Heuristic causes recent, vivid events to disproportionately influence decisions. The dramatic explosion is easily recalled, making the risk feel more urgent than the statistical trend suggests.",
+      "hint": "Is the decision based on overall data or on a recent memorable event?"
+    },
+    {
+      "id": 11,
+      "scenario": "A hiring manager believes that graduates from elite universities make better employees. When an elite graduate performs poorly, she attributes it to bad luck; when they perform well, she credits their education.",
+      "correctBias": "Confirmation Bias",
+      "options": ["Confirmation Bias", "Survivorship Bias", "Ad Hominem Bias", "Anchoring"],
+      "explanation": "Confirmation Bias causes us to interpret ambiguous evidence in ways that support our existing beliefs. The manager explains away contradicting evidence while embracing confirming evidence.",
+      "hint": "How does the manager interpret successes vs. failures differently?"
+    },
+    {
+      "id": 12,
+      "scenario": "A self-help author interviews 50 millionaires about their habits and concludes that waking up at 5 AM is the secret to wealth, without studying the wake-up times of unsuccessful people.",
+      "correctBias": "Survivorship Bias",
+      "options": ["Survivorship Bias", "Correlation-Causation Fallacy", "Cherry Picking", "Confirmation Bias"],
+      "explanation": "Survivorship Bias occurs when we only examine successes. Many unsuccessful people may also wake up at 5 AM. Without studying failures, we can't know if the habit actually contributes to success.",
+      "hint": "Who is missing from this research sample?"
+    },
+    {
+      "id": 13,
+      "scenario": "A negotiator starts salary discussions by stating the highest possible figure. The final agreed salary ends up much higher than if they had started with a reasonable number.",
+      "correctBias": "Anchoring",
+      "options": ["Anchoring", "Framing Effect", "Availability Heuristic", "Confirmation Bias"],
+      "explanation": "Anchoring demonstrates how the first number mentioned in a negotiation influences the final outcome. Even unrealistic starting points pull subsequent offers in their direction.",
+      "hint": "What effect did the first number have on the negotiation?"
+    },
+    {
+      "id": 14,
+      "scenario": "A climate skeptic dismisses a peer-reviewed study on global warming because one of the researchers once received funding from an environmental organization.",
+      "correctBias": "Ad Hominem Bias",
+      "options": ["Ad Hominem Bias", "Cherry Picking", "Confirmation Bias", "Framing Effect"],
+      "explanation": "Ad Hominem Bias attacks the source rather than the argument. The study's methodology, data, and conclusions should be evaluated on their own merits, regardless of funding sources.",
+      "hint": "Is the criticism about the research itself or about the researchers?"
+    },
+    {
+      "id": 15,
+      "scenario": "A school district reports that test scores improved after implementing a new curriculum, but fails to mention they also reduced class sizes and increased teacher training at the same time.",
+      "correctBias": "Correlation-Causation Fallacy",
+      "options": ["Correlation-Causation Fallacy", "Cherry Picking", "Framing Effect", "Survivorship Bias"],
+      "explanation": "The Correlation-Causation Fallacy is present because multiple changes happened simultaneously. We cannot attribute the improvement solely to the new curriculum when other factors changed too.",
+      "hint": "Was the curriculum the only thing that changed?"
+    },
+    {
+      "id": 16,
+      "scenario": "A political campaign ad shows the candidate helping at a food bank, visiting a hospital, and meeting with veterans—footage from just 3 days out of a 4-year term focused on fundraising.",
+      "correctBias": "Cherry Picking",
+      "options": ["Cherry Picking", "Framing Effect", "Survivorship Bias", "Availability Heuristic"],
+      "explanation": "Cherry Picking selects only favorable moments while ignoring the broader context. The ad presents an unrepresentative sample of the candidate's activities to create a misleading impression.",
+      "hint": "How representative is the footage of the candidate's overall activities?"
+    },
+    {
+      "id": 17,
+      "scenario": "A jury finds a defendant more likely to be guilty because the prosecutor presented evidence in a specific emotional order, ending with the most disturbing testimony.",
+      "correctBias": "Framing Effect",
+      "options": ["Framing Effect", "Availability Heuristic", "Anchoring", "Confirmation Bias"],
+      "explanation": "The Framing Effect shows how the order and emotional presentation of information influences judgments. The same evidence presented in a different order might lead to different conclusions.",
+      "hint": "Would the same evidence feel different if presented in a different order?"
+    },
+    {
+      "id": 18,
+      "scenario": "A venture capitalist only studies successful startups to identify patterns, then advises new founders to 'move fast and break things'—ignoring all the failed startups that did the same.",
+      "correctBias": "Survivorship Bias",
+      "options": ["Survivorship Bias", "Confirmation Bias", "Anchoring", "Ad Hominem Bias"],
+      "explanation": "Survivorship Bias leads to faulty conclusions when we only examine winners. Many failed startups also 'moved fast and broke things,' but they're not around to be studied.",
+      "hint": "What happened to the startups that followed similar advice but failed?"
+    },
+    {
+      "id": 19,
+      "scenario": "After seeing a documentary about shark attacks, a tourist refuses to swim at a beach where no shark attack has ever been recorded, while happily driving on roads with high accident rates.",
+      "correctBias": "Availability Heuristic",
+      "options": ["Availability Heuristic", "Framing Effect", "Confirmation Bias", "Anchoring"],
+      "explanation": "The Availability Heuristic makes dramatic, memorable events (like shark attacks in documentaries) feel more likely than mundane but statistically more dangerous activities (like driving).",
+      "hint": "Why does one risk feel more threatening than the other?"
+    },
+    {
+      "id": 20,
+      "scenario": "A manager who believes remote work reduces productivity only notices when remote employees miss deadlines, while overlooking the many times they deliver early or on time.",
+      "correctBias": "Confirmation Bias",
+      "options": ["Confirmation Bias", "Cherry Picking", "Availability Heuristic", "Ad Hominem Bias"],
+      "explanation": "Confirmation Bias causes selective attention and memory. The manager notices and remembers evidence supporting their belief while unconsciously filtering out contradicting evidence.",
+      "hint": "What kind of evidence does the manager pay attention to vs. ignore?"
     }
   ],
   "encouragingMessages": {
