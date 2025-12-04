@@ -265,6 +265,9 @@ Not everyone adopts new ideas—including new ethical practices—at the same ti
 | Late Majority | 34% | Skeptical, wait for proof | Show widespread adoption |
 | Laggards | 16% | Traditional, resistant | May never adopt |
 
+<iframe src="../../sims/technology-adoption/main.html" height="450px" scrolling="no"
+  style="overflow: hidden; width: 100%;"></iframe>
+
 **The Tipping Point:**
 
 When adoption reaches approximately 16% (Innovators + Early Adopters), you hit a "tipping point" where the Early Majority begins to follow. This is why change often feels painfully slow... until suddenly it feels unstoppable.

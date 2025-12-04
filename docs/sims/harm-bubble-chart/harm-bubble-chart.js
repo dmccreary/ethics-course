@@ -131,7 +131,7 @@ let industries = [
     summary: "High energy use; $40.9B illicit flows in 2024"
   },
   {
-    name: "Pornography",
+    name: "Porno-\ngraphy",
     harmToPeople: 20, // Mental health impacts
     harmToPlanet: 5,
     economicImpact: 65,
@@ -237,14 +237,14 @@ function drawAxes() {
 
   // X-axis label
   textAlign(CENTER, TOP);
-  text("Harm to Planet →", canvasWidth / 2, drawHeight - margin + 15);
+  text("Gross Harm to Planet →", canvasWidth / 2, drawHeight - margin + 15);
 
   // Y-axis label
   push();
   translate(15, drawHeight / 2);
   rotate(-PI / 2);
   textAlign(CENTER, CENTER);
-  text("Harm to People →", 0, 0);
+  text("Gross Harm to People →", 0, 0);
   pop();
 
   // Add scale indicators
