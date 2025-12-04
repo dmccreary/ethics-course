@@ -125,7 +125,10 @@ function draw() {
   // 4) Draw the colored segments under the curve
   drawAdoptionCurve();
 
-  // 5) Draw the infobox + hover‐description
+  // 5) Draw the tipping point line at 16%
+  drawTippingPoint();
+
+  // 6) Draw the infobox + hover‐description
   drawInfoBox();
 }
 
@@ -234,6 +237,45 @@ function drawAdoptionCurve() {
       vertex(pt.x, pt.y);
     }
   endShape();
+}
+
+// Draw the tipping point vertical line at 16%
+function drawTippingPoint() {
+  // 16% is where Innovators (2.5%) + Early Adopters (13.5%) meet Early Majority
+  let tippingPointPct = 16;
+  let tippingIdx = Math.floor((tippingPointPct / 100) * numPoints);
+  tippingIdx = constrain(tippingIdx, 0, numPoints - 1);
+  let tippingX = bellCurve[tippingIdx].x;
+  let tippingY = bellCurve[tippingIdx].y;
+
+  // Draw label with background first (need position for line)
+  let labelText = "Tipping Point";
+  textSize(12);
+  let labelWidth = textWidth(labelText) + 10;
+  let labelHeight = 18;
+  let labelX = tippingX;
+  let labelY = margin + 35;
+
+  // Draw dashed vertical line from bottom to just under the label
+  let innovatorsHeight = 20;
+  let bellBottomHeight = bellBaseY + innovatorsHeight;
+  let lineTopY = labelY + labelHeight/2 + 4;
+
+  stroke("#333");
+  strokeWeight(2);
+  drawingContext.setLineDash([8, 4]);
+  line(tippingX, lineTopY, tippingX, bellBottomHeight);
+  drawingContext.setLineDash([]);
+
+  // Background pill
+  fill("#333");
+  noStroke();
+  rect(labelX - labelWidth/2, labelY - labelHeight/2, labelWidth, labelHeight, 9);
+
+  // Label text
+  fill("white");
+  textAlign(CENTER, CENTER);
+  text(labelText, labelX, labelY);
 }
 
 // draw the inforBox on hover
