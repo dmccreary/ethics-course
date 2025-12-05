@@ -219,6 +219,9 @@ Key critical thinking skills for data-driven ethics include:
 
 #### Diagram: Critical Thinking Framework
 
+<iframe src="../../sims/critical-thinking/main.html" height="602px" width="100%" scrolling="no"></iframe>
+[Fullscreen](../../sims/critical-thinking/main.html)
+
 <details markdown="1">
     <summary>Critical Thinking Framework for Ethical Analysis</summary>
     Type: infographic
