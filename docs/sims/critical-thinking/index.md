@@ -13,6 +13,7 @@ social:
 <iframe src="main.html" height="602px" width="100%" scrolling="no"></iframe>
 
 [Run the Critical Thinking Framework MicroSim Fullscreen](./main.html){ .md-button .md-button--primary }
+[Edit the Critical Thinking Framework MicroSim with the p5.js editor](https://editor.p5js.org/dmccreary/sketches/jqY0vEPiZ)
 
 ## About This MicroSim
 
