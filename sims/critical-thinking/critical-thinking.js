@@ -122,14 +122,11 @@ function draw() {
   rect(0, drawHeight, canvasWidth, controlHeight);
 
   // Title
-  fill(50);
+  fill('black');
   noStroke();
   textSize(22);
   textAlign(CENTER, TOP);
-  text('Critical Thinking Framework', canvasWidth / 2, 10);
-  textSize(14);
-  fill(100);
-  text('for Ethical Analysis', canvasWidth / 2, 35);
+  text('Critical Thinking for Ethical Analysis', canvasWidth / 2, 15);
 
   // Animate pulse
   pulseAngle += 0.02;
