@@ -1,0 +1,104 @@
+{
+  "$schema": "https://github.com/dmccreary/microsims/blob/main/src/microsim-schema/microsim-schema.json",
+  "title": "Critical Thinking Framework for Ethical Analysis",
+  "description": "An interactive circular infographic that guides students through a systematic critical thinking process for evaluating ethical claims and industry data.",
+  "creator": "Dan McCreary",
+  "subject": ["Ethics", "Critical Thinking", "Data Literacy", "Media Literacy"],
+  "date": "2025-12-04",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "educational": {
+    "gradeLevel": "High School (9-12)",
+    "subjectArea": "Ethics",
+    "topic": "Critical Thinking and Claim Evaluation",
+    "learningObjectives": [
+      "Apply a systematic critical thinking process when evaluating ethical claims",
+      "Identify credibility indicators in data sources",
+      "Recognize potential biases and conflicts of interest",
+      "Distinguish between strong and weak evidence"
+    ],
+    "bloomsTaxonomy": ["Apply"],
+    "duration": "10-15 minutes",
+    "prerequisites": [
+      "Basic understanding of source evaluation",
+      "Familiarity with research concepts"
+    ]
+  },
+  "technical": {
+    "framework": "p5.js",
+    "canvasDimensions": {
+      "width": "responsive",
+      "height": 600
+    },
+    "responsive": true,
+    "dependencies": ["p5.js 1.11.10"],
+    "accessibility": {
+      "screenReaderSupport": true,
+      "keyboardNavigation": true
+    }
+  },
+  "userInterface": {
+    "controls": [
+      {
+        "type": "segment-click",
+        "description": "Click on any of the six segments to view detailed evaluation criteria with color-coded credibility indicators"
+      },
+      {
+        "type": "center-click",
+        "description": "Click the center circle to reset and evaluate a new claim"
+      },
+      {
+        "type": "keyboard",
+        "description": "Press ESC to reset the view"
+      },
+      {
+        "type": "hover",
+        "description": "Hover over segments to highlight them"
+      }
+    ],
+    "segments": [
+      {
+        "label": "SOURCE",
+        "question": "Who is making this claim? What are their incentives?"
+      },
+      {
+        "label": "EVIDENCE",
+        "question": "What data supports this? Is it peer-reviewed?"
+      },
+      {
+        "label": "METHODOLOGY",
+        "question": "How was this measured? Are there biases?"
+      },
+      {
+        "label": "CONSISTENCY",
+        "question": "Does this align with other reliable sources?"
+      },
+      {
+        "label": "ALTERNATIVES",
+        "question": "What other explanations exist?"
+      },
+      {
+        "label": "IMPLICATIONS",
+        "question": "What follows if this is true? Does that make sense?"
+      }
+    ]
+  },
+  "simulationModel": {
+    "modelType": "Infographic Framework",
+    "variables": [
+      "hoveredSegment",
+      "selectedSegment",
+      "credibility indicators (green/yellow/red)"
+    ],
+    "assumptions": [
+      "All six criteria are equally important for initial evaluation",
+      "Color coding provides intuitive credibility signals"
+    ],
+    "limitations": [
+      "Does not provide domain-specific evaluation criteria",
+      "Simplified model of complex critical thinking processes"
+    ]
+  }
+}
