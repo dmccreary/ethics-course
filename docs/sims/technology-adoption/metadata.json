@@ -1,0 +1,46 @@
+{
+  "title": "Technology Adoption Curve Infographic",
+  "description": "An interactive infographic visualizing the Technology Adoption Lifecycle Curve",
+  "subject": "Mathematics",
+  "topic": "Technology Adoption Curve Infographic",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "p5.js",
+  "url": "https://dmccreary.github.io/ethics-course/sims/technology-adoption/",
+  "identifier": "https://dmccreary.github.io/ethics-course/sims/technology-adoption/",
+  "_source": {
+    "repo": "ethics-course",
+    "sim": "technology-adoption",
+    "github_url": "https://github.com/dmccreary/ethics-course/tree/main/docs/sims/technology-adoption",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Computer Science",
+    "Statistics",
+    "Economics"
+  ],
+  "visualizationType": [
+    "animation",
+    "simulation",
+    "chart",
+    "graph",
+    "interactive-demo",
+    "network",
+    "timeline",
+    "map"
+  ]
+}
