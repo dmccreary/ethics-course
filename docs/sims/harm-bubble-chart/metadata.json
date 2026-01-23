@@ -1,0 +1,43 @@
+{
+  "title": "Harmful Industries Bubble Chart",
+  "description": "Interactive 2D bubble chart comparing industries by gross harm to people (Y-axis) versus gross harm to planet (X-axis), with bubble size representing economic impact.",
+  "subject": "Mathematics",
+  "topic": "Harmful Industries Bubble Chart",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "p5.js",
+  "url": "https://dmccreary.github.io/ethics-course/sims/harm-bubble-chart/",
+  "identifier": "https://dmccreary.github.io/ethics-course/sims/harm-bubble-chart/",
+  "_source": {
+    "repo": "ethics-course",
+    "sim": "harm-bubble-chart",
+    "github_url": "https://github.com/dmccreary/ethics-course/tree/main/docs/sims/harm-bubble-chart",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Computer Science",
+    "Biology",
+    "Engineering",
+    "Economics"
+  ],
+  "visualizationType": [
+    "chart",
+    "graph",
+    "interactive-demo",
+    "map"
+  ]
+}
