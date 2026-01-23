@@ -24,5 +24,28 @@
     "Iterative Analysis"
   ],
   "bloom_taxonomy": "Apply",
-  "version": "1.0"
+  "version": "1.0",
+  "visualizationType": [
+    "3d-model",
+    "animation",
+    "diagram",
+    "graph",
+    "interactive-demo",
+    "map",
+    "network"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of data-driven ethics process flow",
+    "Explore data-driven ethics process flow through interactive visualization",
+    "Apply knowledge of data-driven ethics process flow to solve problems",
+    "Experiment with parameters to observe their effects on data-driven ethics process flow"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ]
 }
