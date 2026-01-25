@@ -43,5 +43,28 @@
     "Understand the mathematical concept of evolution of ethics education timeline",
     "Apply evolution of ethics education timeline to solve problems",
     "Visualize and interpret evolution of ethics education timeline relationships"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "evaluate"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "summarize",
+      "apply",
+      "demonstrate",
+      "illustrate"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "observe"
+  }
 }
