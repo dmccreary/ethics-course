@@ -1,6 +1,8 @@
 ---
 title: MicroSimulations
 description: Interactive educational simulations for exploring ethics concepts
+hide:
+  - toc
 ---
 
 # MicroSimulations
@@ -9,137 +11,146 @@ This page provides an overview of all the interactive MicroSimulations available
 
 ## Fairness Chapter MicroSims
 
-### AI Fairness Trade-offs Explorer
+<div class="grid cards" markdown>
 
-Explore why different algorithmic fairness definitions cannot all be satisfied simultaneously. This simulation demonstrates the impossibility theorem - when base rates differ between groups, satisfying one fairness metric often violates another.
+-   ![AI Fairness Trade-offs](./ai-fairness-tradeoffs/ai-fairness-tradeoffs.png)
 
-[![AI Fairness Trade-offs](./ai-fairness-tradeoffs/ai-fairness-tradeoffs.png)](./ai-fairness-tradeoffs/index.md)
+    **AI Fairness Trade-offs Explorer**
 
-[View AI Fairness Trade-offs MicroSim](./ai-fairness-tradeoffs/index.md){ .md-button }
+    Explore why different algorithmic fairness definitions cannot all be satisfied simultaneously. Demonstrates the impossibility theorem.
 
----
+    [:octicons-arrow-right-24: View MicroSim](./ai-fairness-tradeoffs/index.md)
 
-### Cultural Fairness Frameworks
+-   ![Cultural Fairness Frameworks](./fairness-frameworks/fairness-frameworks.png)
 
-Compare how six major cultural and philosophical traditions conceptualize fairness across five key dimensions. Click any cell to see detailed explanations and examples.
+    **Cultural Fairness Frameworks**
 
-[![Cultural Fairness Frameworks](./fairness-frameworks/fairness-frameworks.png)](./fairness-frameworks/index.md)
+    Compare how six major cultural and philosophical traditions conceptualize fairness across five key dimensions.
 
-[View Fairness Frameworks MicroSim](./fairness-frameworks/index.md){ .md-button }
+    [:octicons-arrow-right-24: View MicroSim](./fairness-frameworks/index.md)
 
----
+-   ![Fairness Evolution Timeline](./fairness-evolution/fairness-evolution.png)
 
-### Fairness Evolution Timeline
+    **Fairness Evolution Timeline**
 
-Explore the evolutionary emergence of fairness-related cognitive capacities across species over 300 million years of natural history.
+    Explore the evolutionary emergence of fairness-related cognitive capacities across species over 300 million years.
 
-[![Fairness Evolution Timeline](./fairness-evolution/fairness-evolution.png)](./fairness-evolution/index.md)
+    [:octicons-arrow-right-24: View MicroSim](./fairness-evolution/index.md)
 
-[View Fairness Evolution MicroSim](./fairness-evolution/index.md){ .md-button }
+-   ![Fairness Venn Diagram](./fairness-venn/fairness-venn.png)
 
----
+    **AI Model Consensus: Fairness Venn**
 
-### AI Model Consensus: Fairness Venn Diagram
+    Compare which historical figures four AI models identified as champions of fairness or architects of unfairness.
 
-Compare which historical figures four AI models (Claude, ChatGPT, Grok, DeepSeek) identified as champions of fairness or architects of unfairness.
+    [:octicons-arrow-right-24: View MicroSim](./fairness-venn/index.md)
 
-[![Fairness Venn Diagram](./fairness-venn/fairness-venn.png)](./fairness-venn/index.md)
-
-[View Fairness Venn MicroSim](./fairness-venn/index.md){ .md-button }
-
----
+</div>
 
 ## Other MicroSims
 
-### Bias Classifier Quiz
+<div class="grid cards" markdown>
 
-Test your ability to identify different types of cognitive biases through interactive scenarios.
+-   :material-brain:{ .lg .middle } **Bias Classifier Quiz**
 
-[View Bias Classifier Quiz](./bias-classifier-quiz/index.md){ .md-button }
+    ---
 
----
+    Test your ability to identify different types of cognitive biases through interactive scenarios.
 
-### Critical Thinking Framework
+    [:octicons-arrow-right-24: View MicroSim](./bias-classifier-quiz/index.md)
 
-Explore the components of critical thinking and how they apply to ethical reasoning.
+-   :material-head-cog:{ .lg .middle } **Critical Thinking Framework**
 
-[View Critical Thinking MicroSim](./critical-thinking/index.md){ .md-button }
+    ---
 
----
+    Explore the components of critical thinking and how they apply to ethical reasoning.
 
-### Ethics Education Timeline
+    [:octicons-arrow-right-24: View MicroSim](./critical-thinking/index.md)
 
-A chronological exploration of the history of ethics education from ancient philosophy to modern approaches.
+-   :material-timeline:{ .lg .middle } **Ethics Education Timeline**
 
-[View Ethics Education Timeline](./ethics-education-timeline/index.md){ .md-button }
+    ---
 
----
+    A chronological exploration of the history of ethics education from ancient philosophy to modern approaches.
 
-### Ethics Process Flow
+    [:octicons-arrow-right-24: View MicroSim](./ethics-education-timeline/index.md)
 
-Visualize the step-by-step process of ethical decision-making using a flowchart approach.
+-   :material-sitemap:{ .lg .middle } **Ethics Process Flow**
 
-[View Ethics Process Flow](./ethics-process-flow/index.md){ .md-button }
+    ---
 
----
+    Visualize the step-by-step process of ethical decision-making using a flowchart approach.
 
-### Learning Graph Viewer
+    [:octicons-arrow-right-24: View MicroSim](./ethics-process-flow/index.md)
 
-Explore the concept dependencies and learning paths in the ethics course curriculum.
+-   :material-graph:{ .lg .middle } **Learning Graph Viewer**
 
-[View Graph Viewer](./graph-viewer/index.md){ .md-button }
+    ---
 
----
+    Explore the concept dependencies and learning paths in the ethics course curriculum.
 
-### Harm Bubble Chart
+    [:octicons-arrow-right-24: View MicroSim](./graph-viewer/index.md)
 
-Compare the relative harm of different industries and practices using an interactive bubble chart visualization.
+-   :material-chart-bubble:{ .lg .middle } **Harm Bubble Chart**
 
-[View Harm Bubble Chart](./harm-bubble-chart/index.md){ .md-button }
+    ---
 
----
+    Compare the relative harm of different industries and practices using an interactive bubble chart.
 
-### Leverage Iceberg
+    [:octicons-arrow-right-24: View MicroSim](./harm-bubble-chart/index.md)
 
-Explore Donella Meadows' leverage points framework using an iceberg model visualization.
+-   :material-icecream:{ .lg .middle } **Leverage Iceberg**
 
-[View Leverage Iceberg](./leverage-iceberg/index.md){ .md-button }
+    ---
 
----
+    Explore Donella Meadows' leverage points framework using an iceberg model visualization.
 
-### Industry Ranking Simulation
+    [:octicons-arrow-right-24: View MicroSim](./leverage-iceberg/index.md)
 
-Rank different industries by their ethical impact using various criteria.
+-   :material-sort-numeric-ascending:{ .lg .middle } **Industry Ranking Simulation**
 
-[View Ranking Simulation](./ranking/index.md){ .md-button }
+    ---
 
----
+    Rank different industries by their ethical impact using various criteria.
 
-### Technology Adoption Curves
+    [:octicons-arrow-right-24: View MicroSim](./ranking/index.md)
 
-Explore how ethical technologies and practices spread through society over time.
+-   ![Technology Adoption](./technology-adoption/technology-adoption.png)
 
-[![Technology Adoption](./technology-adoption/technology-adoption.png)](./technology-adoption/index.md)
+    **Technology Adoption Curves**
 
-[View Technology Adoption MicroSim](./technology-adoption/index.md){ .md-button }
+    Explore how ethical technologies and practices spread through society over time.
 
----
+    [:octicons-arrow-right-24: View MicroSim](./technology-adoption/index.md)
 
-### Tobacco Industry System Dynamics
+-   :material-smoking:{ .lg .middle } **Tobacco Industry System Dynamics**
 
-A systems thinking visualization of the tobacco industry's impact on public health, showing feedback loops and leverage points.
+    ---
 
-[View Tobacco System MicroSim](./tobacco-system/index.md){ .md-button }
+    A systems thinking visualization of the tobacco industry's impact on public health.
 
----
+    [:octicons-arrow-right-24: View MicroSim](./tobacco-system/index.md)
+
+</div>
 
 ## About MicroSims
 
 MicroSimulations are lightweight, interactive educational tools designed for browser-based learning. They feature:
 
-- **Focused scope** - Each addresses one specific learning objective
-- **Immediate feedback** - Students see effects of their choices instantly
-- **Responsive design** - Works on desktop, tablet, and mobile devices
-- **Accessible** - Designed with screen reader support and keyboard navigation
+<div class="grid" markdown>
+
+:material-target:{ .lg } **Focused scope**
+:   Each addresses one specific learning objective
+
+:material-flash:{ .lg } **Immediate feedback**
+:   Students see effects of their choices instantly
+
+:material-responsive:{ .lg } **Responsive design**
+:   Works on desktop, tablet, and mobile devices
+
+:material-human:{ .lg } **Accessible**
+:   Designed with screen reader support and keyboard navigation
+
+</div>
 
 All MicroSims can be embedded in any web page using an iframe and are compatible with learning management systems like Canvas, Blackboard, and Moodle.

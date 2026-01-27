@@ -1,14 +1,12 @@
 # Data-Driven Ethics Process Flow
 
+<iframe src="./main.html" width="100%" height="650px" scrolling="no"></iframe>
+
+[View Fullscreen](./main.html){ .md-button }
+
 ## Overview
 
 This interactive diagram visualizes the systematic six-step process for data-driven ethical analysis. The framework guides students from initial harm identification through targeted intervention, emphasizing that ethical analysis is an iterative process where new insights inform earlier steps.
-
-## Interactive Diagram
-
-<iframe src="main.html" width="100%" height="650" scrolling="no"></iframe>
-
-[View the Diagram Fullscreen](main.html)
 
 ## Description
 

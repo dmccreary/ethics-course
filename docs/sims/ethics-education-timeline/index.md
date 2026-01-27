@@ -1,12 +1,10 @@
 # Evolution of Ethics Education Timeline
 
-This interactive timeline traces the historical development of ethics education from classical philosophy to modern data-driven approaches, spanning over 2,500 years of ethical thought.
-
-[Run the Evolution of Ethics Education Timeline](./main.html){ .md-button .md-button--primary }
-
-[View the Timeline Data](./timeline.json){ .md-button }
-
 <iframe src="./main.html" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+
+[View Fullscreen](./main.html){ .md-button }
+
+This interactive timeline traces the historical development of ethics education from classical philosophy to modern data-driven approaches, spanning over 2,500 years of ethical thought.
 
 ## Overview
 
