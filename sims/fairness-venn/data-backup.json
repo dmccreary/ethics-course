@@ -1,0 +1,138 @@
+{
+    "people": [
+        {
+            "name": "Nelson Mandela",
+            "sources": ["Claude", "OpenAI", "Grok", "DeepSeek"],
+            "description": "South African anti-apartheid revolutionary who spent 27 years in prison. Became South Africa's first Black president and promoted national reconciliation.",
+            "years": "1918-2013",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Mahatma Gandhi",
+            "sources": ["Claude", "OpenAI", "Grok", "DeepSeek"],
+            "description": "Led India's nonviolent independence movement against British colonial rule. Pioneered civil disobedience and peaceful resistance tactics.",
+            "years": "1869-1948",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Martin Luther King Jr.",
+            "sources": ["Claude", "OpenAI", "Grok", "DeepSeek"],
+            "description": "American civil rights leader who organized peaceful protests against racial segregation. His advocacy led to the Civil Rights Act of 1964.",
+            "years": "1929-1968",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Malala Yousafzai",
+            "sources": ["Claude", "OpenAI", "Grok"],
+            "description": "Pakistani activist shot by the Taliban for advocating girls' education. Became the youngest Nobel Peace Prize laureate.",
+            "years": "1997-present",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Eleanor Roosevelt",
+            "sources": ["Claude", "OpenAI", "DeepSeek"],
+            "description": "Chaired the UN committee that drafted the Universal Declaration of Human Rights (1948). Advocated for civil rights and women's rights.",
+            "years": "1884-1962",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Frederick Douglass",
+            "sources": ["Claude", "OpenAI"],
+            "description": "Escaped enslaved person who became America's most influential abolitionist. His writings provided firsthand testimony of slavery's cruelty.",
+            "years": "1818-1895",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Harriet Tubman",
+            "sources": ["Claude", "Grok", "DeepSeek"],
+            "description": "Escaped slavery and returned to the South approximately 13 times to guide others to freedom via the Underground Railroad.",
+            "years": "c.1822-1913",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Cesar Chavez",
+            "sources": ["Claude", "DeepSeek"],
+            "description": "Co-founded the United Farm Workers union and organized strikes and boycotts to improve conditions for agricultural laborers.",
+            "years": "1927-1993",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Sojourner Truth",
+            "sources": ["Claude"],
+            "description": "Escaped slavery and became a powerful advocate for abolition and women's suffrage. Her 'Ain't I a Woman?' speech challenged both racial and gender discrimination.",
+            "years": "c.1797-1883",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Desmond Tutu",
+            "sources": ["Claude"],
+            "description": "South African Anglican bishop who opposed apartheid and later chaired the Truth and Reconciliation Commission. Won the Nobel Peace Prize.",
+            "years": "1931-2021",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Susan B. Anthony",
+            "sources": ["Grok"],
+            "description": "Key figure in the American women's suffrage movement. Co-founded the National Woman Suffrage Association and campaigned for women's right to vote.",
+            "years": "1820-1906",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Abraham Lincoln",
+            "sources": ["Grok"],
+            "description": "U.S. president who issued the Emancipation Proclamation and pushed for the 13th Amendment to abolish slavery.",
+            "years": "1809-1865",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Muhammad Yunus",
+            "sources": ["DeepSeek"],
+            "description": "Created microcredit/microfinance through Grameen Bank, providing loans to impoverished people without collateral. Nobel Peace Prize winner.",
+            "years": "1940-present",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Olympe de Gouges",
+            "sources": ["DeepSeek"],
+            "description": "Authored Declaration of the Rights of Woman during French Revolution, demanding women's inclusion in universal rights.",
+            "years": "1748-1793",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Wangari Maathai",
+            "sources": ["DeepSeek"],
+            "description": "Founded Green Belt Movement, empowering women to plant trees while linking environment to democracy. First African woman Nobel Peace Prize winner.",
+            "years": "1940-2011",
+            "x": null,
+            "y": null
+        },
+        {
+            "name": "Greta Thunberg",
+            "sources": ["DeepSeek"],
+            "description": "Started global youth climate movement through school strikes, demanding emergency action on climate crisis.",
+            "years": "2003-present",
+            "x": null,
+            "y": null
+        }
+    ],
+    "colors": {
+        "Claude": "#ff6b6b",
+        "OpenAI": "#4ecdc4",
+        "Grok": "#ffe66d",
+        "DeepSeek": "#a78bfa"
+    }
+}

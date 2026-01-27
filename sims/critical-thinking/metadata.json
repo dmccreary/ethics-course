@@ -3,7 +3,12 @@
   "title": "Critical Thinking Framework for Ethical Analysis",
   "description": "An interactive circular infographic that guides students through a systematic critical thinking process for evaluating ethical claims and industry data.",
   "creator": "Dan McCreary",
-  "subject": ["Ethics", "Critical Thinking", "Data Literacy", "Media Literacy"],
+  "subject": [
+    "Ethics",
+    "Critical Thinking",
+    "Data Literacy",
+    "Media Literacy"
+  ],
   "date": "2025-12-04",
   "type": "Interactive Simulation",
   "format": "text/html",
@@ -19,7 +24,9 @@
       "Recognize potential biases and conflicts of interest",
       "Distinguish between strong and weak evidence"
     ],
-    "bloomsTaxonomy": ["Apply"],
+    "bloomsTaxonomy": [
+      "Apply"
+    ],
     "duration": "10-15 minutes",
     "prerequisites": [
       "Basic understanding of source evaluation",
@@ -33,7 +40,9 @@
       "height": 600
     },
     "responsive": true,
-    "dependencies": ["p5.js 1.11.10"],
+    "dependencies": [
+      "p5.js 1.11.10"
+    ],
     "accessibility": {
       "screenReaderSupport": true,
       "keyboardNavigation": true
@@ -100,5 +109,49 @@
       "Does not provide domain-specific evaluation criteria",
       "Simplified model of complex critical thinking processes"
     ]
+  },
+  "visualizationType": [
+    "3d-model",
+    "animation",
+    "data-visualization",
+    "interactive-demo",
+    "network"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of critical thinking framework for ethical analysis",
+    "Explore critical thinking framework for ethical analysis through interactive visualization",
+    "Apply knowledge of critical thinking framework for ethical analysis to solve problems",
+    "Test understanding of critical thinking framework for ethical analysis through interactive exercises"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Evaluate",
+    "Create"
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "evaluate"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "compare",
+      "describe",
+      "explain",
+      "apply"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
   }
 }

@@ -1,0 +1,101 @@
+{
+  "title": "Evolution of Fairness Detection",
+  "events": [
+    {
+      "start_date": {
+        "year": "-300000000",
+        "display_date": "300 Million Years Ago"
+      },
+      "text": {
+        "headline": "Social Insects Emerge",
+        "text": "Eusocial insects (ants, bees, termites) develop kin-based cooperation. Workers sacrifice reproduction to help relatives, demonstrating the earliest forms of cooperative behavior driven by genetic relatedness."
+      },
+      "group": "Early Cooperation",
+      "notes": "Examples: Ants share food through trophallaxis; bees perform waggle dances to share resource locations. Hamilton's rule (1964) explains this as kin selection."
+    },
+    {
+      "start_date": {
+        "year": "-65000000",
+        "display_date": "65 Million Years Ago"
+      },
+      "text": {
+        "headline": "Reciprocal Grooming in Mammals",
+        "text": "Early mammals develop reciprocal grooming behaviors, exchanging hygiene services in ways that require tracking social relationships and remembering past interactions."
+      },
+      "group": "Mammalian Reciprocity",
+      "notes": "Examples: Vampire bats share blood meals with roost-mates who groomed them. Grooming relationships in mammals correlate with coalition support during conflicts."
+    },
+    {
+      "start_date": {
+        "year": "-35000000",
+        "display_date": "35 Million Years Ago"
+      },
+      "text": {
+        "headline": "Primate Coalition Formation",
+        "text": "Primate ancestors begin forming coalitions for mutual defense and resource access. This requires sophisticated social cognition to track alliances, enemies, and past exchanges."
+      },
+      "group": "Primate Social Cognition",
+      "notes": "Examples: Baboons form male-male alliances; female macaques support relatives in conflicts. Coalition formation requires memory of who helped whom."
+    },
+    {
+      "start_date": {
+        "year": "-25000000",
+        "display_date": "25 Million Years Ago"
+      },
+      "text": {
+        "headline": "Inequity Aversion Emerges",
+        "text": "Old World monkeys demonstrate inequity aversion—negative reactions to receiving less than a partner for the same work. This suggests emotional responses to unfair treatment."
+      },
+      "group": "Primate Social Cognition",
+      "notes": "Research: Brosnan & de Waal (2003) showed capuchins reject cucumber when partners receive grapes. Similar responses found in chimpanzees, dogs, and corvids."
+    },
+    {
+      "start_date": {
+        "year": "-7000000",
+        "display_date": "7 Million Years Ago"
+      },
+      "text": {
+        "headline": "Complex Social Tracking",
+        "text": "Hominid ancestors develop sophisticated abilities to track multiple social relationships, remember past exchanges, and anticipate future interactions—cognitive prerequisites for fairness norms."
+      },
+      "group": "Primate Social Cognition",
+      "notes": "The 'social brain hypothesis' links primate brain size to social group complexity. Tracking fairness in large groups requires substantial cognitive resources."
+    },
+    {
+      "start_date": {
+        "year": "-2000000",
+        "display_date": "2 Million Years Ago"
+      },
+      "text": {
+        "headline": "Punishment of Free-Riders",
+        "text": "Early humans show evidence of third-party punishment—sanctioning cheaters even at personal cost. This enforcement mechanism stabilizes cooperation in larger groups."
+      },
+      "group": "Human Moral Systems",
+      "notes": "Archaeological evidence suggests communal hunting required fair sharing. Groups with punishment mechanisms outcompeted those without, selecting for fairness enforcement."
+    },
+    {
+      "start_date": {
+        "year": "-200000",
+        "display_date": "200,000 Years Ago"
+      },
+      "text": {
+        "headline": "Explicit Fairness Norms",
+        "text": "Homo sapiens develops language-mediated fairness norms—explicit rules about sharing, reciprocity, and justice that can be taught across generations and applied to novel situations."
+      },
+      "group": "Human Moral Systems",
+      "notes": "Language enables abstract fairness principles beyond specific situations. Cultural transmission allows fairness norms to accumulate and become more sophisticated over time."
+    },
+    {
+      "start_date": {
+        "year": "2003",
+        "display_date": "2003 CE"
+      },
+      "text": {
+        "headline": "Cross-Cultural Universals Documented",
+        "text": "Research using economic games (Ultimatum, Dictator, Public Goods) documents fairness concerns across all human cultures studied, though specific norms vary with economic systems and social organization."
+      },
+      "group": "Human Moral Systems",
+      "notes": "Henrich et al. (2010) found fairness in 15 small-scale societies worldwide. All cultures show some fairness concern, but 'fair' offers range from 25-50% depending on cultural context."
+    }
+  ]
+}

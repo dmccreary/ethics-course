@@ -3,7 +3,12 @@
   "dublinCore": {
     "title": "Cognitive Bias Recognition Quiz",
     "creator": "Dan McCreary",
-    "subject": ["Ethics", "Critical Thinking", "Cognitive Psychology", "Data Literacy"],
+    "subject": [
+      "Ethics",
+      "Critical Thinking",
+      "Cognitive Psychology",
+      "Data Literacy"
+    ],
     "description": "An interactive quiz game that presents real-world scenarios and asks students to identify which cognitive bias is being demonstrated. Includes 8 scenarios covering cherry picking, availability heuristic, ad hominem bias, anchoring, framing effect, survivorship bias, confirmation bias, and correlation-causation fallacy.",
     "date": "2025-12-03",
     "type": "Interactive Simulation",
@@ -33,8 +38,12 @@
     "version": "1.11.10",
     "canvasDimensions": "800x500",
     "responsive": "Width-responsive",
-    "dependencies": ["p5.js CDN"],
-    "dataFiles": ["data.json"],
+    "dependencies": [
+      "p5.js CDN"
+    ],
+    "dataFiles": [
+      "data.json"
+    ],
     "accessibility": {
       "screenReaderDescription": true,
       "keyboardNavigation": false,
@@ -106,5 +115,49 @@
     ],
     "scenarioCount": 8,
     "randomizedOrder": true
+  },
+  "visualizationType": [
+    "animation",
+    "graph",
+    "interactive-demo",
+    "map"
+  ],
+  "learningObjectives": [
+    "Understand the key concepts of this concept",
+    "Explore this concept through interactive visualization",
+    "Apply knowledge of this concept to solve problems",
+    "Test understanding of this concept through interactive exercises"
+  ],
+  "bloomsTaxonomy": [
+    "Remember",
+    "Understand",
+    "Apply",
+    "Analyze",
+    "Evaluate",
+    "Create"
+  ],
+  "pedagogical": {
+    "pattern": "assessment",
+    "bloomAlignment": [
+      "understand",
+      "apply",
+      "analyze"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "compare",
+      "describe",
+      "explain",
+      "apply"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "high",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "respond"
   }
 }

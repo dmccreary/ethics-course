@@ -1,0 +1,1131 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Ethical issues and considerations in modern society backed by critical thinking and data science.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/ethics-course/chapters/08-fairness/deepseek/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Consolidated Lists: Figures of Fairness and Unfairness - Ethics in Modern Society</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="Consolidated Lists: Figures of Fairness and Unfairness - Ethics in Modern Society" >
+      
+        <meta  property="og:description"  content="Ethical issues and considerations in modern society backed by critical thinking and data science." >
+      
+        <meta  property="og:image"  content="https://dmccreary.github.io/ethics-course/assets/images/social/chapters/08-fairness/deepseek.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://dmccreary.github.io/ethics-course/chapters/08-fairness/deepseek/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="Consolidated Lists: Figures of Fairness and Unfairness - Ethics in Modern Society" >
+      
+        <meta  name="twitter:description"  content="Ethical issues and considerations in modern society backed by critical thinking and data science." >
+      
+        <meta  name="twitter:image"  content="https://dmccreary.github.io/ethics-course/assets/images/social/chapters/08-fairness/deepseek.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#consolidated-lists-figures-of-fairness-and-unfairness" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Ethics in Modern Society" class="md-header__button md-logo" aria-label="Ethics in Modern Society" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ethics in Modern Society
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Consolidated Lists: Figures of Fairness and Unfairness
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/ethics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Ethics in Modern Society" class="md-nav__button md-logo" aria-label="Ethics in Modern Society" data-md-component="logo">
+      
+  <img src="../../../img/logo.png" alt="logo">
+
+    </a>
+    Ethics in Modern Society
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/ethics-course" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About This Course
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../sims/ai-fairness-tradeoffs/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Micro Simulations
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../../prompts/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Generative AI Prompts
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#list-a-champions-of-fairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      List A: Champions of Fairness
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List A: Champions of Fairness">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-nelson-mandela-1918-2013" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Nelson Mandela (1918-2013)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-mahatma-gandhi-1869-1948" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Mahatma Gandhi (1869-1948)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-dr-martin-luther-king-jr-1929-1968" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Dr. Martin Luther King Jr. (1929-1968)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-harriet-tubman-c1822-1913" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Harriet Tubman (c.1822-1913)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-muhammad-yunus-1940-present" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Muhammad Yunus (1940-present)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-olympe-de-gouges-1748-1793" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Olympe de Gouges (1748-1793)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-eleanor-roosevelt-1884-1962" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Eleanor Roosevelt (1884-1962)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-wangari-maathai-1940-2011" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Wangari Maathai (1940-2011)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-cesar-chavez-1927-1993" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. César Chávez (1927-1993)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-greta-thunberg-2003-present" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Greta Thunberg (2003-present)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#list-b-architects-of-unfairness" class="md-nav__link">
+    <span class="md-ellipsis">
+      List B: Architects of Unfairness
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="List B: Architects of Unfairness">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-king-leopold-ii-of-belgium-1835-1909" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. King Leopold II of Belgium (1835-1909)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-josef-mengele-1911-1979" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Josef Mengele (1911-1979)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-pol-pot-1925-1998" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Pol Pot (1925-1998)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-cecil-rhodes-1853-1902" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Cecil Rhodes (1853-1902)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-roger-taney-1777-1864" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Roger Taney (1777-1864)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-hernan-cortes-1485-1547" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Hernán Cortés (1485-1547)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-andrew-jackson-1767-1845" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Andrew Jackson (1767-1845)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-king-john-i-of-england-1166-1216" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. King John I of England (1166-1216)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-francisco-franco-1892-1975" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Francisco Franco (1892-1975)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-the-robber-barons-collective-late-19th-century" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. The "Robber Barons" (Collective, late 19th century)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/ethics-course/blob/master/docs/chapters/08-fairness/deepseek.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="consolidated-lists-figures-of-fairness-and-unfairness">Consolidated Lists: Figures of Fairness and Unfairness</h1>
+<h2 id="list-a-champions-of-fairness"><strong>List A: Champions of Fairness</strong></h2>
+<h3 id="1-nelson-mandela-1918-2013"><strong>1. Nelson Mandela (1918-2013)</strong></h3>
+<p><em>Led anti-apartheid movement in South Africa, served 27 years in prison, became first Black president and promoted national reconciliation.</em>
+<strong>Historical Regard:</strong> Global icon of justice and forgiveness; Nobel Peace Prize laureate.</p>
+<h3 id="2-mahatma-gandhi-1869-1948"><strong>2. Mahatma Gandhi (1869-1948)</strong></h3>
+<p><em>Pioneered non-violent resistance to lead India's independence from British rule through civil disobedience.</em>
+<strong>Historical Regard:</strong> "Father of India" and moral beacon whose methods inspired global movements.</p>
+<h3 id="3-dr-martin-luther-king-jr-1929-1968"><strong>3. Dr. Martin Luther King Jr. (1929-1968)</strong></h3>
+<p><em>Led American Civil Rights Movement through nonviolent protest, advocating racial equality and economic justice.</em>
+<strong>Historical Regard:</strong> Heroic civil rights leader; his "I Have a Dream" speech remains a defining symbol of justice.</p>
+<h3 id="4-harriet-tubman-c1822-1913"><strong>4. Harriet Tubman (c.1822-1913)</strong></h3>
+<p><em>Escaped slavery and led dozens to freedom via Underground Railroad; served as Union scout and spy.</em>
+<strong>Historical Regard:</strong> American hero representing extraordinary courage against slavery.</p>
+<h3 id="5-muhammad-yunus-1940-present"><strong>5. Muhammad Yunus (1940-present)</strong></h3>
+<p><em>Created microcredit/microfinance through Grameen Bank, providing loans to impoverished people without collateral.</em>
+<strong>Historical Regard:</strong> Nobel Peace Prize winner for innovative poverty alleviation, though with some criticism of microfinance practices.</p>
+<h3 id="6-olympe-de-gouges-1748-1793"><strong>6. Olympe de Gouges (1748-1793)</strong></h3>
+<p><em>Authored Declaration of the Rights of Woman during French Revolution, demanding women's inclusion in universal rights.</em>
+<strong>Historical Regard:</strong> Executed pioneer of feminism now celebrated for early gender equality advocacy.</p>
+<h3 id="7-eleanor-roosevelt-1884-1962"><strong>7. Eleanor Roosevelt (1884-1962)</strong></h3>
+<p><em>Drove creation and adoption of Universal Declaration of Human Rights as UN delegate.</em>
+<strong>Historical Regard:</strong> "First Lady of the World" for establishing international human rights standards.</p>
+<h3 id="8-wangari-maathai-1940-2011"><strong>8. Wangari Maathai (1940-2011)</strong></h3>
+<p><em>Founded Green Belt Movement, empowering women to plant trees while linking environment to democracy and poverty reduction.</em>
+<strong>Historical Regard:</strong> First African woman Nobel Peace Prize winner; visionary connecting ecology with social justice.</p>
+<h3 id="9-cesar-chavez-1927-1993"><strong>9. César Chávez (1927-1993)</strong></h3>
+<p><em>Co-founded United Farm Workers, leading nonviolent campaigns for migrant laborers' rights and wages.</em>
+<strong>Historical Regard:</strong> Iconic Latino civil rights leader who empowered marginalized agricultural workers.</p>
+<h3 id="10-greta-thunberg-2003-present"><strong>10. Greta Thunberg (2003-present)</strong></h3>
+<p><em>Sparkled global youth climate movement through school strikes, demanding emergency action on climate crisis.</em>
+<strong>Historical Regard:</strong> Powerful contemporary voice for intergenerational climate justice, though polarizing.</p>
+<hr />
+<h2 id="list-b-architects-of-unfairness"><strong>List B: Architects of Unfairness</strong></h2>
+<h3 id="1-king-leopold-ii-of-belgium-1835-1909"><strong>1. King Leopold II of Belgium (1835-1909)</strong></h3>
+<p><em>Personally owned Congo Free State, instituting forced labor regime with systematic torture and murder for rubber extraction.</em>
+<strong>Historical Regard:</strong> Universally condemned for colonial genocide causing millions of deaths; symbol of colonial cruelty.</p>
+<h3 id="2-josef-mengele-1911-1979"><strong>2. Josef Mengele (1911-1979)</strong></h3>
+<p><em>SS physician at Auschwitz who performed deadly human experiments on prisoners without consent.</em>
+<strong>Historical Regard:</strong> Reviled "Angel of Death"; paramount example of medical atrocity in Holocaust.</p>
+<h3 id="3-pol-pot-1925-1998"><strong>3. Pol Pot (1925-1998)</strong></h3>
+<p><em>Led Khmer Rouge, forcibly emptying cities and executing millions to create agrarian communist utopia.</em>
+<strong>Historical Regard:</strong> Architect of Cambodian Genocide (Killing Fields); synonymous with totalitarian brutality.</p>
+<h3 id="4-cecil-rhodes-1853-1902"><strong>4. Cecil Rhodes (1853-1902)</strong></h3>
+<p><em>British imperialist whose policies dispossessed Africans of land and rights, laying apartheid foundations.</em>
+<strong>Historical Regard:</strong> Once-celebrated empire builder now critically re-evaluated as exploitative colonialist.</p>
+<h3 id="5-roger-taney-1777-1864"><strong>5. Roger Taney (1777-1864)</strong></h3>
+<p><em>Chief Justice who authored Dred Scott decision, ruling Black Americans couldn't be citizens and Congress couldn't ban slavery.</em>
+<strong>Historical Regard:</strong> Condemned for Supreme Court's most infamous moral failure, accelerating Civil War.</p>
+<h3 id="6-hernan-cortes-1485-1547"><strong>6. Hernán Cortés (1485-1547)</strong></h3>
+<p><em>Spanish conquistador whose campaigns caused Aztec Empire's fall through warfare, disease, and brutal colonial rule.</em>
+<strong>Historical Regard:</strong> Once romanticized explorer now viewed as agent of catastrophic demographic and cultural destruction.</p>
+<h3 id="7-andrew-jackson-1767-1845"><strong>7. Andrew Jackson (1767-1845)</strong></h3>
+<p><em>U.S. President who enforced Indian Removal Act, causing forced relocation and death along "Trail of Tears."</em>
+<strong>Historical Regard:</strong> Once-populist hero now shadowed by ethnic cleansing policies against Indigenous nations.</p>
+<h3 id="8-king-john-i-of-england-1166-1216"><strong>8. King John I of England (1166-1216)</strong></h3>
+<p><em>Tyrannical monarch whose abuses provoked Magna Carta, though document initially only protected nobility.</em>
+<strong>Historical Regard:</strong> Remembered as oppressive ruler whose excesses spurred constitutional limits on power.</p>
+<h3 id="9-francisco-franco-1892-1975"><strong>9. Francisco Franco (1892-1975)</strong></h3>
+<p><em>Led fascist rebellion establishing decades-long Spanish dictatorship marked by violent repression and cultural suppression.</em>
+<strong>Historical Regard:</strong> Condemned ruthless dictator whose rule left lasting political trauma in Spain.</p>
+<h3 id="10-the-robber-barons-collective-late-19th-century"><strong>10. The "Robber Barons" (Collective, late 19th century)</strong></h3>
+<p><em>Industrial magnates like Rockefeller, Carnegie, and Morgan built monopolies through worker exploitation and political corruption.</em>
+<strong>Historical Regard:</strong> Dual legacy: "Captains of Industry" who built modern America and "Robber Barons" who created staggering inequality.</p>
+<hr />
+<p><strong>Note on Historical Interpretation:</strong> These assessments reflect predominant scholarly and public consensus, recognizing that historical evaluation evolves and perspectives may vary based on cultural, national, and ideological viewpoints. The impact of these figures continues to be debated and reinterpreted by historians and societies.</p>
+<p><a href="https://chat.deepseek.com/share/21drq0291vpve15w3a">Deepseek Transcript generated on January 26th, 2026</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "toc.follow", "navigation.top", "navigation.footer", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
