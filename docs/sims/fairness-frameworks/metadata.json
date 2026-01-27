@@ -1,0 +1,29 @@
+{
+  "title": "Cultural Fairness Frameworks Comparison",
+  "description": "Interactive matrix comparing how six cultural traditions (Western Liberal, Confucian, Ubuntu, Indigenous American, Islamic, Utilitarian) conceptualize fairness across five key dimensions: individual vs collective focus, process vs outcome emphasis, distribution principle, temporal scope, and scope of moral community.",
+  "creator": "Dan McCreary",
+  "date": "2026-01-26",
+  "subject": [
+    "ethics",
+    "fairness",
+    "cultural comparison",
+    "philosophy",
+    "justice",
+    "moral frameworks"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "educationalLevel": "College",
+  "learningResourceType": "interactive matrix",
+  "library": "Vanilla JavaScript",
+  "pedagogicalMetadata": {
+    "bloomLevel": "Analyze",
+    "bloomVerb": ["compare", "contrast", "differentiate"],
+    "learningObjective": "Students will be able to compare different cultural frameworks for understanding fairness",
+    "prerequisites": ["basic understanding of ethics concepts"],
+    "estimatedTime": "15-20 minutes",
+    "interactionType": "click-to-explore"
+  }
+}

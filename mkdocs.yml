@@ -36,15 +36,20 @@ nav:
     - Ch 7. Advocating for Change:
       - Content: chapters/07-advocating-for-change/index.md
       - Quiz: chapters/07-advocating-for-change/quiz.md
-    - Ch 8. Capstone Project:
-      - Content: chapters/08-capstone-project/index.md
-      - Quiz: chapters/08-capstone-project/quiz.md
-  
+    - Ch 8. Fairness:
+      - Content: chapters/08-fairness/index.md
+    - Ch 9. Capstone Project:
+      - Content: chapters/09-capstone-project/index.md
+
   - Micro Simulations:
+    - AI Fairness Trade-offs: sims/ai-fairness-tradeoffs/index.md
     - Bias Classifier Quiz: sims/bias-classifier-quiz/index.md
     - Critical Thinking Framework: sims/critical-thinking/index.md
+    - Cultural Fairness Frameworks: sims/fairness-frameworks/index.md
     - Ethics Education Timeline: sims/ethics-education-timeline/index.md
     - Ethics Process Flow: sims/ethics-process-flow/index.md
+    - Fairness Evolution Timeline: sims/fairness-evolution/index.md
+    - Fairness Venn Diagram: sims/fairness-venn/index.md
     - Graph Viewer: sims/graph-viewer/index.md
     - Harm Bubble Chart: sims/harm-bubble-chart/index.md
     - Leverage Iceberg: sims/leverage-iceberg/index.md

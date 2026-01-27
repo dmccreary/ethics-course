@@ -1,0 +1,29 @@
+{
+  "title": "AI Fairness Trade-offs Explorer",
+  "description": "Interactive p5.js simulation exploring the impossibility theorem in algorithmic fairness - demonstrating why demographic parity, equalized odds, and predictive parity cannot all be satisfied when base rates differ between groups.",
+  "creator": "Dan McCreary",
+  "date": "2026-01-26",
+  "subject": [
+    "AI ethics",
+    "algorithmic fairness",
+    "machine learning",
+    "bias",
+    "impossibility theorem",
+    "fairness metrics"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en-US",
+  "rights": "CC BY-NC-SA 4.0",
+  "educationalLevel": "College",
+  "learningResourceType": "interactive simulation",
+  "library": "p5.js",
+  "pedagogicalMetadata": {
+    "bloomLevel": "Evaluate",
+    "bloomVerb": ["assess", "judge", "critique"],
+    "learningObjective": "Students will be able to evaluate the trade-offs between competing fairness definitions in AI systems",
+    "prerequisites": ["basic understanding of classification", "understanding of true/false positives"],
+    "estimatedTime": "20-30 minutes",
+    "interactionType": "parameter-adjustment"
+  }
+}
