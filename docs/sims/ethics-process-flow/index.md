@@ -1,3 +1,13 @@
+---
+title: Data-Driven Ethics Process Flow
+description: Interactive diagram visualizing the systematic six-step process for data-driven ethical analysis
+image: /sims/ethics-process-flow/ethics-process-flow.png
+og:image: /sims/ethics-process-flow/ethics-process-flow.png
+twitter:image: /sims/ethics-process-flow/ethics-process-flow.png
+social:
+  cards: false
+---
+
 # Data-Driven Ethics Process Flow
 
 <iframe src="./main.html" width="100%" height="650px" scrolling="no"></iframe>

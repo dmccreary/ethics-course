@@ -1,3 +1,13 @@
+---
+title: Evolution of Ethics Education Timeline
+description: Interactive timeline tracing the development of ethics education from classical philosophy to modern approaches
+image: /sims/ethics-education-timeline/ethics-education-timeline.png
+og:image: /sims/ethics-education-timeline/ethics-education-timeline.png
+twitter:image: /sims/ethics-education-timeline/ethics-education-timeline.png
+social:
+  cards: false
+---
+
 # Evolution of Ethics Education Timeline
 
 <iframe src="./main.html" width="100%" height="700px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>

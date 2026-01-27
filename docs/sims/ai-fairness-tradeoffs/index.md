@@ -1,7 +1,11 @@
 ---
 title: AI Fairness Trade-offs Explorer
 description: Interactive simulation exploring why different algorithmic fairness definitions cannot all be satisfied simultaneously
-quality_score: 88
+image: /sims/ai-fairness-tradeoffs/ai-fairness-tradeoffs.png
+og:image: /sims/ai-fairness-tradeoffs/ai-fairness-tradeoffs.png
+twitter:image: /sims/ai-fairness-tradeoffs/ai-fairness-tradeoffs.png
+social:
+  cards: false
 ---
 
 # AI Fairness Trade-offs Explorer

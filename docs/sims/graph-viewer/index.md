@@ -1,3 +1,13 @@
+---
+title: Learning Graph Viewer
+description: Interactive visualization for exploring the Data-Driven Ethics course concept dependencies
+image: /sims/graph-viewer/graph-viewer.png
+og:image: /sims/graph-viewer/graph-viewer.png
+twitter:image: /sims/graph-viewer/graph-viewer.png
+social:
+  cards: false
+---
+
 # Learning Graph Viewer
 
 <iframe src="./main.html" width="100%" height="600px" scrolling="no"></iframe>
