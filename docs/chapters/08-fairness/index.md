@@ -75,7 +75,9 @@ These findings suggest that the cognitive architecture supporting fairness judgm
 
 #### Diagram: Evolution of Fairness Detection
 
-<iframe src="../../sims/fairness-evolution/main.html" width="100%" height="450px" scrolling="no"></iframe>
+<iframe src="../../sims/fairness-evolution/main.html" width="100%" height="1050px" scrolling="no"></iframe>
+
+[View Timeline Fullscreen](../../sims/fairness-evolution/main.html)
 
 <details markdown="1">
 <summary>Evolution of Fairness Detection Timeline</summary>
@@ -182,7 +184,7 @@ Different cultures weight these principles differently, and even within cultures
 
 #### Diagram: Cultural Fairness Frameworks
 
-<iframe src="../../sims/fairness-frameworks/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/fairness-frameworks/main.html" width="100%" height="650px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Cultural Fairness Frameworks Comparison</summary>
@@ -473,7 +475,7 @@ The results reveal both remarkable consensus and interesting divergences in how 
 
 The visualization below shows which historical figures were identified by each AI model as champions of fairness. Figures in the center were named by all four models, while those in outer regions were unique to specific models.
 
-<iframe src="../../sims/fairness-venn/main.html" width="100%" height="700px" scrolling="no"></iframe>
+<iframe src="../../sims/fairness-venn/main.html" width="100%" height="790px" scrolling="no"></iframe>
 
 ### Key Findings: Champions of Fairness
 
