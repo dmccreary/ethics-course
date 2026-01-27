@@ -1,5 +1,11 @@
 # AI Model Consensus: Champions of Fairness
 
+<iframe src="./main.html" width="100%" height="700" style="border: none; border-radius: 10px;"></iframe>
+
+[View Fullscreen](./main.html){ .md-button }
+
+## About This MicroSim
+
 This interactive Venn diagram compares which historical figures four different AI models identified as people who worked to make the world more fair.
 
 ## The Experiment
@@ -20,11 +26,7 @@ The models queried were:
 
 **Unique Selections:** Each model also included figures not mentioned by others, revealing different perspectives on fairness advocacy.
 
-## Interactive Diagram
-
 Hover over any dot to learn more about that person and which models mentioned them. Larger dots indicate more models agreed on that person.
-
-<iframe src="./main.html" width="100%" height="700" style="border: none; border-radius: 10px;"></iframe>
 
 ## Discussion Questions
 

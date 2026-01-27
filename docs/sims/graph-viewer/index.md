@@ -1,6 +1,8 @@
 # Learning Graph Viewer
 
-[Run the Learning Graph Viewer](main.html){ .md-button .md-button--primary }
+<iframe src="./main.html" width="100%" height="600px" scrolling="no"></iframe>
+
+[View Fullscreen](./main.html){ .md-button }
 
 This viewer reads learning graph data from [../../learning-graph/learning-graph.json](../../learning-graph/learning-graph.json) and provides an interactive visualization for exploring the **Data-Driven Ethics and Systems Change** course concepts.
 

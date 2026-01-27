@@ -7,11 +7,11 @@ og:image: /sims/fairness-evolution/fairness-evolution.png
 
 # Evolution of Fairness Detection
 
+<iframe src="./main.html" width="100%" height="600px" scrolling="no"></iframe>
+
+[View Fullscreen](./main.html){ .md-button }
+
 An interactive timeline visualization showing the evolutionary emergence of fairness-related cognitive capacities across species, from social insects 300 million years ago to documented cross-cultural universals in modern humans.
-
-[Run the Evolution of Fairness Detection Timeline](./main.html){ .md-button .md-button--primary }
-
-[View the Raw Timeline Data](timeline.json)
 
 ## Overview
 
