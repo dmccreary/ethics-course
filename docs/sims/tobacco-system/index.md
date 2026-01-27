@@ -1,6 +1,11 @@
 ---
 title: Tobacco Industry System Components
-description: An interactive network diagram showing the interconnected stakeholders and dynamics of the tobacco industry as a complex system.
+description: Interactive network diagram showing the interconnected stakeholders and dynamics of the tobacco industry
+image: /sims/tobacco-system/tobacco-system.png
+og:image: /sims/tobacco-system/tobacco-system.png
+twitter:image: /sims/tobacco-system/tobacco-system.png
+social:
+  cards: false
 ---
 
 # Tobacco Industry System Components

@@ -1,7 +1,11 @@
 ---
 title: Cultural Fairness Frameworks Comparison
 description: Interactive matrix comparing how six cultural traditions conceptualize fairness across key dimensions
-quality_score: 85
+image: /sims/fairness-frameworks/fairness-frameworks.png
+og:image: /sims/fairness-frameworks/fairness-frameworks.png
+twitter:image: /sims/fairness-frameworks/fairness-frameworks.png
+social:
+  cards: false
 ---
 
 # Cultural Fairness Frameworks

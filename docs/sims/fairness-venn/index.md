@@ -1,3 +1,13 @@
+---
+title: AI Model Consensus - Champions of Fairness
+description: Interactive Venn diagram comparing which historical figures four AI models identified as champions of fairness
+image: /sims/fairness-venn/fairness-venn.png
+og:image: /sims/fairness-venn/fairness-venn.png
+twitter:image: /sims/fairness-venn/fairness-venn.png
+social:
+  cards: false
+---
+
 # AI Model Consensus: Champions of Fairness
 
 <iframe src="./main.html" width="100%" height="700" style="border: none; border-radius: 10px;"></iframe>
