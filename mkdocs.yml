@@ -96,6 +96,15 @@ nav:
   - License: license.md
   - Contact: contact.md
  
+# Files to build but exclude from navigation
+validation:
+  nav:
+    not_in_nav:
+      - chapters/08-fairness/claude.md
+      - chapters/08-fairness/deepseek.md
+      - chapters/08-fairness/grok.md
+      - chapters/08-fairness/openai.md
+
 # CoderDojo Microsite Standards from here down
 
 theme:
