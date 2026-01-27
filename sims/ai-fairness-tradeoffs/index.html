@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://dmccreary.github.io/ethics-course/sims/ai-fairness-tradeoffs/">
       
       
-        <link rel="prev" href="../../chapters/09-capstone-project/">
+        <link rel="prev" href="../">
       
       
         <link rel="next" href="../bias-classifier-quiz/">
@@ -431,6 +431,8 @@
         
       
         
+      
+        
           
         
       
@@ -452,7 +454,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -463,7 +465,7 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_5" id="__nav_5_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
@@ -476,6 +478,232 @@
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    AI Fairness Trade-offs
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    AI Fairness Trade-offs
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about-this-microsim" class="md-nav__link">
+    <span class="md-ellipsis">
+      About This MicroSim
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fairness-definitions-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fairness Definitions Explained
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fairness Definitions Explained">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demographic-parity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Demographic Parity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equalized-odds-true-positive-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equalized Odds (True Positive Rate)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equalized-odds-false-positive-rate" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equalized Odds (False Positive Rate)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#predictive-parity" class="md-nav__link">
+    <span class="md-ellipsis">
+      Predictive Parity
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-impossibility-theorem" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Impossibility Theorem
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Objectives
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#discussion-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discussion Questions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lesson Plan
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Lesson Plan">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction-10-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction (10 min)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exploration-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exploration (15 min)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#case-study-analysis-15-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case Study Analysis (15 min)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synthesis-10-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synthesis (10 min)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#real-world-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Real-World Applications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
               
             
               
@@ -695,7 +923,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ranking/" class="md-nav__link">
+      <a href="../ranking/index.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1379,7 +1607,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../chapters/09-capstone-project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Content">
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1389,7 +1617,7 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Content
+                Overview
               </div>
             </div>
           </a>
