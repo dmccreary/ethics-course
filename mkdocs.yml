@@ -13,32 +13,33 @@ nav:
   
   - Chapters:
     - List of Chapters: chapters/index.md
-    - Ch 1. Introduction:
+    - 1. Introduction:
       - Content: chapters/01-introduction/index.md
       - Quiz: chapters/01-introduction/quiz.md
-    - Ch 2. Measuring Harm:
+    - 2. Measuring Harm:
       - Content: chapters/02-measuring-harm/index.md
       - Quiz: chapters/02-measuring-harm/quiz.md
       - Rankings: chapters/02-measuring-harm/ranking.md
       - Scorecard: chapters/02-measuring-harm/scorecard.md
-    - Ch 3. Data Gathering:
+    - 3. Data Gathering:
       - Content: chapters/03-data-gathering/index.md
       - Quiz: chapters/03-data-gathering/quiz.md
-    - Ch 4. Systems Thinking for Impact:
+    - 4. Systems Thinking for Impact:
       - Content: chapters/04-impact-analysis/index.md
       - Quiz: chapters/04-impact-analysis/quiz.md
-    - Ch 5. Systems Thinking Archetypes:
+    - 5. Systems Thinking Archetypes:
       - Content: chapters/05-systems-thinking/index.md
       - Quiz: chapters/05-systems-thinking/quiz.md
-    - Ch 6. Looking for Leverage:
+    - 6. Looking for Leverage:
       - Content: chapters/06-looking-for-leverage/index.md
       - Quiz: chapters/06-looking-for-leverage/quiz.md
-    - Ch 7. Advocating for Change:
+    - 7. Advocating for Change:
       - Content: chapters/07-advocating-for-change/index.md
       - Quiz: chapters/07-advocating-for-change/quiz.md
-    - Ch 8. Fairness:
+    - 8. Fairness:
       - Content: chapters/08-fairness/index.md
-    - Ch 9. Capstone Project:
+      - Quiz: chapters/08-fairness/quiz.md
+    - 9. Capstone Project:
       - Content: chapters/09-capstone-project/index.md
 
   - Micro Simulations:
@@ -96,21 +97,11 @@ nav:
   - License: license.md
   - Contact: contact.md
  
-# Files to build but exclude from navigation
-validation:
-  nav:
-    not_in_nav:
-      - chapters/08-fairness/claude.md
-      - chapters/08-fairness/deepseek.md
-      - chapters/08-fairness/grok.md
-      - chapters/08-fairness/openai.md
-
 # CoderDojo Microsite Standards from here down
 
 theme:
   name: material
-  extra_css:
-    - styles/custom.css
+
   logo: img/logo.png
   favicon: img/favicon.ico
   palette:
@@ -142,10 +133,11 @@ markdown_extensions:
       linenums: true
 extra_css:
    - css/extra.css
+extra_javascript:
+    - js/extra.js
 extra:
   analytics:
     provider: google
     property: G-0JSND40K1F
-copyright: Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
-extra:
   generator: false
+copyright: Copyright &copy; 2025 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
