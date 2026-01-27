@@ -1,0 +1,77 @@
+{
+  "config": {
+    "canvasWidth": 500,
+    "canvasHeight": 420,
+    "margin": {
+      "top": 40,
+      "right": 20,
+      "bottom": 40,
+      "left": 20
+    },
+    "numPoints": 100,
+    "defaultThreshold": 0.5,
+    "defaultBaseRateA": 0.5,
+    "defaultBaseRateB": 0.5,
+    "satisfiedThreshold": 0.05,
+    "partialThreshold": 0.15
+  },
+  "colors": {
+    "background": [26, 26, 46],
+    "groupA": [78, 205, 196],
+    "groupB": [167, 139, 250],
+    "truePositive": [34, 197, 94],
+    "falsePositive": [239, 68, 68],
+    "falseNegative": [245, 158, 11],
+    "trueNegative": [100, 116, 139],
+    "plotBackground": [255, 255, 255, 10],
+    "text": [255, 255, 255],
+    "textDim": [160, 160, 160],
+    "threshold": [255, 255, 255, 100]
+  },
+  "labels": {
+    "groupA": "Group A",
+    "groupB": "Group B",
+    "threshold": "Threshold",
+    "score": "Score"
+  },
+  "metrics": [
+    {
+      "id": "dp",
+      "name": "Demographic Parity",
+      "description": "Equal positive prediction rates across groups"
+    },
+    {
+      "id": "tpr",
+      "name": "Equalized Odds (TPR)",
+      "description": "Equal true positive rates across groups"
+    },
+    {
+      "id": "fpr",
+      "name": "Equalized Odds (FPR)",
+      "description": "Equal false positive rates across groups"
+    },
+    {
+      "id": "pp",
+      "name": "Predictive Parity",
+      "description": "Equal positive predictive values across groups"
+    }
+  ],
+  "explanations": {
+    "equalRates": {
+      "title": "Equal Base Rates",
+      "text": "When both groups have the same underlying base rate, it's possible to achieve fairness on all metrics simultaneously. Try toggling \"Different Base Rates\" to see the impossibility theorem in action."
+    },
+    "differentRates": {
+      "title": "The Trade-off in Action",
+      "textTemplate": "{satisfied}/4 metrics satisfied. With different base rates ({rateA}% vs {rateB}%), adjusting the threshold to satisfy one metric often violates another. This is the fundamental fairness trade-off in ML."
+    }
+  },
+  "legend": [
+    { "label": "Group A", "color": "#4ecdc4" },
+    { "label": "Group B", "color": "#a78bfa" },
+    { "label": "True Positive", "color": "#22c55e" },
+    { "label": "False Positive", "color": "#ef4444" },
+    { "label": "False Negative", "color": "#f59e0b" },
+    { "label": "True Negative", "color": "#64748b" }
+  ]
+}

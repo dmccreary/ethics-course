@@ -1,0 +1,29 @@
+{
+    "title": "Evolution of Fairness Detection",
+    "description": "Interactive timeline showing the evolutionary emergence of fairness-related cognitive capacities across species, from social insects 300 million years ago to documented cross-cultural universals in modern humans.",
+    "author": "Dan McCreary",
+    "version": "1.0",
+    "created": "2026-01-26",
+    "concepts": [
+        "evolutionary biology",
+        "fairness detection",
+        "inequity aversion",
+        "reciprocal altruism",
+        "kin selection",
+        "social cognition",
+        "moral evolution"
+    ],
+    "libraries": ["vis-timeline 7.7.3"],
+    "tags": ["timeline", "evolution", "fairness", "ethics", "biology"],
+    "learningObjectives": [
+        "Understand the evolutionary timeline of fairness-related behaviors",
+        "Explain how kin selection and reciprocal altruism provided the foundation for fairness",
+        "Compare different stages of fairness evolution from insects to humans"
+    ],
+    "visualizationType": "timeline",
+    "pedagogicalContext": {
+        "gradeLevel": "college",
+        "bloomsLevel": "understand",
+        "interactivityLevel": "medium"
+    }
+}
