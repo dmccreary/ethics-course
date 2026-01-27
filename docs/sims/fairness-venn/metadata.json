@@ -1,0 +1,21 @@
+{
+    "title": "AI Model Consensus: Champions of Fairness",
+    "description": "Interactive Venn diagram comparing which historical figures four different AI models (Claude, OpenAI GPT, Grok, DeepSeek) identified as people who worked to make the world more fair. Hover over dots to see details about each person.",
+    "author": "Dan McCreary",
+    "version": "1.0",
+    "created": "2026-01-26",
+    "concepts": ["fairness", "AI comparison", "historical figures", "ethics", "social justice"],
+    "libraries": ["D3.js v7"],
+    "tags": ["venn-diagram", "interactive", "comparison", "AI-models"],
+    "learningObjectives": [
+        "Compare AI model outputs on subjective ethical topics",
+        "Identify consensus figures in fairness advocacy",
+        "Explore diversity of perspectives across AI models"
+    ],
+    "visualizationType": "venn-diagram",
+    "pedagogicalContext": {
+        "gradeLevel": "high-school",
+        "bloomsLevel": "analysis",
+        "interactivityLevel": "medium"
+    }
+}
