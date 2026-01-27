@@ -53,6 +53,15 @@ The `docs/prompts/` directory contains prompt templates for generating course co
 - `glossary.md` - Specifications for glossary term format and creation
 - `learning-graph/` - Prompts for concept enumeration and dependency mapping
 
+## MkDocs Emoji Extension
+
+The `pymdownx.emoji` extension is configured in `mkdocs.yml` to enable:
+- Material Design icons (`:material-brain:`, `:material-chart-bubble:`)
+- Octicons (`:octicons-arrow-right-24:`)
+- Standard emoji shortcodes
+
+This is required for `docs/sims/index.md` to render the arrow icons in the MicroSim cards.
+
 ## Custom MkDocs Plugin
 
 This project includes a custom **social_override** plugin (`plugins/social_override.py`) that:
