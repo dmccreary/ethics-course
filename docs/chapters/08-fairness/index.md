@@ -471,7 +471,7 @@ One fascinating way to explore how fairness is understood and evaluated is to as
 
 The results reveal both remarkable consensus and interesting divergences in how these AI systems—trained on different datasets with different approaches—evaluate moral leadership.
 
-### Interactive Venn Diagram: Champions of Fairness
+#### Diagram: Champions of Fairness - Architects of Unfairness
 
 The visualization below shows which historical figures were identified by each AI model as champions of fairness. Figures in the center were named by all four models, while those in outer regions were unique to specific models.
 
