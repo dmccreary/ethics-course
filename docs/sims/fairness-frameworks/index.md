@@ -10,7 +10,7 @@ social:
 
 # Cultural Fairness Frameworks
 
-<iframe src="./main.html" width="100%" height="550px" scrolling="no"></iframe>
+<iframe src="./main.html" width="100%" height="500px" scrolling="no"></iframe>
 
 [View Fullscreen](./main.html){ .md-button }
 

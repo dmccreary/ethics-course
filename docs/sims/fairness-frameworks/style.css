@@ -1,0 +1,310 @@
+/* Cultural Fairness Frameworks - Light Theme */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: aliceblue;
+    min-height: 100vh;
+    padding: 10px;
+    color: #333;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 4px;
+    text-align: center;
+    color: #1a1a2e;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.matrix-wrapper {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+th, td {
+    padding: 8px 6px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+th {
+    background: #e8f4f8;
+    font-weight: 600;
+    font-size: 0.75rem;
+    color: #1a1a2e;
+}
+
+th.tradition-header {
+    text-align: left;
+    padding-left: 10px;
+    min-width: 120px;
+}
+
+th.dimension-header {
+    writing-mode: horizontal-tb;
+    min-width: 80px;
+    font-size: 0.7rem;
+    line-height: 1.2;
+}
+
+td.tradition-name {
+    background: #f0f4f8;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #1a1a2e;
+}
+
+td.tradition-name .sub {
+    display: block;
+    font-size: 0.65rem;
+    color: #666;
+    font-weight: 400;
+    margin-top: 1px;
+}
+
+td.cell {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 0.7rem;
+    background: #f8fafc;
+    position: relative;
+    color: #333;
+}
+
+td.cell:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Emphasis levels for cells - light theme colors */
+.emphasis-high {
+    background: rgba(20, 184, 166, 0.2);
+    color: #0d6d64;
+    font-weight: 500;
+}
+
+.emphasis-medium {
+    background: rgba(139, 92, 246, 0.15);
+    color: #5b21b6;
+    font-weight: 500;
+}
+
+.emphasis-low {
+    background: rgba(239, 68, 68, 0.12);
+    color: #b91c1c;
+    font-weight: 500;
+}
+
+.emphasis-balanced {
+    background: rgba(245, 158, 11, 0.18);
+    color: #b45309;
+    font-weight: 500;
+}
+
+.emphasis-unique {
+    background: rgba(6, 182, 212, 0.18);
+    color: #0e7490;
+    font-weight: 500;
+}
+
+/* Detail panel */
+.detail-panel {
+    position: fixed;
+    top: 0;
+    right: -450px;
+    width: 420px;
+    height: 100vh;
+    background: #fff;
+    border-left: 1px solid #e0e0e0;
+    padding: 30px;
+    transition: right 0.3s ease;
+    z-index: 100;
+    overflow-y: auto;
+    box-shadow: -4px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.detail-panel.open {
+    right: 0;
+}
+
+.detail-panel .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.detail-panel .close-btn:hover {
+    color: #333;
+}
+
+.detail-panel h2 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #0d6d64;
+}
+
+.detail-panel h3 {
+    font-size: 1rem;
+    color: #5b21b6;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.detail-panel .description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.detail-panel .example {
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #e8f4f8;
+}
+
+.detail-panel .example-label {
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.detail-panel .example-text {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.detail-panel .thinkers {
+    margin-top: 15px;
+}
+
+.detail-panel .thinker-label {
+    font-size: 0.75rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.detail-panel .thinker-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.detail-panel .thinker-tag {
+    background: rgba(139, 92, 246, 0.12);
+    color: #5b21b6;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 50;
+}
+
+.overlay.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Legend */
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    font-size: 0.7rem;
+    color: #444;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+
+/* Instructions */
+.instructions {
+    text-align: center;
+    color: #666;
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .detail-panel {
+        width: 100%;
+        right: -100%;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    th.dimension-header {
+        font-size: 0.65rem;
+    }
+}

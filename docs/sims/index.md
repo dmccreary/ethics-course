@@ -13,33 +13,33 @@ This page provides an overview of all the interactive MicroSimulations available
 
 <div class="grid cards" markdown>
 
--   ![AI Fairness Trade-offs](./ai-fairness-tradeoffs/ai-fairness-tradeoffs.png)
+-   **[AI Fairness Trade-offs Explorer](./ai-fairness-tradeoffs/index.md)**
 
-    **AI Fairness Trade-offs Explorer**
+    ![AI Fairness Trade-offs](./ai-fairness-tradeoffs/ai-fairness-tradeoffs.png)
 
     Explore why different algorithmic fairness definitions cannot all be satisfied simultaneously. Demonstrates the impossibility theorem.
 
     [:octicons-arrow-right-24: View MicroSim](./ai-fairness-tradeoffs/index.md)
 
--   ![Cultural Fairness Frameworks](./fairness-frameworks/fairness-frameworks.png)
+-   **[Cultural Fairness Frameworks](./fairness-frameworks/index.md)**
 
-    **Cultural Fairness Frameworks**
+    ![Cultural Fairness Frameworks](./fairness-frameworks/fairness-frameworks.jpg)
 
     Compare how six major cultural and philosophical traditions conceptualize fairness across five key dimensions.
 
     [:octicons-arrow-right-24: View MicroSim](./fairness-frameworks/index.md)
 
--   ![Fairness Evolution Timeline](./fairness-evolution/fairness-evolution.png)
+-   **[Fairness Evolution Timeline](./fairness-evolution/index.md)**
 
-    **Fairness Evolution Timeline**
+    ![Fairness Evolution Timeline](./fairness-evolution/fairness-evolution.png)
 
     Explore the evolutionary emergence of fairness-related cognitive capacities across species over 300 million years.
 
     [:octicons-arrow-right-24: View MicroSim](./fairness-evolution/index.md)
 
--   ![Fairness Venn Diagram](./fairness-venn/fairness-venn.png)
+-   **[AI Model Consensus: Fairness Venn](./fairness-venn/index.md)**
 
-    **AI Model Consensus: Fairness Venn**
+    ![Fairness Venn Diagram](./fairness-venn/fairness-venn.png)
 
     Compare which historical figures four AI models identified as champions of fairness or architects of unfairness.
 
@@ -51,81 +51,81 @@ This page provides an overview of all the interactive MicroSimulations available
 
 <div class="grid cards" markdown>
 
--   :material-brain:{ .lg .middle } **Bias Classifier Quiz**
+-   **[Bias Classifier Quiz](./bias-classifier-quiz/index.md)**
 
-    ---
+    ![Bias Classifier Quiz](./bias-classifier-quiz/bias-classifier-quiz.png)
 
     Test your ability to identify different types of cognitive biases through interactive scenarios.
 
     [:octicons-arrow-right-24: View MicroSim](./bias-classifier-quiz/index.md)
 
--   :material-head-cog:{ .lg .middle } **Critical Thinking Framework**
+-   **[Critical Thinking Framework](./critical-thinking/index.md)**
 
-    ---
+    ![Critical Thinking Framework](./critical-thinking/critical-thinking.png)
 
     Explore the components of critical thinking and how they apply to ethical reasoning.
 
     [:octicons-arrow-right-24: View MicroSim](./critical-thinking/index.md)
 
--   :material-timeline:{ .lg .middle } **Ethics Education Timeline**
+-   **[Ethics Education Timeline](./ethics-education-timeline/index.md)**
 
-    ---
+    ![Ethics Education Timeline](./ethics-education-timeline/ethics-education-timeline.png)
 
     A chronological exploration of the history of ethics education from ancient philosophy to modern approaches.
 
     [:octicons-arrow-right-24: View MicroSim](./ethics-education-timeline/index.md)
 
--   :material-sitemap:{ .lg .middle } **Ethics Process Flow**
+-   **[Ethics Process Flow](./ethics-process-flow/index.md)**
 
-    ---
+    ![Ethics Process Flow](./ethics-process-flow/ethics-process-flow.png)
 
     Visualize the step-by-step process of ethical decision-making using a flowchart approach.
 
     [:octicons-arrow-right-24: View MicroSim](./ethics-process-flow/index.md)
 
--   :material-graph:{ .lg .middle } **Learning Graph Viewer**
+-   **[Learning Graph Viewer](./graph-viewer/index.md)**
 
-    ---
+    ![Learning Graph Viewer](./graph-viewer/graph-viewer.png)
 
     Explore the concept dependencies and learning paths in the ethics course curriculum.
 
     [:octicons-arrow-right-24: View MicroSim](./graph-viewer/index.md)
 
--   :material-chart-bubble:{ .lg .middle } **Harm Bubble Chart**
+-   **[Harm Bubble Chart](./harm-bubble-chart/index.md)**
 
-    ---
+    ![Harm Bubble Chart](./harm-bubble-chart/harm-bubble-chart.jpg)
 
     Compare the relative harm of different industries and practices using an interactive bubble chart.
 
     [:octicons-arrow-right-24: View MicroSim](./harm-bubble-chart/index.md)
 
--   :material-icecream:{ .lg .middle } **Leverage Iceberg**
+-   **[Leverage Iceberg](./leverage-iceberg/index.md)**
 
-    ---
+    ![Leverage Iceberg](./leverage-iceberg/leverage-iceberg.png)
 
     Explore Donella Meadows' leverage points framework using an iceberg model visualization.
 
     [:octicons-arrow-right-24: View MicroSim](./leverage-iceberg/index.md)
 
--   :material-sort-numeric-ascending:{ .lg .middle } **Industry Ranking Simulation**
+-   **[Industry Ranking Simulation](./ranking/index.md)**
 
-    ---
+    :material-sort-numeric-ascending:{ .lg .middle }
 
     Rank different industries by their ethical impact using various criteria.
 
     [:octicons-arrow-right-24: View MicroSim](./ranking/index.md)
 
--   ![Technology Adoption](./technology-adoption/technology-adoption.png)
+-   **[Technology Adoption Curves](./technology-adoption/index.md)**
 
-    **Technology Adoption Curves**
+    ![Technology Adoption](./technology-adoption/technology-adoption.png)
 
     Explore how ethical technologies and practices spread through society over time.
 
     [:octicons-arrow-right-24: View MicroSim](./technology-adoption/index.md)
 
--   :material-smoking:{ .lg .middle } **Tobacco Industry System Dynamics**
+-   **[Tobacco Industry System Dynamics](./tobacco-system/index.md)**
 
-    ---
+    ![Tobacco System](./tobacco-system/tobacco-system.png)
 
     A systems thinking visualization of the tobacco industry's impact on public health.
 
