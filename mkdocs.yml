@@ -42,6 +42,7 @@ nav:
       - Content: chapters/09-capstone-project/index.md
 
   - Micro Simulations:
+    - Overview: sims/index.md
     - AI Fairness Trade-offs: sims/ai-fairness-tradeoffs/index.md
     - Bias Classifier Quiz: sims/bias-classifier-quiz/index.md
     - Critical Thinking Framework: sims/critical-thinking/index.md
