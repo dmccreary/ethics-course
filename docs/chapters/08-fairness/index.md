@@ -471,6 +471,13 @@ One fascinating way to explore how fairness is understood and evaluated is to as
 
 The results reveal both remarkable consensus and interesting divergences in how these AI systems—trained on different datasets with different approaches—evaluate moral leadership.
 
+You can see the results in the following links:
+
+- [Anthropic Claude Response](./claude.md)
+- [OpenAI ChatGPT 5.2 Response](./openai.md)
+- [X Grok](./grok.md)
+- [Deepseek](./deepseek.md)
+
 #### Diagram: Champions of Fairness - Architects of Unfairness
 
 The visualization below shows which historical figures were identified by each AI model as champions of fairness. Figures in the center were named by all four models, while those in outer regions were unique to specific models.
