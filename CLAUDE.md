@@ -88,14 +88,14 @@ The site navigation is explicitly defined in `mkdocs.yml` under the `nav:` secti
 2. Add the entry to `mkdocs.yml` navigation in the correct position
 3. Follow the existing naming pattern (chapters use numbered prefixes)
 
-### Excluding Files from Navigation
-Some files are built to HTML but excluded from the navigation menu. These are listed in `mkdocs.yml` under `validation.nav.not_in_nav`. Currently excluded:
+### Files Not in Navigation
+Some files are built to HTML but intentionally excluded from the navigation menu:
 - `chapters/08-fairness/claude.md`
 - `chapters/08-fairness/deepseek.md`
 - `chapters/08-fairness/grok.md`
 - `chapters/08-fairness/openai.md`
 
-To add a new file to this exclusion list, add its path to the `not_in_nav` list in `mkdocs.yml`. Files not in this list will generate warnings if they're missing from the nav.
+These files will show as INFO messages during `mkdocs build` - this is expected behavior.
 
 ## Key Learning Frameworks Referenced
 
