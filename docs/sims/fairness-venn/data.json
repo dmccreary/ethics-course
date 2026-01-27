@@ -1,0 +1,187 @@
+{
+    "people": [
+        {
+            "name": "Nelson Mandela",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "South African anti-apartheid revolutionary who spent 27 years in prison. Became South Africa's first Black president and promoted national reconciliation.",
+            "years": "1918-2013",
+            "x": 406,
+            "y": 259
+        },
+        {
+            "name": "Mahatma Gandhi",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "Led India's nonviolent independence movement against British colonial rule. Pioneered civil disobedience and peaceful resistance tactics.",
+            "years": "1869-1948",
+            "x": 432,
+            "y": 322
+        },
+        {
+            "name": "Martin Luther King Jr.",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "American civil rights leader who organized peaceful protests against racial segregation. His advocacy led to the Civil Rights Act of 1964.",
+            "years": "1929-1968",
+            "x": 364,
+            "y": 324
+        },
+        {
+            "name": "Malala Yousafzai",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok"
+            ],
+            "description": "Pakistani activist shot by the Taliban for advocating girls' education. Became the youngest Nobel Peace Prize laureate.",
+            "years": "1997-present",
+            "x": 316,
+            "y": 217
+        },
+        {
+            "name": "Eleanor Roosevelt",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "DeepSeek"
+            ],
+            "description": "Chaired the UN committee that drafted the Universal Declaration of Human Rights (1948). Advocated for civil rights and women's rights.",
+            "years": "1884-1962",
+            "x": 480,
+            "y": 217
+        },
+        {
+            "name": "Frederick Douglass",
+            "sources": [
+                "Claude",
+                "OpenAI"
+            ],
+            "description": "Escaped enslaved person who became America's most influential abolitionist. His writings provided firsthand testimony of slavery's cruelty.",
+            "years": "1818-1895",
+            "x": 400,
+            "y": 130
+        },
+        {
+            "name": "Harriet Tubman",
+            "sources": [
+                "Claude",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "Escaped slavery and returned to the South approximately 13 times to guide others to freedom via the Underground Railroad.",
+            "years": "c.1822-1913",
+            "x": 305,
+            "y": 376
+        },
+        {
+            "name": "Cesar Chavez",
+            "sources": [
+                "Claude",
+                "DeepSeek"
+            ],
+            "description": "Co-founded the United Farm Workers union and organized strikes and boycotts to improve conditions for agricultural laborers.",
+            "years": "1927-1993",
+            "x": 344,
+            "y": 405
+        },
+        {
+            "name": "Sojourner Truth",
+            "sources": [
+                "Claude"
+            ],
+            "description": "Escaped slavery and became a powerful advocate for abolition and women's suffrage. Her 'Ain't I a Woman?' speech challenged both racial and gender discrimination.",
+            "years": "c.1797-1883",
+            "x": 269,
+            "y": 112
+        },
+        {
+            "name": "Desmond Tutu",
+            "sources": [
+                "Claude"
+            ],
+            "description": "South African Anglican bishop who opposed apartheid and later chaired the Truth and Reconciliation Commission. Won the Nobel Peace Prize.",
+            "years": "1931-2021",
+            "x": 228,
+            "y": 139
+        },
+        {
+            "name": "Susan B. Anthony",
+            "sources": [
+                "Grok"
+            ],
+            "description": "Key figure in the American women's suffrage movement. Co-founded the National Woman Suffrage Association and campaigned for women's right to vote.",
+            "years": "1820-1906",
+            "x": 233,
+            "y": 469
+        },
+        {
+            "name": "Abraham Lincoln",
+            "sources": [
+                "Grok"
+            ],
+            "description": "U.S. president who issued the Emancipation Proclamation and pushed for the 13th Amendment to abolish slavery.",
+            "years": "1809-1865",
+            "x": 278,
+            "y": 496
+        },
+        {
+            "name": "Muhammad Yunus",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Created microcredit/microfinance through Grameen Bank, providing loans to impoverished people without collateral. Nobel Peace Prize winner.",
+            "years": "1940-present",
+            "x": 541,
+            "y": 497
+        },
+        {
+            "name": "Olympe de Gouges",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Authored Declaration of the Rights of Woman during French Revolution, demanding women's inclusion in universal rights.",
+            "years": "1748-1793",
+            "x": 605,
+            "y": 456
+        },
+        {
+            "name": "Wangari Maathai",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Founded Green Belt Movement, empowering women to plant trees while linking environment to democracy. First African woman Nobel Peace Prize winner.",
+            "years": "1940-2011",
+            "x": 573,
+            "y": 476
+        },
+        {
+            "name": "Greta Thunberg",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Started global youth climate movement through school strikes, demanding emergency action on climate crisis.",
+            "years": "2003-present",
+            "x": 510,
+            "y": 517
+        }
+    ],
+    "colors": {
+        "Claude": "#ff6b6b",
+        "OpenAI": "#4ecdc4",
+        "Grok": "#ffe66d",
+        "DeepSeek": "#a78bfa"
+    }
+}

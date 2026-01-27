@@ -1,0 +1,223 @@
+{
+    "people": [
+        {
+            "name": "Pol Pot",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "Cambodian dictator whose Khmer Rouge regime killed approximately 1.5-2 million people (25% of the population) through execution, forced labor, and starvation in pursuit of an agrarian utopia.",
+            "years": "1925-1998",
+            "x": 397,
+            "y": 258
+        },
+        {
+            "name": "Leopold II of Belgium",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok",
+                "DeepSeek"
+            ],
+            "description": "Personally owned the Congo Free State and exploited it for rubber, causing an estimated 10 million deaths through forced labor, mutilation, and starvation.",
+            "years": "1835-1909",
+            "x": 401,
+            "y": 340
+        },
+        {
+            "name": "Adolf Hitler",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok"
+            ],
+            "description": "Nazi Germany's dictator who orchestrated the Holocaust, systematically murdering six million Jews and millions of others. Started World War II, causing approximately 70-85 million deaths.",
+            "years": "1889-1945",
+            "x": 338,
+            "y": 213
+        },
+        {
+            "name": "Joseph Stalin",
+            "sources": [
+                "Claude",
+                "OpenAI",
+                "Grok"
+            ],
+            "description": "Soviet dictator whose policies caused the deaths of millions through forced collectivization, political purges, and the Gulag system. His Great Terror eliminated perceived enemies through show trials and mass executions.",
+            "years": "1878-1953",
+            "x": 308,
+            "y": 248
+        },
+        {
+            "name": "Mao Zedong",
+            "sources": [
+                "Claude",
+                "Grok"
+            ],
+            "description": "Chinese Communist leader whose Great Leap Forward caused a famine killing 15-55 million people. The Cultural Revolution destroyed countless lives and cultural heritage.",
+            "years": "1893-1976",
+            "x": 220,
+            "y": 310
+        },
+        {
+            "name": "Andrew Jackson",
+            "sources": [
+                "Claude",
+                "DeepSeek"
+            ],
+            "description": "U.S. President who signed the Indian Removal Act, forcing the relocation of Native Americans in the Trail of Tears, causing thousands of deaths.",
+            "years": "1767-1845",
+            "x": 312,
+            "y": 397
+        },
+        {
+            "name": "Francisco Franco",
+            "sources": [
+                "OpenAI",
+                "DeepSeek"
+            ],
+            "description": "Ruled Spain through authoritarian control after a civil war, repressing political opponents for decades through violent repression and cultural suppression.",
+            "years": "1892-1975",
+            "x": 580,
+            "y": 310
+        },
+        {
+            "name": "Henry Morton Stanley",
+            "sources": [
+                "Claude"
+            ],
+            "description": "Explorer who helped establish Leopold II's brutal Congo regime by making treaties with local leaders who didn't understand they were signing away sovereignty.",
+            "years": "1841-1904",
+            "x": 265,
+            "y": 117
+        },
+        {
+            "name": "Bull Connor",
+            "sources": [
+                "Claude"
+            ],
+            "description": "Birmingham, Alabama's Commissioner of Public Safety who ordered police dogs and fire hoses used against civil rights protesters, including children.",
+            "years": "1897-1973",
+            "x": 200,
+            "y": 220
+        },
+        {
+            "name": "Augusto Pinochet",
+            "sources": [
+                "Claude"
+            ],
+            "description": "Chilean dictator who seized power in a coup and oversaw the torture, disappearance, and murder of thousands of political opponents.",
+            "years": "1915-2006",
+            "x": 150,
+            "y": 270
+        },
+        {
+            "name": "Robert Mugabe",
+            "sources": [
+                "Claude"
+            ],
+            "description": "Zimbabwe's leader who initially brought independence but later oversaw political violence, rigged elections, and economic policies that caused hyperinflation and widespread poverty.",
+            "years": "1924-2019",
+            "x": 222,
+            "y": 141
+        },
+        {
+            "name": "Benito Mussolini",
+            "sources": [
+                "OpenAI"
+            ],
+            "description": "Established a fascist dictatorship in Italy, suppressed dissent, and pursued imperial aggression. Seen as a cautionary example of how nationalism and authoritarianism corrode institutions.",
+            "years": "1883-1945",
+            "x": 555,
+            "y": 132
+        },
+        {
+            "name": "Christopher Columbus",
+            "sources": [
+                "Grok"
+            ],
+            "description": "Italian explorer whose voyages initiated European colonization of the Americas, leading to the exploitation, enslavement, and decimation of indigenous populations through disease and violence.",
+            "years": "1451-1506",
+            "x": 227,
+            "y": 466
+        },
+        {
+            "name": "Genghis Khan",
+            "sources": [
+                "Grok"
+            ],
+            "description": "Mongol conqueror who built the largest empire in history through mass invasions, resulting in the deaths of up to 40 million people and widespread destruction.",
+            "years": "c.1162-1227",
+            "x": 268,
+            "y": 496
+        },
+        {
+            "name": "Josef Mengele",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "SS physician at Auschwitz who performed deadly human experiments on prisoners without consent. Reviled as the 'Angel of Death'.",
+            "years": "1911-1979",
+            "x": 534,
+            "y": 470
+        },
+        {
+            "name": "Cecil Rhodes",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "British imperialist whose policies dispossessed Africans of land and rights, laying the foundations for apartheid.",
+            "years": "1853-1902",
+            "x": 619,
+            "y": 447
+        },
+        {
+            "name": "Roger Taney",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Chief Justice who authored the Dred Scott decision, ruling Black Americans couldn't be citizens and Congress couldn't ban slavery.",
+            "years": "1777-1864",
+            "x": 598,
+            "y": 464
+        },
+        {
+            "name": "Hernan Cortes",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Spanish conquistador whose campaigns caused the Aztec Empire's fall through warfare, disease, and brutal colonial rule.",
+            "years": "1485-1547",
+            "x": 571,
+            "y": 479
+        },
+        {
+            "name": "King John I of England",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Tyrannical monarch whose abuses provoked the Magna Carta, though the document initially only protected nobility.",
+            "years": "1166-1216",
+            "x": 513,
+            "y": 516
+        },
+        {
+            "name": "The Robber Barons",
+            "sources": [
+                "DeepSeek"
+            ],
+            "description": "Industrial magnates like Rockefeller, Carnegie, and Morgan who built monopolies through worker exploitation and political corruption in the late 19th century.",
+            "years": "late 19th century",
+            "x": 544,
+            "y": 492
+        }
+    ],
+    "colors": {
+        "Claude": "#ff6b6b",
+        "OpenAI": "#4ecdc4",
+        "Grok": "#ffe66d",
+        "DeepSeek": "#a78bfa"
+    }
+}
