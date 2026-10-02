@@ -25,5 +25,8 @@
     "prerequisites": ["basic understanding of classification", "understanding of true/false positives"],
     "estimatedTime": "20-30 minutes",
     "interactionType": "parameter-adjustment"
+  },
+  "search": {
+    "showcase": true
   }
 }
